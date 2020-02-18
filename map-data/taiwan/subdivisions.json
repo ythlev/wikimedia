@@ -15,7 +15,6 @@
           "properties": {
             "stroke": "black",
             "stroke-width": 5,
-            "stroke-linejoin": "miter",
             "fill": "none"
           }
         },
@@ -25,7 +24,6 @@
           "properties": {
             "stroke": "black",
             "stroke-width": 5,
-            "stroke-linejoin": "miter",
             "fill": "none"
           }
         }
