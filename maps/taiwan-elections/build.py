@@ -1,12 +1,14 @@
 import sys, math, csv
 
 path = "./sources/中央選舉委員會_2020-01-21/"
+el_type = "presidential"
+el_year = "2020"
 
 if len(sys.argv) == 5:
     with open("elections.csv", newline='', encoding="utf-8") as csvfile:
         reader = csv.reader(csvfile)
         for row in reader:
-            if sys.argv[1] == row[0] and sys.argv[2] == row[1]:
+            if el_year == row[0] and el_type == row[1]:
                 path = path + row[2] + "/" + row[3] + "/"
     winner, runner_up = sys.argv[3], sys.argv[4]
 else:
@@ -22,8 +24,13 @@ def val(num):
     elif num < 0:
         return - math.floor(math.log10(-num)) - 1
 
-towns = {}
+fill = {}
+with open("colouring/dpp-kmt.csv", newline='', encoding="utf-8") as f:
+    reader = csv.reader(f)
+    for row in reader:
+        fill[row[0]] = row[1]
 
+towns = {}
 with open(path + "elctks.csv", newline='', encoding="utf-8") as csvfile:
     reader = csv.reader(csvfile)
     for row in reader:
@@ -36,7 +43,8 @@ with open(path + "elctks.csv", newline='', encoding="utf-8") as csvfile:
                 if len(towns[town_code]) == 2:
                     towns[town_code]["lead"] = towns[town_code][winner] - towns[town_code][runner_up]
                     towns[town_code]["val"] = val(towns[town_code]["lead"])
+                    towns[town_code]["fill"] = fill[str(towns[town_code]["val"])]
 
 # print(town["10013100"]["val"])
 for row in towns:
-    print(towns[row]["val"])
+    print(towns[row]["fill"])
