@@ -1,8 +1,8 @@
-import sys, math, csv, pathlib
+import pathlib, sys, math, csv
 
-source = "./sources/中央選舉委員會_2020-01-21/"
+source = pathlib.Path.cwd() / "sources" / "中央選舉委員會_2020-01-21"
 el_type = "presidential"
-el_year = "2020"
+el_year = "2016"
 colouring = "dpp-kmt-5"
 
 if len(sys.argv) == 5:
@@ -10,11 +10,11 @@ if len(sys.argv) == 5:
         reader = csv.reader(csvfile)
         for row in reader:
             if el_year == row[0] and el_type == row[1]:
-                source += row[2] + "/" + row[3] + "/"
+                source = source / row[2] / row[3]
                 colouring = row[4]
     winner, runner_up = sys.argv[3], sys.argv[4]
 else:
-    source += "2020總統立委/總統/"
+    source = source / "2016總統立委" / "總統"
     winner, runner_up = "2", "1"
 
 # value for colouring
@@ -33,7 +33,16 @@ with open("colouring/%s.csv" % colouring, newline='', encoding="utf-8") as f:
         fill[row[0]] = row[1]
 
 towns = {}
-with open(source + "elctks.csv", newline='', encoding="utf-8") as csvfile:
+
+def alt_file(s):
+    file_name = source / (s + ".csv")
+    if file_name.exists():
+        return file_name
+    else:
+        return source / (s + "_P1.csv")
+
+
+with open(source / alt_file("elctks"), newline='', encoding="utf-8") as csvfile:
     reader = csv.reader(csvfile)
     for row in reader:
         town_code = str( row[0] + row[1] + row[3])
