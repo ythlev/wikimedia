@@ -4,10 +4,12 @@ import argparse, pathlib, sys, math, csv
 parser = argparse.ArgumentParser(description = "This script generates an svg map for elections in Taiwan")
 parser.add_argument("type", help = "Type of election", default = "presidential")
 parser.add_argument("year", help = "Year of election")
-parser.add_argument("winner", help = "Sequence nber of the winner")
-parser.add_argument("runner-up", help = "Sequence nber of the runner-up")
+parser.add_argument("winner", help = "Sequence number of the winner")
+parser.add_argument("runner-up", help = "Sequence number of the runner-up")
+parser.add_argument("--t", help = "Test", action = 'store_const', const = True, default = False)
 args = vars(parser.parse_args())
-parser.print_help()
+print(parser.parse_args())
+
 
 # sources directory
 source = pathlib.Path.cwd() / "sources" / "中央選舉委員會_2020-01-21"
@@ -41,12 +43,12 @@ towns = {}
 
 # for converting value to colour key
 def val(n):
-if n > 0:
-    return math.floor(math.log10(n)) + 1
-elif n == 0:
-    return 0
-elif n < 0:
-    return - math.floor(math.log10(-n)) - 1
+    if n > 0:
+        return math.floor(math.log10(n)) + 1
+    elif n == 0:
+        return 0
+    elif n < 0:
+        return - math.floor(math.log10(-n)) - 1
 
 # colour areas
 with open(source / alt_file("elctks"), newline='', encoding="utf-8") as f:
@@ -63,9 +65,15 @@ with open(source / alt_file("elctks"), newline='', encoding="utf-8") as f:
                     towns[town_code]["val"] = val(towns[town_code]["lead"])
                     towns[town_code]["fill"] = fill[str(towns[town_code]["val"])]
 
+def test():
+    if args["t"] == True:
+        return pathlib.Path.cwd() / "test"
+    else:
+        return pathlib.Path.cwd()
+
 # colour template map and output map for election
-with open("templates/" + args["type"] + ".svg", "r", newline='', encoding="utf-8") as f_in:
-    with open("output/" + args["type"] + "/" + args["year"] + ".svg", "w", newline='', encoding="utf-8") as f_out:
+with open(test() / "templates" / (args["type"] + ".svg"), "r", newline='', encoding="utf-8") as f_in:
+    with open(test() / "output" / args["type"] / (args["year"] + ".svg"), "w", newline='', encoding="utf-8") as f_out:
         a, b = 0, 0
         for row in f_in:
             code, fill = "", ""
