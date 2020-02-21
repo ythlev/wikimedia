@@ -1,19 +1,21 @@
-import sys, math, csv
+import sys, math, csv, pathlib
 
-path = "./sources/中央選舉委員會_2020-01-21/"
+source = "./sources/中央選舉委員會_2020-01-21/"
 el_type = "presidential"
 el_year = "2020"
+colouring = "dpp-kmt-5"
 
 if len(sys.argv) == 5:
     with open("elections.csv", newline='', encoding="utf-8") as csvfile:
         reader = csv.reader(csvfile)
         for row in reader:
             if el_year == row[0] and el_type == row[1]:
-                path = path + row[2] + "/" + row[3] + "/"
+                source += row[2] + "/" + row[3] + "/"
+                colouring = row[4]
     winner, runner_up = sys.argv[3], sys.argv[4]
 else:
-    path = path + "2020總統立委/總統/"
-    winner, runner_up = "3", "2"
+    source += "2020總統立委/總統/"
+    winner, runner_up = "2", "1"
 
 # value for colouring
 def val(num):
@@ -25,16 +27,16 @@ def val(num):
         return - math.floor(math.log10(-num)) - 1
 
 fill = {}
-with open("colouring/dpp-kmt.csv", newline='', encoding="utf-8") as f:
+with open("colouring/%s.csv" % colouring, newline='', encoding="utf-8") as f:
     reader = csv.reader(f)
     for row in reader:
         fill[row[0]] = row[1]
 
 towns = {}
-with open(path + "elctks.csv", newline='', encoding="utf-8") as csvfile:
+with open(source + "elctks.csv", newline='', encoding="utf-8") as csvfile:
     reader = csv.reader(csvfile)
     for row in reader:
-        town_code = row[0] + row[1] + row[3]
+        town_code = str( row[0] + row[1] + row[3])
         if row[4] == "0000" and row[0] != "00" and row[2] != "00":
             if row[6] == winner or row[6] == runner_up:
                 if not town_code in towns:
@@ -45,6 +47,18 @@ with open(path + "elctks.csv", newline='', encoding="utf-8") as csvfile:
                     towns[town_code]["val"] = val(towns[town_code]["lead"])
                     towns[town_code]["fill"] = fill[str(towns[town_code]["val"])]
 
-# print(town["10013100"]["val"])
-for row in towns:
-    print(towns[row]["fill"])
+with open("templates/" + el_type + ".svg", "r", newline='', encoding="utf-8") as file_in:
+    with open("output/" + el_type + "/" + el_year + ".svg", "w", newline='', encoding="utf-8") as file_out:
+        count = 0
+        count2 = 0
+        for row in file_in:
+            code, fill = "", ""
+            for town_code in towns:
+                if row.find(town_code) > 0:
+                    count += 1
+                    code = town_code
+                    fill = towns[town_code]["fill"]
+            file_out.write(row.replace('id="%s"' % code, 'style="fill:%s"' % fill))
+            count2 += 1
+        print("Processed %d lines" % count2)
+        print("%d areas coloured" % count)
