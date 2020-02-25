@@ -1,4 +1,4 @@
-import argparse, pathlib, csv, math, hashlib
+import argparse, pathlib, csv, math
 
 # parse arguments
 parser = argparse.ArgumentParser(description = "This script generates an svg map for elections in Taiwan")
