@@ -1,4 +1,4 @@
-import argparse, pathlib, csv, math, hashlib
+import argparse, pathlib, csv, math
 
 # parse arguments
 parser = argparse.ArgumentParser(description = "This script generates an svg map for elections in Taiwan")
@@ -27,7 +27,7 @@ with open("colouring/%s.csv" % colouring, newline='', encoding="utf-8") as f:
 
 # handle files with extra suffix
 def alt_file(f):
-    for x in ["20160523", "_P1", ""]:
+    for x in ["_corrected", "20160523", "", "_P1"]:
         if (source / (f + x + ".csv")).exists():
             return source / (f + x + ".csv")
             break
@@ -60,14 +60,12 @@ if args["year"] < 2016:
         for k, v in towns.items():
             towns[k] = counties[k[0:5]] + v
         old_codes = dict([(v, k) for k, v in towns.items()])
-
     with open("subdivisions.csv", newline='', encoding="utf-8") as f:
         reader = csv.reader(f)
         for row in reader:
             for i in range(1, len(row)):
                 if row[i] in old_codes:
                     conv[old_codes.get(row[i])] = row[0]
-
 # make function for old subdivision codes
 def town(code):
     if args["year"] < 2016:
@@ -85,7 +83,7 @@ with open(alt_file("elctks"), newline='', encoding="utf-8") as f:
     for row in reader:
         row = [v.replace("'", "") for v in row]
         if row[4] == "0000":
-            elctks[row[0] + row[1] + row[3] + row[6]] = int(row[7])
+            elctks[row[0] + row[1] + row[3] + row[6][0]] = int(row[7])
 
 # get winner and runner-up
 for k, v in elctks.items():
@@ -105,8 +103,15 @@ for k, v in elctks.items():
             town_data[town(code)]["val"] = val(town_data[town(code)]["lead"])
             town_data[town(code)]["fill"] = fill[str(town_data[town(code)]["val"])]
 
+# template map
+def map():
+    if args["year"] < 2004:
+        return "presidential (1990–2003).svg"
+    else:
+        return "presidential.svg"
+
 # colour template map and output map for election
-with open(pathlib.Path.cwd() / "templates" / (args["type"] + ".svg"), "r", newline='', encoding="utf-8") as f_in:
+with open(pathlib.Path.cwd() / "templates" / map(), "r", newline='', encoding="utf-8") as f_in:
     with open(pathlib.Path.cwd() / "output" / args["type"] / (str(args["year"]) + ".svg"), "w", newline='', encoding="utf-8") as f_out:
         a, b = 0, 0
         for row in f_in:
