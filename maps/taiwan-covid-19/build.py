@@ -1,4 +1,4 @@
-import math, csv
+import io, urllib.request, csv, math
 
 subdivisions = {}
 with open("subdivisions.csv", newline = "", encoding = "utf-8") as f:
@@ -6,8 +6,8 @@ with open("subdivisions.csv", newline = "", encoding = "utf-8") as f:
     for row in reader:
         subdivisions[row["COUNTYNAME"]] = {"cases": 0}
 
-with open("Weekly_Age_County_Gender_19CoV.csv", newline = "", encoding = "utf-8") as f:
-    reader = csv.DictReader(f)
+with urllib.request.urlopen("https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_19CoV.csv") as response:
+    reader = csv.DictReader(io.TextIOWrapper(response, encoding = 'utf-8'), delimiter=',')
     for row in reader:
         for k, v in subdivisions.items():
             if row["縣市"] == k:
