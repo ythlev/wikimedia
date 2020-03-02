@@ -24,12 +24,12 @@ max = max(list)
 thresholds = [0, 0, 0, 0, 0, 0, 0]
 
 if min == 0:
-    step = math.log10(max * 0.9) / 3
+    step = math.log10(max * 0.8) / 3
     for i in range(1, 6):
         thresholds[i] = round(10 ** ((i - 1) * step))
     thresholds = thresholds[0:6]
 else:
-    step = math.log10(max * 0.9 / min) / 4
+    step = math.log10(max * 0.8 / min) / 4
     for i in range(7):
         thresholds[i] = round(10 ** ((i - 1) * step))
     thresholds = thresholds[1:7]
