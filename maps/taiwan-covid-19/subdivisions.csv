@@ -1,0 +1,23 @@
+COUNTYID,COUNTYCODE,COUNTYNAME,COUNTYENG
+Z,9007,連江縣,Lienchiang County
+G,10002,宜蘭縣,Yilan County
+N,10007,彰化縣,Changhua County
+M,10008,南投縣,Nantou County
+P,10009,雲林縣,Yunlin County
+T,10013,屏東縣,Pingtung County
+C,10017,基隆市,Keelung City
+O,10018,新竹市,Hsinchu City
+A,63000,台北市,Taipei City
+F,65000,新北市,New Taipei City
+B,66000,台中市,Taichung City
+D,67000,台南市,Tainan City
+H,68000,桃園市,Taoyuan City
+K,10005,苗栗縣,Miaoli County
+J,10004,新竹縣,Hsinchu County
+I,10020,嘉義市,Chiayi City
+Q,10010,嘉義縣,Chiayi County
+W,9020,金門縣,Kinmen County
+E,64000,高雄市,Kaohsiung City
+V,10014,台東縣,Taitung County
+U,10015,花蓮縣,Hualien County
+X,10016,澎湖縣,Penghu County
