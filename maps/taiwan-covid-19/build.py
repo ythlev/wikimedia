@@ -35,7 +35,7 @@ else:
     thresholds = thresholds[1:7]
 
 colours = ["#fee5d9", "#fcae91", "#fb6a4a", "#de2d26", "#a50f15"]
-'''
+
 with open("template.svg", "r", newline = "", encoding = "utf-8") as f_in:
     with open("output.svg", "w", newline = "", encoding = "utf-8") as f_out:
         for row in f_in:
@@ -52,7 +52,7 @@ with open("template.svg", "r", newline = "", encoding = "utf-8") as f_in:
                     break
             if written == False:
                 f_out.write(row)
-'''
+
 for k, v in subdivisions.items():
     print(k, v)
 
