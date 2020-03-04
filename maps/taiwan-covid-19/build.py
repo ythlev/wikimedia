@@ -1,4 +1,4 @@
-import io, urllib.request, csv, math
+import io, csv, urllib.request, math
 
 subdivisions = {}
 with open("subdivisions.csv", newline = "", encoding = "utf-8") as f:
@@ -21,17 +21,19 @@ for k, v in subdivisions.items():
 min = min(list)
 max = max(list)
 
-thresholds = [0, 0, 0, 0, 0, 0, 0]
+thresholds = []
+for i in range(7):
+    thresholds.append(min)
 
 if min == 0:
-    step = math.log10(max * 0.8) / 3
-    for i in range(1, 6):
-        thresholds[i] = round(10 ** ((i - 1) * step))
+    step = math.log(max * 0.8) / 3
+    for i in range(6):
+        thresholds[i + 1] = round(math.exp(step * i))
     thresholds = thresholds[0:6]
 else:
-    step = math.log10(max * 0.8 / min) / 4
-    for i in range(7):
-        thresholds[i] = round(10 ** ((i - 1) * step))
+    step = math.log(max * 0.8 / min) / 4
+    for i in range(6):
+        thresholds[i + 1] = round(min * math.exp(step * i))
     thresholds = thresholds[1:7]
 
 colours = ["#fee5d9", "#fcae91", "#fb6a4a", "#de2d26", "#a50f15"]
@@ -45,8 +47,9 @@ with open("template.svg", "r", newline = "", encoding = "utf-8") as f_in:
                     i = 0
                     while v["cases"] >= thresholds[i]:
                         i += 1
-                    subdivisions[k]["threshold met"] = thresholds[i - 1]
-                    subdivisions[k]["colour"] = colours[i - 1]
+                    i -= 1
+                    subdivisions[k]["threshold met"] = thresholds[i]
+                    subdivisions[k]["colour"] = colours[i]
                     f_out.write(row.replace('id="%s"' % k, 'style="fill:%s"' % subdivisions[k]["colour"]))
                     written = True
                     break
@@ -56,5 +59,6 @@ with open("template.svg", "r", newline = "", encoding = "utf-8") as f_in:
 for k, v in subdivisions.items():
     print(k, v)
 
+print("Total cases: ", sum(list))
+print("Colours: ", colours)
 print("Thresholds: ", thresholds[0:-1])
-print("Colours by threshold: ", colours)
