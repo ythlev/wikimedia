@@ -6,8 +6,8 @@ subdivisions= [
 ]
 
 main = {}
-for x in subdivisions:
-    main[x] = {"cases": 0}
+for v in subdivisions:
+    main[v] = {"cases": 0}
 
 with urllib.request.urlopen("https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_19CoV.csv") as response:
     reader = csv.DictReader(io.TextIOWrapper(response, encoding = 'utf-8'), delimiter=',')
