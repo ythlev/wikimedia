@@ -1,5 +1,5 @@
 # 張嘉桓 製
-import urllib.request, csv, io, math
+import urllib.request, json, io, math
 
 subdivisions= [
     "新北市", "台北市", "桃園市", "台中市", "台南市", "高雄市", "宜蘭縣", "新竹縣", "苗栗縣", "彰化縣", "南投縣",
@@ -10,9 +10,9 @@ main = {}
 for v in subdivisions:
     main[v] = {"cases": 0}
 
-with urllib.request.urlopen("https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_19CoV.csv") as response:
-    reader = csv.DictReader(io.TextIOWrapper(response, encoding = 'utf-8'), delimiter=',')
-    for row in reader:
+with urllib.request.urlopen("https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_19CoV.json") as response:
+    data = json.loads(response.read())
+    for row in data:
         for k, v in main.items():
             if row["縣市"] == k:
                 main[k]["cases"] += int(row["確定病例數"])
