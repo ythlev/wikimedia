@@ -46,16 +46,13 @@ def val(n):
 
 # get conversion table for old subdivision codes
 if args["year"] < 2016:
-    with open("subdivisions.json", newline='', encoding="utf-8") as f:
-        subdivisions = json.loads(f.read())
+    with open("old_codes.json", newline='', encoding="utf-8") as f:
+        old_codes = json.loads(f.read())
 
 # make function for old subdivision codes
 def town(code):
     if args["year"] < 2016:
-        for k, v in subdivisions.items():
-            if str(args["year"]) in v["codes"].keys() and code == v["codes"][str(args["year"])]:
-                return k
-                break
+        return old_codes[str(args["year"])][code]
     else:
         return code
 
