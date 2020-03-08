@@ -30,12 +30,12 @@ for i in range(7):
     thresholds.append(min)
 
 if min == 0:
-    step = math.log(max * 0.8) / 3
+    step = math.log(max) / 4
     for i in range(6):
         thresholds[i + 1] = round(math.exp(step * i))
     thresholds = thresholds[0:6]
 else:
-    step = math.log(max * 0.8 / min) / 4
+    step = math.log(max / min) / 5
     for i in range(6):
         thresholds[i + 1] = round(min * math.exp(step * i))
     thresholds = thresholds[1:7]
@@ -48,12 +48,16 @@ with open("template.svg", "r", newline = "", encoding = "utf-8") as f_in:
             written = False
             for k, v in main.items():
                 if row.find(k) > 0:
-                    i = 0
-                    while v["cases"] >= thresholds[i]:
-                        i += 1
-                    i -= 1
-                    main[k]["threshold met"] = thresholds[i]
-                    main[k]["colour"] = colours[i]
+                    if v["cases"] == max:
+                        main[k]["threshold met"] = thresholds[4]
+                        main[k]["colour"] = colours[4]
+                    else:
+                        i = 0
+                        while v["cases"] >= thresholds[i]:
+                            i += 1
+                        i -= 1
+                        main[k]["threshold met"] = thresholds[i]
+                        main[k]["colour"] = colours[i]
                     f_out.write(row.replace('id="%s"' % k, 'style="fill:%s"' % main[k]["colour"]))
                     written = True
                     break
@@ -65,4 +69,4 @@ for k, v in main.items():
 
 print("Total cases: ", sum(list))
 print("Colours: ", colours)
-print("Thresholds: ", thresholds[0:-1])
+print("Thresholds (rightmost not used): ", thresholds)
