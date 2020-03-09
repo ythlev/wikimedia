@@ -85,13 +85,13 @@ if args["type"] == "presidential":
         elif votes == votes_list[1]:
             runner_up = cand
     del main["00000000"]
-    for town in main.values():
+    for cands in main.values():
         tbd = []
-        for cand in town:
+        for cand in cands:
             if cand != winner and cand != runner_up:
                 tbd.append(cand)
         for cand in tbd:
-            del town[cand]
+            del cands[cand]
 elif args["type"] == "legislative":
     for town, cands in main.items():
         total = 0
@@ -108,23 +108,26 @@ def val(n):
         else:
             return 0
     elif args["type"] == "legislative":
-        return int((n + 10) // 20)
+        if n > 0:
+            return int(n // 20 + 1)
+        else:
+            return 0
 
 # calculate colour values
-for town in main.values():
+for cands in main.values():
     votes_list = []
-    for cand, votes in town.items():
+    for cand, votes in cands.items():
         votes_list.append(votes)
     votes_list.sort(reverse = True)
-    for cand, votes in town.items():
+    for cand, votes in cands.items():
         if votes == votes_list[0]:
             first = cand
         elif votes == votes_list[1]:
             second = cand
     if args["type"] == "presidential":
-        town["fill"] = colour[first][val(town[first] - town[second])]
+        cands["fill"] = colour[first][val(cands[first] - cands[second])]
     elif args["type"] == "legislative":
-        town["fill"] = colour[first][val(town[first])]
+        cands["fill"] = colour[first][val(cands[first])]
 
 # template map
 def map():
