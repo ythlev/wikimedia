@@ -1,26 +1,26 @@
 # 張嘉桓 製
 import urllib.request, json, io, math
 
-subdivisions= [
+places = [
     "新北市", "台北市", "桃園市", "台中市", "台南市", "高雄市", "宜蘭縣", "新竹縣", "苗栗縣", "彰化縣", "南投縣",
     "雲林縣", "嘉義縣", "屏東縣", "台東縣", "花蓮縣", "澎湖縣", "基隆市", "新竹市", "嘉義市", "金門縣", "連江縣"
 ]
 
 main = {}
-for v in subdivisions:
-    main[v] = {"cases": 0}
+for place in places:
+    main[place] = {"cases": 0}
 
 with urllib.request.urlopen("https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_19CoV.json") as response:
     data = json.loads(response.read())
     for row in data:
-        for k, v in main.items():
-            if row["縣市"] == k:
-                main[k]["cases"] += int(row["確定病例數"])
+        for place in main:
+            if row["縣市"] == place:
+                main[place]["cases"] += int(row["確定病例數"])
                 break
 
 list = []
-for k, v in main.items():
-    list.append(v["cases"])
+for attrs in main.values():
+    list.append(attrs["cases"])
 
 min = min(list)
 max = max(list)
@@ -42,30 +42,30 @@ else:
 
 colours = ["#fee5d9", "#fcae91", "#fb6a4a", "#de2d26", "#a50f15"]
 
-with open("template.svg", "r", newline = "", encoding = "utf-8") as f_in:
-    with open("output.svg", "w", newline = "", encoding = "utf-8") as f_out:
-        for row in f_in:
+with open("template.svg", "r", newline = "", encoding = "utf-8") as file_in:
+    with open("output.svg", "w", newline = "", encoding = "utf-8") as file_out:
+        for row in file_in:
             written = False
-            for k, v in main.items():
-                if row.find(k) > 0:
-                    if v["cases"] == max:
-                        main[k]["threshold met"] = thresholds[4]
-                        main[k]["colour"] = colours[4]
+            for place, attrs in main.items():
+                if row.find(place) > 0:
+                    if attrs["cases"] == max:
+                        main[place]["threshold met"] = thresholds[4]
+                        main[place]["colour"] = colours[4]
                     else:
                         i = 0
-                        while v["cases"] >= thresholds[i]:
+                        while attrs["cases"] >= thresholds[i]:
                             i += 1
                         i -= 1
-                        main[k]["threshold met"] = thresholds[i]
-                        main[k]["colour"] = colours[i]
-                    f_out.write(row.replace('id="%s"' % k, 'style="fill:%s"' % main[k]["colour"]))
+                        main[place]["threshold met"] = thresholds[i]
+                        main[place]["colour"] = colours[i]
+                    file_out.write(row.replace('id="%s"' % place, 'style="fill:%s"' % attrs["colour"]))
                     written = True
                     break
             if written == False:
-                f_out.write(row)
+                file_out.write(row)
 
-for k, v in main.items():
-    print(k, v)
+for place, attrs in main.items():
+    print(place, attrs)
 
 print("Total cases: ", sum(list))
 print("Colours: ", colours)

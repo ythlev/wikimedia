@@ -25,12 +25,12 @@ with open("data.json", newline='', encoding="utf-8") as f:
     colour = data["party colours"]
     for party in colour:
         colour[party].insert(0, "white")
-    for name in data["election folders"][args["type"]][str(args["year"])]:
+    for name in data["elections"][args["type"]][str(args["year"])]:
         source = source / name
 
 # handle files with extra suffix
 def get_file(file):
-    for suffix in ["_corrected", "20160523", "", "_P1"]:
+    for suffix in ["_corrected", "20160523", "", "_P1", "_T4"]:
         if (source / (file + suffix + ".csv")).exists():
             return source / (file + suffix + ".csv")
             break
@@ -61,16 +61,17 @@ with open(get_file("elctks"), newline='', encoding="utf-8") as file:
     reader = csv.reader(file)
     for row in reader:
         row = [string.replace("'", "") for string in row]
-        if args["type"] == "presidential" and row[0] == "00" or row[3] != "000" and row[4] == "0000":
-            town = get_town(row[0] + row[1] + row[3])
-            if args["year"] == 1996:
-                cand = row[6][0].zfill(2)
-            else:
-                cand = row[6].zfill(2)
-            votes = int(row[7])
-            if town not in main:
-                main[town] = {}
-            main[town][party[cand]] = votes
+        if row[3] != "000" and row[4] == "0000":
+            if args["type"] == "legislative" and row[0] != "00" or args["type"] == "presidential":
+                town = get_town(row[0] + row[1] + row[3])
+                if args["year"] == 1996:
+                    cand = row[6][0].zfill(2)
+                else:
+                    cand = row[6].zfill(2)
+                votes = int(row[7])
+                if town not in main:
+                    main[town] = {}
+                main[town][party[cand]] = votes
 
 # get winner and runner_up
 if args["type"] == "presidential":
@@ -91,13 +92,23 @@ if args["type"] == "presidential":
                 tbd.append(cand)
         for cand in tbd:
             del town[cand]
+elif args["type"] == "legislative":
+    for town, cands in main.items():
+        total = 0
+        for cand, votes in cands.items():
+            total += votes
+        for cand, votes in cands.items():
+            main[town][cand] = votes / total * 100
 
 # function to determine colour
-def val(i):
-    if i > 0:
-        return math.floor(math.log10(i)) + 1
-    elif i == 0:
-        return 0
+def val(n):
+    if args["type"] == "presidential":
+        if n > 0:
+            return math.floor(math.log10(n)) + 1
+        else:
+            return 0
+    elif args["type"] == "legislative":
+        return int((n + 10) // 20)
 
 # calculate colour values
 for town in main.values():
@@ -110,13 +121,15 @@ for town in main.values():
             first = cand
         elif votes == votes_list[1]:
             second = cand
-    town["lead"] = town[first] - town[second]
-    town["fill"] = colour[first][val(town["lead"])]
+    if args["type"] == "presidential":
+        town["fill"] = colour[first][val(town[first] - town[second])]
+    elif args["type"] == "legislative":
+        town["fill"] = colour[first][val(town[first])]
 
 # template map
 def map():
     if args["year"] < 2004:
-        return "presidential (1990–2003).svg"
+        return "presidential (1996–2000).svg"
     else:
         return "presidential.svg"
 
