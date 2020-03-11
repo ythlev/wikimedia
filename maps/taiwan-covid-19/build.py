@@ -26,21 +26,21 @@ min = min(list)
 max = max(list)
 
 thresholds = []
-for i in range(7):
+for i in range(8):
     thresholds.append(min)
 
 if min == 0:
-    step = math.log(max) / 4
-    for i in range(6):
+    step = math.log(max) / 5
+    for i in range(7):
         thresholds[i + 1] = round(math.exp(step * i))
-    thresholds = thresholds[0:6]
+    thresholds = thresholds[0:7]
 else:
-    step = math.log(max / min) / 5
-    for i in range(6):
+    step = math.log(max / min) / 6
+    for i in range(8):
         thresholds[i + 1] = round(min * math.exp(step * i))
-    thresholds = thresholds[1:7]
+    thresholds = thresholds[1:8]
 
-colours = ["#fee5d9", "#fcae91", "#fb6a4a", "#de2d26", "#a50f15"]
+colours = ["#fee5d9","#fcbba1","#fc9272","#fb6a4a","#de2d26","#a50f15"]
 
 with open("template.svg", "r", newline = "", encoding = "utf-8") as file_in:
     with open("output.svg", "w", newline = "", encoding = "utf-8") as file_out:
@@ -49,8 +49,8 @@ with open("template.svg", "r", newline = "", encoding = "utf-8") as file_in:
             for place, attrs in main.items():
                 if row.find(place) > 0:
                     if attrs["cases"] == max:
-                        main[place]["threshold met"] = thresholds[4]
-                        main[place]["colour"] = colours[4]
+                        main[place]["threshold met"] = thresholds[5]
+                        main[place]["colour"] = colours[5]
                     else:
                         i = 0
                         while attrs["cases"] >= thresholds[i]:
