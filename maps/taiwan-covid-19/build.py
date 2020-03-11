@@ -1,5 +1,5 @@
 # 張嘉桓 製
-import urllib.request, json, io, math
+import urllib.request, json, math
 
 places = [
     "新北市", "台北市", "桃園市", "台中市", "台南市", "高雄市", "宜蘭縣", "新竹縣", "苗栗縣", "彰化縣", "南投縣",
@@ -21,24 +21,19 @@ with urllib.request.urlopen("https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_
 list = []
 for attrs in main.values():
     list.append(attrs["cases"])
+list.sort()
 
-min = min(list)
-max = max(list)
-
-thresholds = []
-for i in range(8):
-    thresholds.append(min)
-
-if min == 0:
-    step = math.log(max) / 5
-    for i in range(7):
-        thresholds[i + 1] = round(math.exp(step * i))
-    thresholds = thresholds[0:7]
+high = list[-2]
+if list[1] == 0:
+    low = 1
 else:
-    step = math.log(max / min) / 6
-    for i in range(8):
-        thresholds[i + 1] = round(min * math.exp(step * i))
-    thresholds = thresholds[1:8]
+    low = list[1]
+
+step = math.log(high / low) / 5
+
+thresholds = [0, 0, 0, 0, 0, 0]
+for i in range(5):
+    thresholds[i + 1] = round(low * math.exp(step * i))
 
 colours = ["#fee5d9","#fcbba1","#fc9272","#fb6a4a","#de2d26","#a50f15"]
 
@@ -48,16 +43,14 @@ with open("template.svg", "r", newline = "", encoding = "utf-8") as file_in:
             written = False
             for place, attrs in main.items():
                 if row.find(place) > 0:
-                    if attrs["cases"] == max:
-                        main[place]["threshold met"] = thresholds[5]
-                        main[place]["colour"] = colours[5]
-                    else:
-                        i = 0
-                        while attrs["cases"] >= thresholds[i]:
+                    i = 0
+                    while i < 5:
+                        if attrs["cases"] >= thresholds[i + 1]:
                             i += 1
-                        i -= 1
-                        main[place]["threshold met"] = thresholds[i]
-                        main[place]["colour"] = colours[i]
+                        else:
+                            break
+                    main[place]["threshold met"] = thresholds[i]
+                    main[place]["colour"] = colours[i]
                     file_out.write(row.replace('id="%s"' % place, 'style="fill:%s"' % attrs["colour"]))
                     written = True
                     break
@@ -69,4 +62,4 @@ for place, attrs in main.items():
 
 print("Total cases: ", sum(list))
 print("Colours: ", colours)
-print("Thresholds (rightmost not used): ", thresholds)
+print("Thresholds: ", thresholds)
