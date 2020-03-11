@@ -62,4 +62,4 @@ for place, attrs in main.items():
 
 print("Total cases: ", sum(list))
 print("Colours: ", colours)
-print("Thresholds: ", thresholds)
+print("Thresholds: ", thresholds, "Max: ", max(list))
