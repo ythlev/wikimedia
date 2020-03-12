@@ -20,8 +20,8 @@ args = vars(parser.parse_args())
 source = pathlib.Path() / "sources" / "中央選舉委員會_2020-01-21"
 
 # get colours and path for election
-with open("data.json", newline='', encoding="utf-8") as f:
-    data = json.loads(f.read())
+with open("data.json", newline='', encoding="utf-8") as file:
+    data = json.loads(file.read())
     colour = data["party colours"]
     for party in colour:
         colour[party].insert(0, "white")
