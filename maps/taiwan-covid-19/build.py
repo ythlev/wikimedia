@@ -3,14 +3,14 @@ import argparse, csv, urllib.request, json, math
 
 parser = argparse.ArgumentParser(description = "This script generates an svg map for the COVID-19 outbreak in Taiwan")
 parser.add_argument("-c", "--count", help = "Generate case count map", action = "store_const", const = "count", dest = "type")
-parser.add_argument("-d", "--density", help = "Generate case density map", action = "store_const", const = "density", dest = "type")
+parser.add_argument("-p", "--pcapita", help = "Generate per capita cases map", action = "store_const", const = "pcapita", dest = "type")
 args = vars(parser.parse_args())
 
-def get_value(count, density):
+def get_value(count, pcapita):
     if args["type"] == "count":
         return count
-    elif args["type"] == "density":
-        return density
+    elif args["type"] == "pcapita":
+        return pcapita
 
 main = {}
 
@@ -33,8 +33,8 @@ with urllib.request.urlopen("https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_
 
 list = []
 for attrs in main.values():
-    attrs["density"] = round(attrs["cases"] / attrs["population"] * 1000000, 2)
-    list.append(attrs[get_value("cases", "density")])
+    attrs["pcapita"] = round(attrs["cases"] / attrs["population"] * 1000000, 2)
+    list.append(attrs[get_value("cases", "pcapita")])
 list.sort()
 
 high = list[-2]
@@ -47,7 +47,7 @@ step = get_value(math.log(high / low) / 5, high / 5)
 
 thresholds = [0, 0, 0, 0, 0, 0]
 for i in range(5):
-    thresholds[i + 1] = get_value(round(low * math.exp(step * i)), step * (i + 1))
+    thresholds[i + 1] = get_value(round(low * math.exp(step * i)), round(step * (i + 1), 2))
 
 colours = ["#fee5d9","#fcbba1","#fc9272","#fb6a4a","#de2d26","#a50f15"]
 
@@ -59,13 +59,13 @@ with open("template.svg", "r", newline = "", encoding = "utf-8") as file_in:
                 if row.find(place) > -1:
                     i = 0
                     while i < 5:
-                        if get_value(attrs["cases"], attrs["density"]) >= thresholds[i + 1]:
+                        if get_value(attrs["cases"], attrs["pcapita"]) >= thresholds[i + 1]:
                             i += 1
                         else:
                             break
                     main[place]["threshold met"] = thresholds[i]
                     main[place]["colour"] = colours[i]
-                    file_out.write(row.replace('id="%s"' % place, 'style="fill:%s"' % attrs["colour"]))
+                    file_out.write(row.replace('id="{}"'.format(place), 'style="fill:{}"'.format(attrs["colour"])))
                     written = True
                     break
             if written == False:

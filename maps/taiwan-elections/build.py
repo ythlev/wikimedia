@@ -145,7 +145,7 @@ if args["print"] == None:
                 written = False
                 for town in main:
                     if town != None and row.find(town) > -1:
-                        file_out.write(row.replace('id="%s"' % town, 'style="fill:%s"' % main[town]["fill"]))
+                        file_out.write(row.replace('id="{}"'.format(town), 'style="fill:{}"'.format(main[town]["fill"])))
                         a += 1
                         written = True
                         break
