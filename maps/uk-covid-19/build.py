@@ -6,7 +6,8 @@ with open("subdivisions.json", newline = "", encoding = "utf-8") as file:
 
 main = {}
 for place in places:
-    main[place] = {"cases": 0}
+    if place.find("E") > -1:
+        main[place] = {"cases": 0}
 
 with urllib.request.urlopen("https://www.arcgis.com/sharing/rest/content/items/b684319181f94875a6879bbc833ca3a6/data") as response:
     reader = csv.DictReader(io.TextIOWrapper(response, encoding = 'utf-8'), delimiter=',')
@@ -40,7 +41,7 @@ with open("template-england.svg", "r", newline = "", encoding = "utf-8") as file
         for row in file_in:
             written = False
             for place, attrs in main.items():
-                if row.find(place) > 0:
+                if row.find(place) > -1:
                     i = 0
                     while i < 5:
                         if attrs["cases"] >= thresholds[i + 1]:

@@ -42,7 +42,7 @@ with open("template.svg", "r", newline = "", encoding = "utf-8") as file_in:
         for row in file_in:
             written = False
             for place, attrs in main.items():
-                if row.find(place) > 0:
+                if row.find(place) > -1:
                     i = 0
                     while i < 5:
                         if attrs["cases"] >= thresholds[i + 1]:
