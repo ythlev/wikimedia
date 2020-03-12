@@ -35,7 +35,7 @@ for i in range(5):
 
 colours = ["#fee5d9","#fcbba1","#fc9272","#fb6a4a","#de2d26","#a50f15"]
 
-with open("template.svg", "r", newline = "", encoding = "utf-8") as file_in:
+with open("template-england.svg", "r", newline = "", encoding = "utf-8") as file_in:
     with open("output.svg", "w", newline = "", encoding = "utf-8") as file_out:
         for row in file_in:
             written = False
