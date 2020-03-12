@@ -1,14 +1,27 @@
 # 張嘉桓 製
-import urllib.request, json, math
+import argparse, csv, urllib.request, json, math
 
-places = [
-    "新北市", "台北市", "桃園市", "台中市", "台南市", "高雄市", "宜蘭縣", "新竹縣", "苗栗縣", "彰化縣", "南投縣",
-    "雲林縣", "嘉義縣", "屏東縣", "台東縣", "花蓮縣", "澎湖縣", "基隆市", "新竹市", "嘉義市", "金門縣", "連江縣"
-]
+parser = argparse.ArgumentParser(description = "This script generates an svg map for the COVID-19 outbreak in Taiwan")
+parser.add_argument("-c", "--count", help = "Generate case count map", action = "store_const", const = "count", dest = "type")
+parser.add_argument("-d", "--density", help = "Generate case density map", action = "store_const", const = "density", dest = "type")
+args = vars(parser.parse_args())
+
+def get_value(count, density):
+    if args["type"] == "count":
+        return count
+    elif args["type"] == "density":
+        return density
 
 main = {}
-for place in places:
-    main[place] = {"cases": 0}
+
+with open("populations.csv", newline = "", encoding = "utf-8-sig") as file:
+    reader = csv.DictReader(file)
+    for row in reader:
+        if row["區域別"] != "總計":
+            main[row["區域別"].replace("臺", "台")] = {
+                "cases": 0,
+                "population": int(row["總計"].replace(",", ""))
+            }
 
 with urllib.request.urlopen("https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_19CoV.json") as response:
     data = json.loads(response.read())
@@ -20,32 +33,33 @@ with urllib.request.urlopen("https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_
 
 list = []
 for attrs in main.values():
-    list.append(attrs["cases"])
+    attrs["density"] = round(attrs["cases"] / attrs["population"] * 1000000, 2)
+    list.append(attrs[get_value("cases", "density")])
 list.sort()
 
 high = list[-2]
-if list[1] == 0:
-    low = 1
-else:
+if list[1] > 0:
     low = list[1]
+else:
+    low = 1
 
-step = math.log(high / low) / 5
+step = get_value(math.log(high / low) / 5, high / 5)
 
 thresholds = [0, 0, 0, 0, 0, 0]
 for i in range(5):
-    thresholds[i + 1] = round(low * math.exp(step * i))
+    thresholds[i + 1] = get_value(round(low * math.exp(step * i)), step * (i + 1))
 
 colours = ["#fee5d9","#fcbba1","#fc9272","#fb6a4a","#de2d26","#a50f15"]
 
 with open("template.svg", "r", newline = "", encoding = "utf-8") as file_in:
-    with open("output.svg", "w", newline = "", encoding = "utf-8") as file_out:
+    with open(get_value("counts.svg", "densities.svg"), "w", newline = "", encoding = "utf-8") as file_out:
         for row in file_in:
             written = False
             for place, attrs in main.items():
                 if row.find(place) > -1:
                     i = 0
                     while i < 5:
-                        if attrs["cases"] >= thresholds[i + 1]:
+                        if get_value(attrs["cases"], attrs["density"]) >= thresholds[i + 1]:
                             i += 1
                         else:
                             break
@@ -60,6 +74,9 @@ with open("template.svg", "r", newline = "", encoding = "utf-8") as file_in:
 for place, attrs in main.items():
     print(place, attrs)
 
-print("Total cases:", sum(list))
+cases = []
+for attrs in main.values():
+    cases.append(attrs["cases"])
+print("Total cases:", sum(cases))
 print("Colours:", colours)
 print("Thresholds:", thresholds, "Max:", max(list))
