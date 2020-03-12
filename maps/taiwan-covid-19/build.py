@@ -60,6 +60,6 @@ with open("template.svg", "r", newline = "", encoding = "utf-8") as file_in:
 for place, attrs in main.items():
     print(place, attrs)
 
-print("Total cases: ", sum(list))
-print("Colours: ", colours)
-print("Thresholds: ", thresholds, "Max: ", max(list))
+print("Total cases:", sum(list))
+print("Colours:", colours)
+print("Thresholds:", thresholds, "Max:", max(list))
