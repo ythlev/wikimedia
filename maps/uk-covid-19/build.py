@@ -1,10 +1,8 @@
 # Created by Chang Chia-huan
-import urllib.request, json, math, csv, io
+import urllib.request, json, csv, io, math
 
-places = [
-    "新北市", "台北市", "桃園市", "台中市", "台南市", "高雄市", "宜蘭縣", "新竹縣", "苗栗縣", "彰化縣", "南投縣",
-    "雲林縣", "嘉義縣", "屏東縣", "台東縣", "花蓮縣", "澎湖縣", "基隆市", "新竹市", "嘉義市", "金門縣", "連江縣"
-]
+with open("subdivisions.json", newline = "", encoding = "utf-8") as file:
+    places = json.loads(file.read())
 
 main = {}
 for place in places:
@@ -13,14 +11,10 @@ for place in places:
 with urllib.request.urlopen("https://www.arcgis.com/sharing/rest/content/items/b684319181f94875a6879bbc833ca3a6/data") as response:
     reader = csv.DictReader(io.TextIOWrapper(response, encoding = 'utf-8'), delimiter=',')
     for row in reader:
-        print(row)
-    quit()
-'''
         for place in main:
-            if row["縣市"] == place:
-                main[place]["cases"] += int(row["確定病例數"])
+            if row["GSS_CD"] == place:
+                main[place]["cases"] = int(row["TotalCases"])
                 break
-'''
 
 list = []
 for attrs in main.values():
