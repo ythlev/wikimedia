@@ -5,7 +5,7 @@ parser = argparse.ArgumentParser(description = "This script generates an svg map
 parser.add_argument("-c", "--count", help = "Generate case count map", action = "store_const", const = "count", dest = "type")
 parser.add_argument("-p", "--pcapita", help = "(Not yet available) Generate per capita cases map", action = "store_const", const = "pcapita", dest = "type")
 # Only count works for now
-parser.add_argument("-d", "--date", help = "Date for the dataset to use")
+parser.add_argument("date", help = "Date (MDY; e.g. 3/9/20)")
 args = vars(parser.parse_args())
 
 def get_value(count, pcapita):
@@ -25,13 +25,17 @@ with open("codes.csv", newline = "", encoding = "utf-8") as file:
             "pcapita": None
         }
 
-with urllib.request.urlopen("https://cowid.netlify.com/data/total_cases.csv") as response:
+with urllib.request.urlopen("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv") as response:
     reader = csv.DictReader(io.TextIOWrapper(response, encoding = 'utf-8'), delimiter=',')
     for row in reader:
-        if row["date"] == datetime.datetime.now().strftime("%Y-%m-%d") or row["date"] == args["date"]:
-            for country in row:
-                if country not in ["date", "Worldwide", "International"]:
-                    main[country]["cases"] = int(row[country])
+        row["Country/Region"] = row["Country/Region"].replace("*", "")
+        if row["Country/Region"] in ["Cruise Ship"]:
+            continue
+        elif row["Country/Region"] in main:
+            main[row["Country/Region"]]["cases"] += int(row[args["date"]])
+        else:
+            print(row["Country/Region"], " not found")
+            quit()
 
 thresholds = [0, 1, 10, 100, 1000, 10000]
 

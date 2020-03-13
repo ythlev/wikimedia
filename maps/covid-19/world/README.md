@@ -1,2 +1,2 @@
 # Sources
-* [Our World in Data](https://ourworldindata.org/coronavirus-source-data)
+* [Johns Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19)

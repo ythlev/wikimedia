@@ -50,7 +50,7 @@ Cocos (Keeling) Islands,CC
 Colombia,CO
 Comoros,KM
 Congo,CG
-"Democratic Republic of Congo",CD
+"Congo (Kinshasa)",CD
 Cook Islands,CK
 Costa Rica,CR
 Cote d'Ivoire,CI
@@ -58,7 +58,7 @@ Croatia,HR
 Cuba,CU
 Curaçao,CW
 Cyprus,CY
-Czech Republic,CZ
+Czechia,CZ
 Denmark,DK
 Djibouti,DJ
 Dominica,DM
@@ -96,7 +96,7 @@ Guinea-Bissau,GW
 Guyana,GY
 Haiti,HT
 Heard Island and McDonald Islands,HM
-Vatican,VA
+Holy See,VA
 Honduras,HN
 Hong Kong,HK
 Hungary,HU
@@ -116,8 +116,8 @@ Jordan,JO
 Kazakhstan,KZ
 Kenya,KE
 Kiribati,KI
-"North Korea",KP
-"South Korea",KR
+"Korea, North",KP
+"Korea, South",KR
 Kuwait,KW
 Kyrgyzstan,KG
 Laos,LA
@@ -130,7 +130,7 @@ Liechtenstein,LI
 Lithuania,LT
 Luxembourg,LU
 Macao,MO
-"Macedonia",MK
+"North Macedonia",MK
 Madagascar,MG
 Malawi,MW
 Malaysia,MY
@@ -179,7 +179,7 @@ Poland,PL
 Portugal,PT
 Puerto Rico,PR
 Qatar,QA
-Réunion,RE
+Reunion,RE
 Romania,RO
 Russia,RU
 Rwanda,RW
@@ -234,7 +234,7 @@ Uganda,UG
 Ukraine,UA
 United Arab Emirates,AE
 United Kingdom,GB
-United States,US
+US,US
 United States Minor Outlying Islands,UM
 Uruguay,UY
 Uzbekistan,UZ
