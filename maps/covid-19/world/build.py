@@ -3,8 +3,8 @@ import argparse, csv, urllib.request, io, datetime, math
 
 parser = argparse.ArgumentParser(description = "This script generates an svg map for the COVID-19 outbreak globally")
 parser.add_argument("-c", "--count", help = "Generate case count map", action = "store_const", const = "count", dest = "type")
-parser.add_argument("-p", "--pcapita", help = "Generate per capita cases map", action = "store_const", const = "pcapita", dest = "type")
-# Only count works now
+parser.add_argument("-p", "--pcapita", help = "(Not yet available) Generate per capita cases map", action = "store_const", const = "pcapita", dest = "type")
+# Only count works for now
 parser.add_argument("-d", "--date", help = "Date for the dataset to use")
 args = vars(parser.parse_args())
 
@@ -70,4 +70,4 @@ for attrs in main.values():
     cases.append(attrs["cases"])
 print("Total cases:", sum(cases), "in", len(cases), "areas")
 print("Colours:", colours)
-print("Thresholds:", thresholds, "Max:", max(list))
+print("Thresholds:", thresholds, "Max:", max(cases))
