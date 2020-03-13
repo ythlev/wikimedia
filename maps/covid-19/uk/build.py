@@ -1,9 +1,10 @@
 # Created by Chang Chia-huan
-import argparse, csv, io, urllib.request, math
+import argparse, csv, urllib.request, io, math
 
 parser = argparse.ArgumentParser(description = "This script generates an svg map for the COVID-19 outbreak in the UK")
 parser.add_argument("-c", "--count", help = "Generate case count map", action = "store_const", const = "count", dest = "type")
 parser.add_argument("-p", "--pcapita", help = "Generate per capita cases map", action = "store_const", const = "pcapita", dest = "type")
+# Only pcapita works now
 parser.add_argument("-s", help = "Cases in Scotland")
 parser.add_argument("-w", help = "Cases in Wales")
 parser.add_argument("-n", help = "Cases in Northern Ireland")
