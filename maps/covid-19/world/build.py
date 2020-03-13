@@ -22,7 +22,7 @@ with open("codes.csv", newline = "", encoding = "utf-8") as file:
         main[row["Name"]] = {
             "cases": 0,
             "code": row["Code"].lower(),
-            "pcapita": "NA"
+            "pcapita": None
         }
 
 with urllib.request.urlopen("https://cowid.netlify.com/data/total_cases.csv") as response:
