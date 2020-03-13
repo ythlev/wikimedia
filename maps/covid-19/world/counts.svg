@@ -157,15 +157,15 @@
 
 .ax, .as, .ao, .ai, .aq, .ag, .aw, .bs, .bb, .bz, .bj, .bm, .bq, .bw, .bv, .io, .bi, .cv, .ky, .cf, .td, .cx, .cc, .km, .cg, .ck, .cw, .dj, .dm, .sv, .gq, .er, .et, .fk, .fo, .fj, .pf, .tf, .ga, .gm, .gh, .gi, .gl, .gd, .gp, .gu, .gt, .gg, .gn, .gw, .ht, .hm, .hk, .im, .je, .kz, .ke, .ki, .kp, .kg, .la, .ls, .lr, .ly, .mo, .mg, .mw, .ml, .mh, .mr, .mu, .yt, .fm, .me, .ms, .mz, .mm, .na, .nr, .nc, .ni, .ne, .nu, .nf, .mp, .pw, .ps, .pg, .pn, .pr, .rw, .bl, .sh, .kn, .lc, .mf, .pm, .vc, .ws, .st, .sc, .sl, .sx, .sb, .so, .gs, .ss, .sd, .sr, .sj, .sz, .sy, .tj, .tz, .tl, .tk, .to, .tt, .tm, .tc, .tv, .ug, .um, .uy, .uz, .vu, .ve, .vg, .vi, .wf, .eh, .ye, .zm, .zw
 {
-   fill:#fee5d9;
+   fill:#e0e0e0;
 }
 .af, .ad, .am, .bd, .bt, .bo, .bg, .bf, .kh, .cm, .co, .cd, .ci, .cu, .cy, .do, .gf, .gy, .va, .hn, .jm, .jo, .li, .lt, .mk, .mv, .mt, .mq, .md, .mc, .mn, .ma, .np, .nz, .ng, .py, .re, .sn, .lk, .tg, .tn, .tr, .ua
 {
-   fill:#fcbba1;
+   fill:#fee5d9;
 }
 .al, .dz, .ar, .az, .by, .ba, .br, .bn, .cl, .cr, .hr, .cz, .ec, .eg, .ee, .fi, .ge, .gr, .hu, .in, .id, .iq, .ie, .kw, .lv, .lb, .lu, .mx, .om, .pk, .pa, .pe, .ph, .pl, .pt, .ro, .ru, .sm, .sa, .rs, .sk, .si, .za, .tw, .th, .ae, .vn
 {
-   fill:#fc9272;
+   fill:#fcae91;
 }
 .au, .at, .bh, .be, .ca, .dk, .is, .il, .jp, .my, .nl, .no, .qa, .sg, .se, .ch, .gb
 {
