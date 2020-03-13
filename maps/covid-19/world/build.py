@@ -27,12 +27,10 @@ with open("codes.csv", newline = "", encoding = "utf-8") as file:
 with urllib.request.urlopen("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv") as response:
     reader = csv.reader(io.TextIOWrapper(response, encoding = 'utf-8'), delimiter=',')
     for row in reader:
-        if row[1] == "Country/Region":
+        if row[1] in ["Country/Region", "Cruise Ship"]:
             continue
         row[1] = row[1].replace("*", "")
-        if row[1] in ["Cruise Ship"]:
-            continue
-        elif row[1] in main:
+        if row[1] in main:
             main[row[1]]["cases"] += int(row[-1])
         else:
             print(row[1], " not found")
@@ -73,6 +71,6 @@ for country, attrs in main.items():
 cases = []
 for attrs in main.values():
     cases.append(attrs["cases"])
-print("Total cases:", sum(cases), "in", len(cases), "areas")
+print("Total cases:", "{:,}".format(sum(cases)), "in", len(cases), "areas")
 print("Colours:", colours)
 print("Thresholds:", thresholds, "Max:", max(cases))
