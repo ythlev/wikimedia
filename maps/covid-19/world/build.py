@@ -5,7 +5,6 @@ parser = argparse.ArgumentParser(description = "This script generates an svg map
 parser.add_argument("-c", "--count", help = "Generate case count map", action = "store_const", const = "count", dest = "type")
 parser.add_argument("-p", "--pcapita", help = "(Not yet available) Generate per capita cases map", action = "store_const", const = "pcapita", dest = "type")
 # Only count works for now
-parser.add_argument("date", help = "Date (MDY; e.g. 3/9/20)")
 args = vars(parser.parse_args())
 
 def get_value(count, pcapita):
@@ -26,15 +25,17 @@ with open("codes.csv", newline = "", encoding = "utf-8") as file:
         }
 
 with urllib.request.urlopen("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv") as response:
-    reader = csv.DictReader(io.TextIOWrapper(response, encoding = 'utf-8'), delimiter=',')
+    reader = csv.reader(io.TextIOWrapper(response, encoding = 'utf-8'), delimiter=',')
     for row in reader:
-        row["Country/Region"] = row["Country/Region"].replace("*", "")
-        if row["Country/Region"] in ["Cruise Ship"]:
+        if row[1] == "Country/Region":
             continue
-        elif row["Country/Region"] in main:
-            main[row["Country/Region"]]["cases"] += int(row[args["date"]])
+        row[1] = row[1].replace("*", "")
+        if row[1] in ["Cruise Ship"]:
+            continue
+        elif row[1] in main:
+            main[row[1]]["cases"] += int(row[-1])
         else:
-            print(row["Country/Region"], " not found")
+            print(row[1], " not found")
             quit()
 
 thresholds = [0, 1, 10, 100, 1000, 10000]
