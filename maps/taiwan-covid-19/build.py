@@ -26,10 +26,8 @@ with open("populations.csv", newline = "", encoding = "utf-8-sig") as file:
 with urllib.request.urlopen("https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_19CoV.json") as response:
     data = json.loads(response.read())
     for row in data:
-        for place in main:
-            if row["縣市"] == place:
-                main[place]["cases"] += int(row["確定病例數"])
-                break
+        if row["縣市"] in main:
+            main[row["縣市"]]["cases"] += int(row["確定病例數"])
 
 list = []
 for attrs in main.values():
@@ -52,7 +50,7 @@ for i in range(5):
 colours = ["#fee5d9","#fcbba1","#fc9272","#fb6a4a","#de2d26","#a50f15"]
 
 with open("template.svg", "r", newline = "", encoding = "utf-8") as file_in:
-    with open(get_value("counts.svg", "densities.svg"), "w", newline = "", encoding = "utf-8") as file_out:
+    with open(get_value("counts.svg", "per capita.svg"), "w", newline = "", encoding = "utf-8") as file_out:
         for row in file_in:
             written = False
             for place, attrs in main.items():

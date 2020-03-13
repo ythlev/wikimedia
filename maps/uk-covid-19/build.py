@@ -36,10 +36,8 @@ with open("populations.csv", newline = "", encoding = "utf-8") as file:
 with urllib.request.urlopen("https://www.arcgis.com/sharing/rest/content/items/b684319181f94875a6879bbc833ca3a6/data") as response:
     reader = csv.DictReader(io.TextIOWrapper(response, encoding = 'utf-8'), delimiter=',')
     for row in reader:
-        for place in main:
-            if row["GSS_CD"] == place:
-                main[place]["cases"] = int(row["TotalCases"])
-                break
+        if row["GSS_CD"] in main:
+            main[row["GSS_CD"]]["cases"] = int(row["TotalCases"])
 
 list = []
 for attrs in main.values():
@@ -62,7 +60,7 @@ for i in range(5):
 colours = ["#fee5d9","#fcbba1","#fc9272","#fb6a4a","#de2d26","#a50f15"]
 
 with open("template.svg", "r", newline = "", encoding = "utf-8") as file_in:
-    with open(get_value("counts.svg", "densities.svg"), "w", newline = "", encoding = "utf-8") as file_out:
+    with open(get_value("counts.svg", "per capita.svg"), "w", newline = "", encoding = "utf-8") as file_out:
         for row in file_in:
             written = False
             for place, attrs in main.items():
