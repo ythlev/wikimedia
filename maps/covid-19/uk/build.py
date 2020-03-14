@@ -5,9 +5,9 @@ parser = argparse.ArgumentParser(description = "This script generates an svg map
 parser.add_argument("-c", "--count", help = "Generate case count map", action = "store_const", const = "count", dest = "type")
 parser.add_argument("-p", "--pcapita", help = "Generate per capita cases map", action = "store_const", const = "pcapita", dest = "type")
 # Only pcapita works now
-parser.add_argument("-s", help = "Cases in Scotland")
-parser.add_argument("-w", help = "Cases in Wales")
-parser.add_argument("-n", help = "Cases in Northern Ireland")
+parser.add_argument("s", help = "Cases in Scotland")
+parser.add_argument("w", help = "Cases in Wales")
+parser.add_argument("n", help = "Cases in Northern Ireland")
 args = vars(parser.parse_args())
 
 def get_value(count, pcapita):
@@ -31,8 +31,6 @@ with open("populations.csv", newline = "", encoding = "utf-8") as file:
                 "cases": 0,
                 "population": int(row["All ages"])
             }
-
-
 
 with urllib.request.urlopen("https://www.arcgis.com/sharing/rest/content/items/b684319181f94875a6879bbc833ca3a6/data") as response:
     reader = csv.DictReader(io.TextIOWrapper(response, encoding = 'utf-8'), delimiter=',')

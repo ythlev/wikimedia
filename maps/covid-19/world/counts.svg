@@ -155,23 +155,23 @@
  *
  */
 
-.ax, .as, .ao, .ai, .aq, .ag, .aw, .bs, .bb, .bz, .bj, .bm, .bq, .bw, .bv, .io, .bi, .cv, .ky, .cf, .td, .cx, .cc, .km, .cg, .ck, .cw, .dj, .dm, .sv, .gq, .er, .et, .fk, .fo, .fj, .pf, .tf, .ga, .gm, .gh, .gi, .gl, .gd, .gp, .gu, .gt, .gg, .gn, .gw, .ht, .hm, .hk, .im, .je, .kz, .ke, .ki, .kp, .kg, .la, .ls, .lr, .ly, .mo, .mg, .mw, .ml, .mh, .mr, .mu, .yt, .fm, .me, .ms, .mz, .mm, .na, .nr, .nc, .ni, .ne, .nu, .nf, .mp, .pw, .ps, .pg, .pn, .pr, .rw, .bl, .sh, .kn, .lc, .mf, .pm, .vc, .ws, .st, .sc, .sl, .sx, .sb, .so, .gs, .ss, .sd, .sr, .sj, .sz, .sy, .tj, .tz, .tl, .tk, .to, .tt, .tm, .tc, .tv, .ug, .um, .uy, .uz, .vu, .ve, .vg, .vi, .wf, .eh, .ye, .zm, .zw
+.ax, .as, .ao, .ai, .aq, .bs, .bb, .bz, .bj, .bm, .bq, .bw, .bv, .io, .bi, .cv, .cf, .td, .cx, .cc, .km, .cg, .ck, .cw, .dj, .dm, .sv, .gq, .er, .fk, .fo, .fj, .pf, .tf, .ga, .gm, .gh, .gi, .gl, .gd, .gu, .gt, .gg, .gw, .ht, .hm, .hk, .im, .je, .ki, .kp, .kg, .la, .ls, .lr, .ly, .mo, .mg, .mw, .ml, .mh, .mr, .mu, .yt, .fm, .me, .ms, .mz, .mm, .na, .nr, .nc, .ni, .ne, .nu, .nf, .mp, .pw, .ps, .pg, .pn, .pr, .rw, .bl, .sh, .kn, .lc, .mf, .pm, .vc, .ws, .st, .sc, .sl, .sx, .sb, .so, .gs, .ss, .sr, .sj, .sz, .sy, .tj, .tz, .tl, .tk, .to, .tt, .tm, .tc, .tv, .ug, .um, .uy, .uz, .vu, .ve, .vg, .vi, .wf, .eh, .ye, .zm, .zw
 {
    fill:#e0e0e0;
 }
-.af, .ad, .am, .bd, .bt, .bo, .bg, .bf, .kh, .cm, .co, .cd, .ci, .cu, .cy, .do, .gf, .gy, .va, .hn, .jm, .jo, .li, .lt, .mk, .mv, .mt, .mq, .md, .mc, .mn, .ma, .np, .nz, .ng, .py, .re, .sn, .lk, .tg, .tn, .tr, .ua
+.af, .ad, .ag, .am, .aw, .bd, .bt, .bo, .bf, .kh, .cm, .ky, .cd, .ci, .cu, .do, .et, .gf, .gp, .gn, .gy, .va, .hn, .jm, .jo, .kz, .ke, .li, .lt, .mv, .mq, .md, .mc, .mn, .ma, .np, .nz, .ng, .py, .re, .lk, .sd, .tg, .tr, .ua
 {
    fill:#fee5d9;
 }
-.al, .dz, .ar, .az, .by, .ba, .br, .bn, .cl, .cr, .hr, .cz, .ec, .eg, .ee, .fi, .ge, .gr, .hu, .in, .id, .iq, .ie, .kw, .lv, .lb, .lu, .mx, .om, .pk, .pa, .pe, .ph, .pl, .pt, .ro, .ru, .sm, .sa, .rs, .sk, .si, .za, .tw, .th, .ae, .vn
+.al, .dz, .ar, .az, .by, .ba, .bn, .bg, .cl, .co, .cr, .hr, .cy, .ec, .eg, .ee, .ge, .hu, .in, .id, .ie, .kw, .lv, .lb, .lu, .mk, .mt, .mx, .om, .pk, .pa, .pe, .ph, .pl, .ro, .ru, .sm, .sa, .sn, .rs, .sk, .za, .tw, .th, .tn, .ae, .vn
 {
    fill:#fcae91;
 }
-.au, .at, .bh, .be, .ca, .dk, .is, .il, .jp, .my, .nl, .no, .qa, .sg, .se, .ch, .gb
+.au, .at, .bh, .be, .br, .ca, .cz, .dk, .fi, .gr, .is, .iq, .il, .jp, .my, .nl, .no, .pt, .qa, .sg, .si, .se, .gb
 {
    fill:#fb6a4a;
 }
-.fr, .de, .kr, .es, .us
+.fr, .de, .kr, .es, .ch, .us
 {
    fill:#de2d26;
 }

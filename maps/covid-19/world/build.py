@@ -28,6 +28,9 @@ with urllib.request.urlopen("https://raw.githubusercontent.com/CSSEGISandData/CO
     reader = csv.reader(io.TextIOWrapper(response, encoding = 'utf-8'), delimiter=',')
     for row in reader:
         if row[1] in ["Country/Region", "Cruise Ship"]:
+            if row[1] == "Country/Region":
+                global date
+                date = row[-1]
             continue
         row[1] = row[1].replace("*", "")
         if row[1] in main:
@@ -71,6 +74,6 @@ for country, attrs in main.items():
 cases = []
 for attrs in main.values():
     cases.append(attrs["cases"])
-print("Total cases:", "{:,}".format(sum(cases)), "in", len(cases), "areas")
+print("Total cases:", "{:,}".format(sum(cases)), "in", len(cases), "areas as of", date)
 print("Colours:", colours)
 print("Thresholds:", thresholds, "Max:", max(cases))
