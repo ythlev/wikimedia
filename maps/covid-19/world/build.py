@@ -44,7 +44,7 @@ thresholds = [0, 1, 10, 100, 1000, 10000]
 colours = ["#e0e0e0", "#fee5d9","#fcae91","#fb6a4a","#de2d26","#a50f15"]
 
 with open("template.svg", "r", newline = "", encoding = "utf-8") as file_in:
-    with open(get_value("counts.svg", "per capita.svg"), "w", newline = "", encoding = "utf-8") as file_out:
+    with open(get_value("counts.svg", "per-capita.svg"), "w", newline = "", encoding = "utf-8") as file_out:
         r = 0
         for row in file_in:
             r += 1
