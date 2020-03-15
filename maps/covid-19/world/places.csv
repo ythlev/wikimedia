@@ -1,5 +1,5 @@
-Name,Code
-Afghanistan,AF
+Name,Code,Cases
+Afghanistan,AF,9
 Åland Islands,AX
 Albania,AL
 Algeria,DZ
@@ -10,7 +10,7 @@ Anguilla,AI
 Antarctica,AQ
 Antigua and Barbuda,AG
 Argentina,AR
-Armenia,AM
+Armenia,AM,9
 Aruba,AW
 Australia,AU
 Austria,AT
@@ -25,7 +25,7 @@ Belize,BZ
 Benin,BJ
 Bermuda,BM
 Bhutan,BT
-"Bolivia",BO
+"Bolivia",BO,7
 "Bonaire, Sint Eustatius and Saba",BQ
 Bosnia and Herzegovina,BA
 Botswana,BW
@@ -56,7 +56,7 @@ Costa Rica,CR
 Cote d'Ivoire,CI
 Croatia,HR
 Cuba,CU
-Curaçao,CW
+Curaçao,CW,1
 Cyprus,CY
 Czechia,CZ
 Denmark,DK
@@ -68,10 +68,10 @@ Egypt,EG
 El Salvador,SV
 Equatorial Guinea,GQ
 Eritrea,ER
-Estonia,EE
+Estonia,EE,21
 Ethiopia,ET
 Falkland Islands (Malvinas),FK
-Faeroe Islands,FO
+Faroe Islands,FO
 Fiji,FJ
 Finland,FI
 France,FR
@@ -90,7 +90,7 @@ Grenada,GD
 Guadeloupe,GP
 Guam,GU
 Guatemala,GT
-Guernsey,GG
+Guernsey,GG,1
 Guinea,GN
 Guinea-Bissau,GW
 Guyana,GY
@@ -111,7 +111,7 @@ Israel,IL
 Italy,IT
 Jamaica,JM
 Japan,JP
-Jersey,JE
+Jersey,JE,1
 Jordan,JO
 Kazakhstan,KZ
 Kenya,KE
@@ -129,7 +129,7 @@ Libya,LY
 Liechtenstein,LI
 Lithuania,LT
 Luxembourg,LU
-Macao,MO
+Macau,MO
 "North Macedonia",MK
 Madagascar,MG
 Malawi,MW
@@ -152,7 +152,7 @@ Montserrat,MS
 Morocco,MA
 Mozambique,MZ
 Myanmar,MM
-Namibia,NA
+Namibia,NA,1
 Nauru,NR
 Nepal,NP
 Netherlands,NL
@@ -164,7 +164,7 @@ Nigeria,NG
 Niue,NU
 Norfolk Island,NF
 Northern Mariana Islands,MP
-Norway,NO
+Norway,NO,4
 Oman,OM
 Pakistan,PK
 Palau,PW
@@ -177,19 +177,19 @@ Philippines,PH
 Pitcairn,PN
 Poland,PL
 Portugal,PT
-Puerto Rico,PR
+Puerto Rico,PR,1
 Qatar,QA
 Reunion,RE
-Romania,RO
+Romania,RO,11
 Russia,RU
-Rwanda,RW
-Saint Barthlemy,BL
+Rwanda,RW,1
+Saint Barthlemy,BL,1
 "Saint Helena, Ascension and Tristan da Cunha",SH
 Saint Kitts and Nevis,KN
-Saint Lucia,LC
-Saint Martin (French part),MF
+Saint Lucia,LC,1
+Saint Martin (French part),MF,1
 Saint Pierre and Miquelon,PM
-Saint Vincent and the Grenadines,VC
+Saint Vincent and the Grenadines,VC,1
 Samoa,WS
 San Marino,SM
 Sao Tome and Principe,ST
@@ -224,7 +224,7 @@ Timor-Leste,TL
 Togo,TG
 Tokelau,TK
 Tonga,TO
-Trinidad and Tobago,TT
+Trinidad and Tobago,TT,1
 Tunisia,TN
 Turkey,TR
 Turkmenistan,TM
@@ -236,13 +236,13 @@ United Arab Emirates,AE
 United Kingdom,GB
 US,US
 United States Minor Outlying Islands,UM
-Uruguay,UY
+Uruguay,UY,1
 Uzbekistan,UZ
 Vanuatu,VU
 "Venezuela",VE
 Vietnam,VN
 "Virgin Islands, British",VG
-"Virgin Islands, U.S.",VI
+"Virgin Islands, U.S.",VI,1
 Wallis and Futuna,WF
 Western Sahara,EH
 Yemen,YE

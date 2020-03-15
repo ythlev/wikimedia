@@ -15,7 +15,7 @@ def get_value(count, pcapita):
 
 main = {}
 
-with open("codes.csv", newline = "", encoding = "utf-8") as file:
+with open("places.csv", newline = "", encoding = "utf-8") as file:
     reader = csv.DictReader(file)
     for row in reader:
         main[row["Name"]] = {
@@ -23,9 +23,13 @@ with open("codes.csv", newline = "", encoding = "utf-8") as file:
             "code": row["Code"].lower(),
             "pcapita": None
         }
+        if row["Cases"] != None:
+            main[row["Name"]]["cases"] = int(row["Cases"])
+
+places = []
 
 with urllib.request.urlopen("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv") as response:
-    reader = csv.reader(io.TextIOWrapper(response, encoding = 'utf-8'), delimiter=',')
+    reader = csv.reader(io.TextIOWrapper(response, encoding = "utf-8"), delimiter = ",")
     for row in reader:
         if row[1] in ["Country/Region", "Cruise Ship"]:
             if row[1] == "Country/Region":
@@ -33,15 +37,21 @@ with urllib.request.urlopen("https://raw.githubusercontent.com/CSSEGISandData/CO
                 date = row[-1]
             continue
         row[1] = row[1].replace("*", "")
-        if row[1] in main:
+        if row[0] in main:
+            main[row[0]]["cases"] = int(row[-1])
+        elif row[1] in main:
+            if row[0] != "":
+                places.append(row[0] + ", " + row[1])
             main[row[1]]["cases"] += int(row[-1])
         else:
-            print(row[1], " not found")
+            print(row[0], row[1], "not found")
             quit()
 
-thresholds = [0, 1, 10, 100, 1000, 10000]
+with open("places-not-coloured-separately.txt", "w", newline = "", encoding = "utf-8") as file:
+    file.write("\n".join(places))
 
-colours = ["#e0e0e0", "#fee5d9","#fcae91","#fb6a4a","#de2d26","#a50f15"]
+thresholds = [0, 1, 10, 100, 1000, 10000]
+colours = ["#e0e0e0", "#ffC0C0","#ee7070","#c80200","#900000","#510000"]
 
 with open("template.svg", "r", newline = "", encoding = "utf-8") as file_in:
     with open(get_value("counts.svg", "per-capita.svg"), "w", newline = "", encoding = "utf-8") as file_out:
