@@ -38,31 +38,5 @@ def grabFromTemplate(): # credits: Dan Polansky
 
 template = grabFromTemplate()
 
-with open("places.csv", newline = "", encoding = "utf-8-sig") as file:
-    reader = csv.DictReader(file)
-    for row in reader:
-        main["." + row["Code"].lower()] = {
-            "names": {
-                "JHU": row["Name"],
-                "wikipedia": "",
-            },
-            "cases": 0,
-            "recovered": 0,
-            "population": None,
-            "pcapita": None,
-            "active-pcapita": 0
-        }
-
-for place in main:
-    for place2 in template:
-        place2 = place2.replace(";", "")
-        if place2.find(main[place]["names"]["JHU"]) > -1:
-            print(main[place]["names"]["JHU"], place2)
-            main[place]["names"]["wikipedia"] = place2
-            main[place]["cases"] = template[place2][0]
-            main[place]["recovered"] = template[place2][2]
-            main[place]["updated"] = None
-            break
-
-with open("data.json", "w", newline = "", encoding = "utf-8") as file:
-    file.write(json.dumps(main, indent = 2, ensure_ascii = False))
+for place in template:
+    print(place, template[place])

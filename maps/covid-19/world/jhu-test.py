@@ -16,51 +16,6 @@ def get_value(count, pcapita):
 with open("data.json", newline = "", encoding = "utf-8") as file:
     main = json.loads(file.read())
 
-# fetch figures from Wikipedia; credits: Dan Polansky
-def grabFromTemplate():
-    url="https://en.wikipedia.org/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data"
-    allLines = []
-    for line in urllib.request.urlopen(url):
-      allLines.append((line.decode()).rstrip())
-    allLines = " ".join(allLines)
-    allLines = re.sub("^.*jquery-tablesorter", "", allLines)
-    allLines = re.sub("</table.*", "", allLines)
-    allLines = re.sub("<(th|td)[^>]*>", r"<td>", allLines)
-    allLines = re.sub("</?(span|img|a|sup)[^>]*>", "", allLines)
-    allLines = re.sub("</(th|td|tr)[^>]*>", "", allLines)
-    allLines = re.sub("&#91.*?&#93", "", allLines)
-    allLines = re.sub(",", "", allLines)
-    allLines = re.sub("<small>.*?</small>;?", "", allLines)
-    allLines = re.sub("</?i>", "", allLines)
-
-    outData = {}
-    rows = allLines.split("<tr> ")
-    for row in rows:
-        try:
-            cols = row.split("<td>")
-            cols.pop(0)
-            cols.pop(0)
-            place = cols.pop(0)
-            cols = cols[0:3]
-            cols = [int(col) for col in cols]
-        except:
-            continue
-        outData[(place.rstrip()).replace(";", "")] = cols
-    #for key, value in outData.items():
-    #  print key, value
-    return outData
-template = grabFromTemplate()
-
-for place in main:
-    for place2 in template:
-        place2 = place2.replace(";", "")
-        if place2.find(main[place]["names"]["JHU"]) > -1:
-            main[place]["names"]["wikipedia"] = place2
-            main[place]["cases"] = template[place2][0]
-            main[place]["recovered"] = template[place2][2]
-            main[place]["updated"] = "from Wikipedia"
-            break
-
 with urllib.request.urlopen("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv") as response:
     reader = csv.reader(io.TextIOWrapper(response, encoding = "utf-8"), delimiter = ",")
     for row in reader:
@@ -111,7 +66,7 @@ with open("template.svg", "r", newline = "", encoding = "utf-8") as file_in:
             else:
                 file_out.write(row)
 
-with open("data-generated.json", "w", newline = "", encoding = "utf-8") as file:
+with open("jhu-test.json", "w", newline = "", encoding = "utf-8") as file:
     file.write(json.dumps(main, indent = 2, ensure_ascii = False))
 
 for place, attrs in main.items():

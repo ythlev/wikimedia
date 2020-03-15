@@ -155,11 +155,11 @@
  *
  */
 
-.ax, .as, .ao, .ai, .aq, .aw, .bs, .bb, .bz, .bj, .bm, .bq, .bw, .bv, .io, .bi, .cv, .ky, .td, .cx, .cc, .km, .cd, .ck, .ci, .cw, .cz, .dj, .sv, .er, .fk, .fo, .fj, .gf, .pf, .tf, .gm, .gi, .gl, .gd, .gp, .gu, .gw, .ht, .hm, .va, .im, .ki, .kp, .kr, .kg, .la, .ls, .lr, .ly, .mg, .mw, .ml, .mh, .mq, .mu, .yt, .fm, .me, .ms, .mz, .mm, .nr, .nl, .nc, .ni, .nu, .nf, .mp, .pw, .pg, .pn, .pr, .re, .bl, .sh, .kn, .mf, .pm, .vc, .ws, .st, .sl, .sx, .sb, .so, .gs, .ss, .sj, .sz, .sy, .tj, .tz, .tl, .tk, .to, .tm, .tc, .tv, .ug, .us, .um, .vu, .vg, .vi, .wf, .eh, .ye, .zm, .zw
+.ax, .as, .ao, .ai, .aq, .bs, .bb, .bz, .bj, .bm, .bq, .bw, .bv, .io, .bi, .cv, .td, .cx, .cc, .km, .ck, .cw, .dj, .sv, .er, .fk, .fj, .tf, .gm, .gl, .gd, .gu, .gw, .ht, .hm, .im, .ki, .kp, .kg, .la, .ls, .lr, .ly, .mg, .mw, .ml, .mh, .mu, .yt, .fm, .me, .ms, .mz, .mm, .nr, .nc, .ni, .nu, .nf, .mp, .pw, .pg, .pn, .bl, .sh, .kn, .mf, .pm, .ws, .st, .sl, .sx, .sb, .so, .gs, .ss, .sj, .sz, .sy, .tj, .tz, .tl, .tk, .to, .tm, .tc, .tv, .ug, .um, .vu, .vg, .wf, .eh, .ye, .zm, .zw
 {
    fill:#e0e0e0;
 }
-.ad, .ag, .bd, .bt, .bf, .kh, .cm, .cf, .cg, .cu, .gq, .et, .ga, .gh, .gt, .gg, .gn, .gy, .hn, .jm, .je, .jo, .kz, .ke, .li, .lt, .mr, .mc, .mn, .na, .np, .nz, .ne, .ng, .py, .rw, .lc, .sc, .sd, .sr, .tg, .tt, .tr, .ua, .uy, .uz
+.ad, .ag, .aw, .bd, .bt, .bf, .kh, .cm, .ky, .cf, .cg, .cd, .ci, .cu, .gq, .et, .fo, .gf, .pf, .ga, .gh, .gi, .gp, .gt, .gg, .gn, .gy, .va, .hn, .jm, .je, .jo, .kz, .ke, .li, .lt, .mq, .mr, .mc, .mn, .na, .np, .nz, .ne, .ng, .py, .pr, .re, .rw, .lc, .vc, .sc, .sd, .sr, .tg, .tt, .tr, .ua, .uy, .uz, .vi
 {
    fill:#ffC0C0;
 }
@@ -167,11 +167,11 @@
 {
    fill:#ee7070;
 }
-.au, .at, .bh, .be, .br, .ca, .dk, .eg, .ee, .fi, .gr, .hk, .is, .in, .id, .iq, .ie, .il, .jp, .kw, .lb, .my, .ph, .pl, .pt, .qa, .ro, .sm, .sa, .sg, .si, .th
+.au, .at, .bh, .be, .br, .ca, .cz, .dk, .eg, .ee, .fi, .gr, .hk, .is, .in, .id, .iq, .ie, .il, .jp, .kw, .lb, .my, .nl, .ph, .pl, .pt, .qa, .ro, .sm, .sa, .sg, .si, .th, .us
 {
    fill:#c80200;
 }
-.fr, .de, .no, .es, .se, .ch, .gb
+.fr, .de, .kr, .no, .es, .se, .ch, .gb
 {
    fill:#900000;
 }
