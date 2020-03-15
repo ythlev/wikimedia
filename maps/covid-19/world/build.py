@@ -78,16 +78,16 @@ with urllib.request.urlopen("https://raw.githubusercontent.com/CSSEGISandData/CO
                 if main[place]["names"]["JHU"] == row[0]:
                     if row[0] in main:
                         main[row[0]]["cases"] = int(row[-1])
+                        main[place]["updated"] = "from JHU"
                         break
                     elif row[1] in main:
                         if row[0] != "":
                             places.append(row[0] + ", " + row[1])
                         main[row[1]]["cases"] += int(row[-1])
+                        main[place]["updated"] = "from JHU"
                         break
                     else:
                         print(row[0], row[1], "not found")
-                        quit()
-                main[place]["updated"] = "from JHU"
 
 thresholds = [0, 1, 10, 100, 1000, 10000]
 colours = ["#e0e0e0", "#ffC0C0","#ee7070","#c80200","#900000","#510000"]
