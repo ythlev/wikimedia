@@ -1,0 +1,3488 @@
+{
+  ".af": {
+    "names": {
+      "JHU": "Afghanistan",
+      "wikipedia": "Afghanistan"
+    },
+    "cases": 16,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".ax": {
+    "names": {
+      "JHU": "Åland Islands",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".al": {
+    "names": {
+      "JHU": "Albania",
+      "wikipedia": "Albania"
+    },
+    "cases": 42,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".dz": {
+    "names": {
+      "JHU": "Algeria",
+      "wikipedia": "Algeria"
+    },
+    "cases": 45,
+    "recovered": 10,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".as": {
+    "names": {
+      "JHU": "American Samoa",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".ad": {
+    "names": {
+      "JHU": "Andorra",
+      "wikipedia": "Andorra"
+    },
+    "cases": 1,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".ao": {
+    "names": {
+      "JHU": "Angola",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".ai": {
+    "names": {
+      "JHU": "Anguilla",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".aq": {
+    "names": {
+      "JHU": "Antarctica",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".ag": {
+    "names": {
+      "JHU": "Antigua and Barbuda",
+      "wikipedia": "Antigua and Barbuda"
+    },
+    "cases": 1,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".ar": {
+    "names": {
+      "JHU": "Argentina",
+      "wikipedia": "Argentina"
+    },
+    "cases": 45,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".am": {
+    "names": {
+      "JHU": "Armenia",
+      "wikipedia": "Armenia"
+    },
+    "cases": 23,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".aw": {
+    "names": {
+      "JHU": "Aruba",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".au": {
+    "names": {
+      "JHU": "Australia",
+      "wikipedia": "Australia"
+    },
+    "cases": 300,
+    "recovered": 27,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".at": {
+    "names": {
+      "JHU": "Austria",
+      "wikipedia": "Austria"
+    },
+    "cases": 860,
+    "recovered": 6,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".az": {
+    "names": {
+      "JHU": "Azerbaijan",
+      "wikipedia": "Azerbaijan"
+    },
+    "cases": 23,
+    "recovered": 6,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".bs": {
+    "names": {
+      "JHU": "Bahamas",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".bh": {
+    "names": {
+      "JHU": "Bahrain",
+      "wikipedia": "Bahrain"
+    },
+    "cases": 214,
+    "recovered": 60,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".bd": {
+    "names": {
+      "JHU": "Bangladesh",
+      "wikipedia": "Bangladesh"
+    },
+    "cases": 5,
+    "recovered": 2,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".bb": {
+    "names": {
+      "JHU": "Barbados",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".by": {
+    "names": {
+      "JHU": "Belarus",
+      "wikipedia": "Belarus"
+    },
+    "cases": 27,
+    "recovered": 3,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".be": {
+    "names": {
+      "JHU": "Belgium",
+      "wikipedia": "Belgium"
+    },
+    "cases": 886,
+    "recovered": 1,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".bz": {
+    "names": {
+      "JHU": "Belize",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".bj": {
+    "names": {
+      "JHU": "Benin",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".bm": {
+    "names": {
+      "JHU": "Bermuda",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".bt": {
+    "names": {
+      "JHU": "Bhutan",
+      "wikipedia": "Bhutan"
+    },
+    "cases": 1,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".bo": {
+    "names": {
+      "JHU": "Bolivia",
+      "wikipedia": "Bolivia"
+    },
+    "cases": 10,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".bq": {
+    "names": {
+      "JHU": "Bonaire, Sint Eustatius and Saba",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".ba": {
+    "names": {
+      "JHU": "Bosnia and Herzegovina",
+      "wikipedia": "Bosnia and Herzegovina"
+    },
+    "cases": 21,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".bw": {
+    "names": {
+      "JHU": "Botswana",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".bv": {
+    "names": {
+      "JHU": "Bouvet Island",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".br": {
+    "names": {
+      "JHU": "Brazil",
+      "wikipedia": "Brazil"
+    },
+    "cases": 151,
+    "recovered": 1,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".io": {
+    "names": {
+      "JHU": "British Indian Ocean Territory",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".bn": {
+    "names": {
+      "JHU": "Brunei",
+      "wikipedia": "Brunei"
+    },
+    "cases": 50,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".bg": {
+    "names": {
+      "JHU": "Bulgaria",
+      "wikipedia": "Bulgaria"
+    },
+    "cases": 43,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".bf": {
+    "names": {
+      "JHU": "Burkina Faso",
+      "wikipedia": "Burkina Faso"
+    },
+    "cases": 3,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".bi": {
+    "names": {
+      "JHU": "Burundi",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".kh": {
+    "names": {
+      "JHU": "Cambodia",
+      "wikipedia": "Cambodia"
+    },
+    "cases": 7,
+    "recovered": 1,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".cm": {
+    "names": {
+      "JHU": "Cameroon",
+      "wikipedia": "Cameroon"
+    },
+    "cases": 2,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".ca": {
+    "names": {
+      "JHU": "Canada",
+      "wikipedia": "Canada"
+    },
+    "cases": 252,
+    "recovered": 11,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".cv": {
+    "names": {
+      "JHU": "Cape Verde",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".ky": {
+    "names": {
+      "JHU": "Cayman Islands",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".cf": {
+    "names": {
+      "JHU": "Central African Republic",
+      "wikipedia": "Central African Republic"
+    },
+    "cases": 1,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".td": {
+    "names": {
+      "JHU": "Chad",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".cl": {
+    "names": {
+      "JHU": "Chile",
+      "wikipedia": "Chile"
+    },
+    "cases": 75,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".cn": {
+    "names": {
+      "JHU": "China",
+      "wikipedia": "China"
+    },
+    "cases": 80849,
+    "recovered": 66931,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10000,
+    "fill": "#510000"
+  },
+  ".cx": {
+    "names": {
+      "JHU": "Christmas Island",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".cc": {
+    "names": {
+      "JHU": "Cocos (Keeling) Islands",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".co": {
+    "names": {
+      "JHU": "Colombia",
+      "wikipedia": "Colombia"
+    },
+    "cases": 24,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".km": {
+    "names": {
+      "JHU": "Comoros",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".cg": {
+    "names": {
+      "JHU": "Congo",
+      "wikipedia": "Democratic Republic of the Congo"
+    },
+    "cases": 2,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".cd": {
+    "names": {
+      "JHU": "Congo (Kinshasa)",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".ck": {
+    "names": {
+      "JHU": "Cook Islands",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".cr": {
+    "names": {
+      "JHU": "Costa Rica",
+      "wikipedia": "Costa Rica"
+    },
+    "cases": 26,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".ci": {
+    "names": {
+      "JHU": "Cote d'Ivoire",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".hr": {
+    "names": {
+      "JHU": "Croatia",
+      "wikipedia": "Croatia"
+    },
+    "cases": 46,
+    "recovered": 2,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".cu": {
+    "names": {
+      "JHU": "Cuba",
+      "wikipedia": "Cuba"
+    },
+    "cases": 4,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".cw": {
+    "names": {
+      "JHU": "Curaçao",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".cy": {
+    "names": {
+      "JHU": "Cyprus",
+      "wikipedia": "Cyprus"
+    },
+    "cases": 26,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".cz": {
+    "names": {
+      "JHU": "Czechia",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".dk": {
+    "names": {
+      "JHU": "Denmark",
+      "wikipedia": "Denmark"
+    },
+    "cases": 875,
+    "recovered": 1,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".dj": {
+    "names": {
+      "JHU": "Djibouti",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".dm": {
+    "names": {
+      "JHU": "Dominica",
+      "wikipedia": "Dominican Republic"
+    },
+    "cases": 11,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".do": {
+    "names": {
+      "JHU": "Dominican Republic",
+      "wikipedia": "Dominican Republic"
+    },
+    "cases": 11,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".ec": {
+    "names": {
+      "JHU": "Ecuador",
+      "wikipedia": "Ecuador"
+    },
+    "cases": 28,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".eg": {
+    "names": {
+      "JHU": "Egypt",
+      "wikipedia": "Egypt"
+    },
+    "cases": 110,
+    "recovered": 27,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".sv": {
+    "names": {
+      "JHU": "El Salvador",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".gq": {
+    "names": {
+      "JHU": "Equatorial Guinea",
+      "wikipedia": "Equatorial Guinea"
+    },
+    "cases": 1,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".er": {
+    "names": {
+      "JHU": "Eritrea",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".ee": {
+    "names": {
+      "JHU": "Estonia",
+      "wikipedia": "Estonia"
+    },
+    "cases": 135,
+    "recovered": 1,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".et": {
+    "names": {
+      "JHU": "Ethiopia",
+      "wikipedia": "Ethiopia"
+    },
+    "cases": 1,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".fk": {
+    "names": {
+      "JHU": "Falkland Islands (Malvinas)",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".fo": {
+    "names": {
+      "JHU": "Faroe Islands",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".fj": {
+    "names": {
+      "JHU": "Fiji",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".fi": {
+    "names": {
+      "JHU": "Finland",
+      "wikipedia": "Finland"
+    },
+    "cases": 243,
+    "recovered": 10,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".fr": {
+    "names": {
+      "JHU": "France",
+      "wikipedia": "France"
+    },
+    "cases": 4500,
+    "recovered": 12,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1000,
+    "fill": "#900000"
+  },
+  ".gf": {
+    "names": {
+      "JHU": "French Guiana",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".pf": {
+    "names": {
+      "JHU": "French Polynesia",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".tf": {
+    "names": {
+      "JHU": "French Southern Territories",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".ga": {
+    "names": {
+      "JHU": "Gabon",
+      "wikipedia": "Gabon"
+    },
+    "cases": 1,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".gm": {
+    "names": {
+      "JHU": "Gambia",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".ge": {
+    "names": {
+      "JHU": "Georgia",
+      "wikipedia": "Georgia"
+    },
+    "cases": 30,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".de": {
+    "names": {
+      "JHU": "Germany",
+      "wikipedia": "Germany"
+    },
+    "cases": 5620,
+    "recovered": 46,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1000,
+    "fill": "#900000"
+  },
+  ".gh": {
+    "names": {
+      "JHU": "Ghana",
+      "wikipedia": "Ghana"
+    },
+    "cases": 2,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".gi": {
+    "names": {
+      "JHU": "Gibraltar",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".gr": {
+    "names": {
+      "JHU": "Greece",
+      "wikipedia": "Greece"
+    },
+    "cases": 331,
+    "recovered": 8,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".gl": {
+    "names": {
+      "JHU": "Greenland",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".gd": {
+    "names": {
+      "JHU": "Grenada",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".gp": {
+    "names": {
+      "JHU": "Guadeloupe",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".gu": {
+    "names": {
+      "JHU": "Guam",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".gt": {
+    "names": {
+      "JHU": "Guatemala",
+      "wikipedia": "Guatemala"
+    },
+    "cases": 1,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".gg": {
+    "names": {
+      "JHU": "Guernsey",
+      "wikipedia": "Guernsey"
+    },
+    "cases": 1,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".gn": {
+    "names": {
+      "JHU": "Guinea",
+      "wikipedia": "Equatorial Guinea"
+    },
+    "cases": 1,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".gw": {
+    "names": {
+      "JHU": "Guinea-Bissau",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".gy": {
+    "names": {
+      "JHU": "Guyana",
+      "wikipedia": "Guyana"
+    },
+    "cases": 1,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".ht": {
+    "names": {
+      "JHU": "Haiti",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".hm": {
+    "names": {
+      "JHU": "Heard Island and McDonald Islands",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".va": {
+    "names": {
+      "JHU": "Holy See",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".hn": {
+    "names": {
+      "JHU": "Honduras",
+      "wikipedia": "Honduras"
+    },
+    "cases": 3,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".hk": {
+    "names": {
+      "JHU": "Hong Kong",
+      "wikipedia": "Hong Kong"
+    },
+    "cases": 145,
+    "recovered": 84,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".hu": {
+    "names": {
+      "JHU": "Hungary",
+      "wikipedia": "Hungary"
+    },
+    "cases": 32,
+    "recovered": 1,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".is": {
+    "names": {
+      "JHU": "Iceland",
+      "wikipedia": "Iceland"
+    },
+    "cases": 171,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".in": {
+    "names": {
+      "JHU": "India",
+      "wikipedia": "India"
+    },
+    "cases": 107,
+    "recovered": 10,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".id": {
+    "names": {
+      "JHU": "Indonesia",
+      "wikipedia": "Indonesia"
+    },
+    "cases": 117,
+    "recovered": 8,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".ir": {
+    "names": {
+      "JHU": "Iran",
+      "wikipedia": "Iran"
+    },
+    "cases": 13938,
+    "recovered": 4339,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10000,
+    "fill": "#510000"
+  },
+  ".iq": {
+    "names": {
+      "JHU": "Iraq",
+      "wikipedia": "Iraq"
+    },
+    "cases": 110,
+    "recovered": 26,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".ie": {
+    "names": {
+      "JHU": "Ireland",
+      "wikipedia": "Ireland"
+    },
+    "cases": 129,
+    "recovered": 1,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".im": {
+    "names": {
+      "JHU": "Isle of Man",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".il": {
+    "names": {
+      "JHU": "Israel",
+      "wikipedia": "Israel"
+    },
+    "cases": 200,
+    "recovered": 4,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".it": {
+    "names": {
+      "JHU": "Italy",
+      "wikipedia": "Italy"
+    },
+    "cases": 21157,
+    "recovered": 1966,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10000,
+    "fill": "#510000"
+  },
+  ".jm": {
+    "names": {
+      "JHU": "Jamaica",
+      "wikipedia": "Jamaica"
+    },
+    "cases": 8,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".jp": {
+    "names": {
+      "JHU": "Japan",
+      "wikipedia": "Japan"
+    },
+    "cases": 814,
+    "recovered": 144,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".je": {
+    "names": {
+      "JHU": "Jersey",
+      "wikipedia": "Jersey"
+    },
+    "cases": 2,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".jo": {
+    "names": {
+      "JHU": "Jordan",
+      "wikipedia": "Jordan"
+    },
+    "cases": 7,
+    "recovered": 1,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".kz": {
+    "names": {
+      "JHU": "Kazakhstan",
+      "wikipedia": "Kazakhstan"
+    },
+    "cases": 9,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".ke": {
+    "names": {
+      "JHU": "Kenya",
+      "wikipedia": "Kenya"
+    },
+    "cases": 1,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".ki": {
+    "names": {
+      "JHU": "Kiribati",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".kp": {
+    "names": {
+      "JHU": "Korea, North",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".kr": {
+    "names": {
+      "JHU": "Korea, South",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".kw": {
+    "names": {
+      "JHU": "Kuwait",
+      "wikipedia": "Kuwait"
+    },
+    "cases": 112,
+    "recovered": 9,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".kg": {
+    "names": {
+      "JHU": "Kyrgyzstan",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".la": {
+    "names": {
+      "JHU": "Laos",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".lv": {
+    "names": {
+      "JHU": "Latvia",
+      "wikipedia": "Latvia"
+    },
+    "cases": 30,
+    "recovered": 1,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".lb": {
+    "names": {
+      "JHU": "Lebanon",
+      "wikipedia": "Lebanon"
+    },
+    "cases": 110,
+    "recovered": 1,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".ls": {
+    "names": {
+      "JHU": "Lesotho",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".lr": {
+    "names": {
+      "JHU": "Liberia",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".ly": {
+    "names": {
+      "JHU": "Libya",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".li": {
+    "names": {
+      "JHU": "Liechtenstein",
+      "wikipedia": "Liechtenstein"
+    },
+    "cases": 7,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".lt": {
+    "names": {
+      "JHU": "Lithuania",
+      "wikipedia": "Lithuania"
+    },
+    "cases": 9,
+    "recovered": 1,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".lu": {
+    "names": {
+      "JHU": "Luxembourg",
+      "wikipedia": "Luxembourg"
+    },
+    "cases": 51,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".mo": {
+    "names": {
+      "JHU": "Macau",
+      "wikipedia": "Macau"
+    },
+    "cases": 10,
+    "recovered": 10,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".mk": {
+    "names": {
+      "JHU": "North Macedonia",
+      "wikipedia": "North Macedonia"
+    },
+    "cases": 19,
+    "recovered": 1,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".mg": {
+    "names": {
+      "JHU": "Madagascar",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".mw": {
+    "names": {
+      "JHU": "Malawi",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".my": {
+    "names": {
+      "JHU": "Malaysia",
+      "wikipedia": "Malaysia"
+    },
+    "cases": 428,
+    "recovered": 42,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".mv": {
+    "names": {
+      "JHU": "Maldives",
+      "wikipedia": "Maldives"
+    },
+    "cases": 13,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".ml": {
+    "names": {
+      "JHU": "Mali",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".mt": {
+    "names": {
+      "JHU": "Malta",
+      "wikipedia": "Malta"
+    },
+    "cases": 21,
+    "recovered": 2,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".mh": {
+    "names": {
+      "JHU": "Marshall Islands",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".mq": {
+    "names": {
+      "JHU": "Martinique",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".mr": {
+    "names": {
+      "JHU": "Mauritania",
+      "wikipedia": "Mauritania"
+    },
+    "cases": 1,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".mu": {
+    "names": {
+      "JHU": "Mauritius",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".yt": {
+    "names": {
+      "JHU": "Mayotte",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".mx": {
+    "names": {
+      "JHU": "Mexico",
+      "wikipedia": "Mexico"
+    },
+    "cases": 41,
+    "recovered": 4,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".fm": {
+    "names": {
+      "JHU": "Micronesia, Federated States of",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".md": {
+    "names": {
+      "JHU": "Moldova",
+      "wikipedia": "Moldova"
+    },
+    "cases": 12,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".mc": {
+    "names": {
+      "JHU": "Monaco",
+      "wikipedia": "Monaco"
+    },
+    "cases": 2,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".mn": {
+    "names": {
+      "JHU": "Mongolia",
+      "wikipedia": "Mongolia"
+    },
+    "cases": 1,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".me": {
+    "names": {
+      "JHU": "Montenegro",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".ms": {
+    "names": {
+      "JHU": "Montserrat",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".ma": {
+    "names": {
+      "JHU": "Morocco",
+      "wikipedia": "Morocco"
+    },
+    "cases": 28,
+    "recovered": 1,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".mz": {
+    "names": {
+      "JHU": "Mozambique",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".mm": {
+    "names": {
+      "JHU": "Myanmar",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".na": {
+    "names": {
+      "JHU": "Namibia",
+      "wikipedia": "Namibia"
+    },
+    "cases": 2,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".nr": {
+    "names": {
+      "JHU": "Nauru",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".np": {
+    "names": {
+      "JHU": "Nepal",
+      "wikipedia": "Nepal"
+    },
+    "cases": 1,
+    "recovered": 1,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".nl": {
+    "names": {
+      "JHU": "Netherlands",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".nc": {
+    "names": {
+      "JHU": "New Caledonia",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".nz": {
+    "names": {
+      "JHU": "New Zealand",
+      "wikipedia": "New Zealand"
+    },
+    "cases": 8,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".ni": {
+    "names": {
+      "JHU": "Nicaragua",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".ne": {
+    "names": {
+      "JHU": "Niger",
+      "wikipedia": "Nigeria"
+    },
+    "cases": 2,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".ng": {
+    "names": {
+      "JHU": "Nigeria",
+      "wikipedia": "Nigeria"
+    },
+    "cases": 2,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".nu": {
+    "names": {
+      "JHU": "Niue",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".nf": {
+    "names": {
+      "JHU": "Norfolk Island",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".mp": {
+    "names": {
+      "JHU": "Northern Mariana Islands",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".no": {
+    "names": {
+      "JHU": "Norway",
+      "wikipedia": "Norway"
+    },
+    "cases": 1210,
+    "recovered": 1,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1000,
+    "fill": "#900000"
+  },
+  ".om": {
+    "names": {
+      "JHU": "Oman",
+      "wikipedia": "Oman"
+    },
+    "cases": 20,
+    "recovered": 9,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".pk": {
+    "names": {
+      "JHU": "Pakistan",
+      "wikipedia": "Pakistan"
+    },
+    "cases": 53,
+    "recovered": 2,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".pw": {
+    "names": {
+      "JHU": "Palau",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".ps": {
+    "names": {
+      "JHU": "Palestine",
+      "wikipedia": "Palestine"
+    },
+    "cases": 38,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".pa": {
+    "names": {
+      "JHU": "Panama",
+      "wikipedia": "Panama"
+    },
+    "cases": 43,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".pg": {
+    "names": {
+      "JHU": "Papua New Guinea",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".py": {
+    "names": {
+      "JHU": "Paraguay",
+      "wikipedia": "Paraguay"
+    },
+    "cases": 7,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".pe": {
+    "names": {
+      "JHU": "Peru",
+      "wikipedia": "Peru"
+    },
+    "cases": 38,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".ph": {
+    "names": {
+      "JHU": "Philippines",
+      "wikipedia": "Philippines"
+    },
+    "cases": 140,
+    "recovered": 2,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".pn": {
+    "names": {
+      "JHU": "Pitcairn",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".pl": {
+    "names": {
+      "JHU": "Poland",
+      "wikipedia": "Poland"
+    },
+    "cases": 119,
+    "recovered": 13,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".pt": {
+    "names": {
+      "JHU": "Portugal",
+      "wikipedia": "Portugal"
+    },
+    "cases": 245,
+    "recovered": 2,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".pr": {
+    "names": {
+      "JHU": "Puerto Rico",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".qa": {
+    "names": {
+      "JHU": "Qatar",
+      "wikipedia": "Qatar"
+    },
+    "cases": 337,
+    "recovered": 4,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".re": {
+    "names": {
+      "JHU": "Reunion",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".ro": {
+    "names": {
+      "JHU": "Romania",
+      "wikipedia": "Romania"
+    },
+    "cases": 139,
+    "recovered": 9,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".ru": {
+    "names": {
+      "JHU": "Russia",
+      "wikipedia": "Russia"
+    },
+    "cases": 63,
+    "recovered": 8,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".rw": {
+    "names": {
+      "JHU": "Rwanda",
+      "wikipedia": "Rwanda"
+    },
+    "cases": 1,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".bl": {
+    "names": {
+      "JHU": "Saint Barthlemy",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".sh": {
+    "names": {
+      "JHU": "Saint Helena, Ascension and Tristan da Cunha",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".kn": {
+    "names": {
+      "JHU": "Saint Kitts and Nevis",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".lc": {
+    "names": {
+      "JHU": "Saint Lucia",
+      "wikipedia": "Saint Lucia"
+    },
+    "cases": 2,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".mf": {
+    "names": {
+      "JHU": "Saint Martin (French part)",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".pm": {
+    "names": {
+      "JHU": "Saint Pierre and Miquelon",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".vc": {
+    "names": {
+      "JHU": "Saint Vincent and the Grenadines",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".ws": {
+    "names": {
+      "JHU": "Samoa",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".sm": {
+    "names": {
+      "JHU": "San Marino",
+      "wikipedia": "San Marino"
+    },
+    "cases": 101,
+    "recovered": 4,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".st": {
+    "names": {
+      "JHU": "Sao Tome and Principe",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".sa": {
+    "names": {
+      "JHU": "Saudi Arabia",
+      "wikipedia": "Saudi Arabia"
+    },
+    "cases": 103,
+    "recovered": 2,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".sn": {
+    "names": {
+      "JHU": "Senegal",
+      "wikipedia": "Senegal"
+    },
+    "cases": 24,
+    "recovered": 2,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".rs": {
+    "names": {
+      "JHU": "Serbia",
+      "wikipedia": "Serbia"
+    },
+    "cases": 46,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".sc": {
+    "names": {
+      "JHU": "Seychelles",
+      "wikipedia": "Seychelles"
+    },
+    "cases": 2,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".sl": {
+    "names": {
+      "JHU": "Sierra Leone",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".sg": {
+    "names": {
+      "JHU": "Singapore",
+      "wikipedia": "Singapore"
+    },
+    "cases": 226,
+    "recovered": 105,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".sx": {
+    "names": {
+      "JHU": "Sint Maarten (Dutch part)",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".sk": {
+    "names": {
+      "JHU": "Slovakia",
+      "wikipedia": "Slovakia"
+    },
+    "cases": 54,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".si": {
+    "names": {
+      "JHU": "Slovenia",
+      "wikipedia": "Slovenia"
+    },
+    "cases": 219,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".sb": {
+    "names": {
+      "JHU": "Solomon Islands",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".so": {
+    "names": {
+      "JHU": "Somalia",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".za": {
+    "names": {
+      "JHU": "South Africa",
+      "wikipedia": "South Africa"
+    },
+    "cases": 51,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".gs": {
+    "names": {
+      "JHU": "South Georgia and the South Sandwich Islands",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".ss": {
+    "names": {
+      "JHU": "South Sudan",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".es": {
+    "names": {
+      "JHU": "Spain",
+      "wikipedia": "Spain"
+    },
+    "cases": 7753,
+    "recovered": 517,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1000,
+    "fill": "#900000"
+  },
+  ".lk": {
+    "names": {
+      "JHU": "Sri Lanka",
+      "wikipedia": "Sri Lanka"
+    },
+    "cases": 11,
+    "recovered": 1,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".sd": {
+    "names": {
+      "JHU": "Sudan",
+      "wikipedia": "Sudan"
+    },
+    "cases": 1,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".sr": {
+    "names": {
+      "JHU": "Suriname",
+      "wikipedia": "Suriname"
+    },
+    "cases": 1,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".sj": {
+    "names": {
+      "JHU": "Svalbard and Jan Mayen",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".sz": {
+    "names": {
+      "JHU": "Swaziland",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".se": {
+    "names": {
+      "JHU": "Sweden",
+      "wikipedia": "Sweden"
+    },
+    "cases": 1024,
+    "recovered": 1,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1000,
+    "fill": "#900000"
+  },
+  ".ch": {
+    "names": {
+      "JHU": "Switzerland",
+      "wikipedia": "Switzerland"
+    },
+    "cases": 1563,
+    "recovered": 4,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1000,
+    "fill": "#900000"
+  },
+  ".sy": {
+    "names": {
+      "JHU": "Syrian Arab Republic",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".tw": {
+    "names": {
+      "JHU": "Taiwan",
+      "wikipedia": "Taiwan"
+    },
+    "cases": 59,
+    "recovered": 20,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".tj": {
+    "names": {
+      "JHU": "Tajikistan",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".tz": {
+    "names": {
+      "JHU": "Tanzania",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".th": {
+    "names": {
+      "JHU": "Thailand",
+      "wikipedia": "Thailand"
+    },
+    "cases": 114,
+    "recovered": 37,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 100,
+    "fill": "#c80200"
+  },
+  ".tl": {
+    "names": {
+      "JHU": "Timor-Leste",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".tg": {
+    "names": {
+      "JHU": "Togo",
+      "wikipedia": "Togo"
+    },
+    "cases": 1,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".tk": {
+    "names": {
+      "JHU": "Tokelau",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".to": {
+    "names": {
+      "JHU": "Tonga",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".tt": {
+    "names": {
+      "JHU": "Trinidad and Tobago",
+      "wikipedia": "Trinidad and Tobago"
+    },
+    "cases": 2,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".tn": {
+    "names": {
+      "JHU": "Tunisia",
+      "wikipedia": "Tunisia"
+    },
+    "cases": 18,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".tr": {
+    "names": {
+      "JHU": "Turkey",
+      "wikipedia": "Turkey"
+    },
+    "cases": 6,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".tm": {
+    "names": {
+      "JHU": "Turkmenistan",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".tc": {
+    "names": {
+      "JHU": "Turks and Caicos Islands",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".tv": {
+    "names": {
+      "JHU": "Tuvalu",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".ug": {
+    "names": {
+      "JHU": "Uganda",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".ua": {
+    "names": {
+      "JHU": "Ukraine",
+      "wikipedia": "Ukraine"
+    },
+    "cases": 3,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".ae": {
+    "names": {
+      "JHU": "United Arab Emirates",
+      "wikipedia": "United Arab Emirates"
+    },
+    "cases": 86,
+    "recovered": 23,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".gb": {
+    "names": {
+      "JHU": "United Kingdom",
+      "wikipedia": "United Kingdom"
+    },
+    "cases": 1372,
+    "recovered": 19,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1000,
+    "fill": "#900000"
+  },
+  ".us": {
+    "names": {
+      "JHU": "US",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".um": {
+    "names": {
+      "JHU": "United States Minor Outlying Islands",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".uy": {
+    "names": {
+      "JHU": "Uruguay",
+      "wikipedia": "Uruguay"
+    },
+    "cases": 6,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".uz": {
+    "names": {
+      "JHU": "Uzbekistan",
+      "wikipedia": "Uzbekistan"
+    },
+    "cases": 1,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 1,
+    "fill": "#ffC0C0"
+  },
+  ".vu": {
+    "names": {
+      "JHU": "Vanuatu",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".ve": {
+    "names": {
+      "JHU": "Venezuela",
+      "wikipedia": "Venezuela"
+    },
+    "cases": 10,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".vn": {
+    "names": {
+      "JHU": "Vietnam",
+      "wikipedia": "Vietnam"
+    },
+    "cases": 56,
+    "recovered": 16,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from Wikipedia",
+    "threshold met": 10,
+    "fill": "#ee7070"
+  },
+  ".vg": {
+    "names": {
+      "JHU": "Virgin Islands, British",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".vi": {
+    "names": {
+      "JHU": "Virgin Islands, U.S.",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".wf": {
+    "names": {
+      "JHU": "Wallis and Futuna",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".eh": {
+    "names": {
+      "JHU": "Western Sahara",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".ye": {
+    "names": {
+      "JHU": "Yemen",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".zm": {
+    "names": {
+      "JHU": "Zambia",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  },
+  ".zw": {
+    "names": {
+      "JHU": "Zimbabwe",
+      "wikipedia": ""
+    },
+    "cases": 0,
+    "recovered": 0,
+    "population": null,
+    "pcapita": null,
+    "active-pcapita": 0,
+    "updated": "from JHU",
+    "threshold met": 0,
+    "fill": "#e0e0e0"
+  }
+}

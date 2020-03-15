@@ -155,23 +155,23 @@
  *
  */
 
-.ax, .as, .ao, .ai, .aq, .bs, .bb, .bz, .bj, .bm, .bq, .bw, .bv, .io, .bi, .cv, .cf, .td, .cx, .cc, .km, .cg, .ck, .dj, .dm, .sv, .gq, .er, .fk, .fj, .tf, .ga, .gm, .gh, .gl, .gd, .gu, .gt, .gw, .ht, .hm, .im, .ki, .kp, .kg, .la, .ls, .lr, .ly, .mg, .mw, .ml, .mh, .mr, .mu, .yt, .fm, .me, .ms, .mz, .mm, .nr, .nc, .ni, .ne, .nu, .nf, .mp, .pw, .ps, .pg, .pn, .sh, .kn, .pm, .ws, .st, .sc, .sl, .sx, .sb, .so, .gs, .ss, .sr, .sj, .sz, .sy, .tj, .tz, .tl, .tk, .to, .tm, .tc, .tv, .ug, .um, .uz, .vu, .ve, .vg, .wf, .eh, .ye, .zm, .zw
+.ax, .as, .ao, .ai, .aq, .aw, .bs, .bb, .bz, .bj, .bm, .bq, .bw, .bv, .io, .bi, .cv, .ky, .td, .cx, .cc, .km, .cd, .ck, .ci, .cw, .cz, .dj, .sv, .er, .fk, .fo, .fj, .gf, .pf, .tf, .gm, .gi, .gl, .gd, .gp, .gu, .gw, .ht, .hm, .va, .im, .ki, .kp, .kr, .kg, .la, .ls, .lr, .ly, .mg, .mw, .ml, .mh, .mq, .mu, .yt, .fm, .me, .ms, .mz, .mm, .nr, .nl, .nc, .ni, .nu, .nf, .mp, .pw, .pg, .pn, .pr, .re, .bl, .sh, .kn, .mf, .pm, .vc, .ws, .st, .sl, .sx, .sb, .so, .gs, .ss, .sj, .sz, .sy, .tj, .tz, .tl, .tk, .to, .tm, .tc, .tv, .ug, .us, .um, .vu, .vg, .vi, .wf, .eh, .ye, .zm, .zw
 {
    fill:#e0e0e0;
 }
-.ad, .ag, .aw, .bd, .bt, .bf, .kh, .cm, .ky, .cd, .ci, .cu, .cw, .do, .et, .fo, .gf, .pf, .gi, .gp, .gg, .gn, .gy, .va, .hn, .jm, .je, .jo, .kz, .ke, .li, .lt, .mv, .mq, .md, .mc, .mn, .ma, .na, .np, .nz, .ng, .py, .pr, .re, .rw, .bl, .lc, .mf, .vc, .lk, .sd, .tg, .tt, .tr, .ua, .uy, .vi
+.ad, .ag, .bd, .bt, .bf, .kh, .cm, .cf, .cg, .cu, .gq, .et, .ga, .gh, .gt, .gg, .gn, .gy, .hn, .jm, .je, .jo, .kz, .ke, .li, .lt, .mr, .mc, .mn, .na, .np, .nz, .ne, .ng, .py, .rw, .lc, .sc, .sd, .sr, .tg, .tt, .tr, .ua, .uy, .uz
 {
    fill:#ffC0C0;
 }
-.af, .al, .dz, .ar, .am, .az, .by, .bo, .ba, .bn, .bg, .cl, .co, .cr, .hr, .cy, .ec, .eg, .ge, .hu, .in, .id, .ie, .kw, .lv, .lb, .lu, .mo, .mk, .mt, .mx, .om, .pk, .pa, .pe, .ph, .pl, .ru, .sm, .sa, .sn, .rs, .sk, .za, .tw, .th, .tn, .ae, .vn
+.af, .al, .dz, .ar, .am, .az, .by, .bo, .ba, .bn, .bg, .cl, .co, .cr, .hr, .cy, .dm, .do, .ec, .ge, .hu, .lv, .lu, .mo, .mk, .mv, .mt, .mx, .md, .ma, .om, .pk, .ps, .pa, .pe, .ru, .sn, .rs, .sk, .za, .lk, .tw, .tn, .ae, .ve, .vn
 {
    fill:#ee7070;
 }
-.au, .at, .bh, .be, .br, .ca, .cz, .dk, .ee, .fi, .gr, .hk, .is, .iq, .il, .jp, .my, .nl, .pt, .qa, .ro, .sg, .si, .se, .gb
+.au, .at, .bh, .be, .br, .ca, .dk, .eg, .ee, .fi, .gr, .hk, .is, .in, .id, .iq, .ie, .il, .jp, .kw, .lb, .my, .ph, .pl, .pt, .qa, .ro, .sm, .sa, .sg, .si, .th
 {
    fill:#c80200;
 }
-.fr, .de, .kr, .no, .es, .ch, .us
+.fr, .de, .no, .es, .se, .ch, .gb
 {
    fill:#900000;
 }
