@@ -1614,7 +1614,7 @@
       "JHU": "Kenya",
       "wikipedia": "Kenya"
     },
-    "cases": 1,
+    "cases": 3,
     "recovered": 0,
     "population": null,
     "pcapita": null,
@@ -1824,7 +1824,7 @@
       "JHU": "Macau",
       "wikipedia": "Macau"
     },
-    "cases": 10,
+    "cases": 11,
     "recovered": 10,
     "population": null,
     "pcapita": null,
@@ -2245,7 +2245,7 @@
       "wikipedia": "Nigeria"
     },
     "cases": 2,
-    "recovered": 0,
+    "recovered": 1,
     "population": null,
     "pcapita": null,
     "active-pcapita": 0,
@@ -2259,7 +2259,7 @@
       "wikipedia": "Nigeria"
     },
     "cases": 2,
-    "recovered": 0,
+    "recovered": 1,
     "population": null,
     "pcapita": null,
     "active-pcapita": 0,
@@ -2314,7 +2314,7 @@
       "JHU": "Norway",
       "wikipedia": "Norway"
     },
-    "cases": 1210,
+    "cases": 1212,
     "recovered": 1,
     "population": null,
     "pcapita": null,

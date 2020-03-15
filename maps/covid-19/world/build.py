@@ -65,8 +65,8 @@ for place in main:
 with urllib.request.urlopen("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv") as response:
     reader = csv.reader(io.TextIOWrapper(response, encoding = "utf-8"), delimiter = ",")
     for row in reader:
-        if row[1] in ["place/Region", "Cruise Ship"]:
-            if row[1] == "place/Region":
+        if row[1] in ["Country/Region", "Cruise Ship"]:
+            if row[1] == "Country/Region":
                 global date
                 date = row[-1]
             continue
