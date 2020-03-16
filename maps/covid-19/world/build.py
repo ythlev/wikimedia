@@ -2,7 +2,8 @@
 import argparse, json, re, csv, urllib.request, io, datetime, math
 
 parser = argparse.ArgumentParser(description = "This script generates an svg map for the COVID-19 outbreak globally")
-parser.add_argument("-c", "--count", help = "Generate case count map", action = "store_const", const = "count", dest = "type")
+parser.add_argument("type", help = "Generate case count map", default = "count", dest = "type")
+parser.add_argument("-c", "--count", help = "Generate case count map", action = "store_const", const = "count", default = "count", dest = "type")
 parser.add_argument("-p", "--pcapita", help = "(Not yet available) Generate per capita cases map", action = "store_const", const = "pcapita", dest = "type")
 # Only count works for now
 args = vars(parser.parse_args())
