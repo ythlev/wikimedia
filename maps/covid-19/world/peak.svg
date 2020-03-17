@@ -155,27 +155,27 @@
  *
  */
 
-.af, .dz, .ar, .az, .bd, .bj, .bt, .bo, .br, .bf, .kh, .cm, .cf, .co, .cd, .ci, .cu, .do, .eg, .gq, .et, .ga, .gh, .gi, .gt, .gn, .hn, .in, .id, .kz, .ke, .lr, .mr, .mx, .mn, .ma, .na, .np, .ng, .pk, .py, .ph, .ru, .rw, .sn, .so, .za, .lk, .sd, .tz, .tg, .tr, .ua, .uz, .ve, .vn
+.bd, .cd, .ci, .gi, .np, .ng, .sd, .tz
 {
    fill:#fee5d9;
 }
-.ec, .iq, .jm, .jo, .mo, .nz, .om, .pe, .pr, .sr, .tw, .th, .tt, .tn, .uy
+.bj, .cm, .cf, .et, .gh, .gt, .gn, .in, .ke, .lr, .mr, .so, .tg, .tr, .ua, .uz
 {
    fill:#fcbba1;
 }
-.by, .hu, .pl, .sa
+.af, .dz, .ar, .az, .bt, .bo, .br, .bf, .kh, .co, .cu, .do, .eg, .gq, .ga, .hn, .id, .kz, .mx, .mn, .ma, .na, .pk, .py, .ph, .ru, .rw, .sn, .za, .lk, .ve, .vn
 {
    fill:#fc9272;
 }
-.cw, .gy, .jp, .lt, .md
+.by, .ba, .bg, .cr, .cw, .ec, .gy, .hu, .iq, .jm, .jp, .jo, .lt, .mo, .yt, .md, .nz, .om, .pe, .pl, .pr, .ro, .sa, .rs, .sr, .tw, .th, .tt, .tn, .ae, .uy
 {
    fill:#fb6a4a;
 }
-.ba, .bg, .cr, .yt, .rs, .ae
+.al, .ad, .ag, .am, .aw, .au, .ca, .ky, .cl, .cn, .hr, .cy, .cz, .pf, .ge, .gr, .gl, .gp, .gu, .gg, .jg, .hk, .ie, .il, .je, .kw, .lv, .lb, .mk, .my, .mv, .mq, .pa, .pt, .re, .lc, .vc, .sc, .sg, .sk, .gb, .us, .vi
 {
    fill:#de2d26;
 }
-.al, .ad, .ag, .am, .aw, .au, .at, .bh, .be, .bn, .ca, .ky, .cl, .cn, .hr, .cy, .cz, .dk, .ee, .fo, .fi, .fr, .gf, .pf, .ge, .de, .gr, .gl, .gp, .gu, .gg, .jg, .va, .hk, .is, .ir, .ie, .il, .it, .je, .kr, .kw, .lv, .lb, .li, .lu, .mk, .my, .mv, .mt, .mq, .mc, .nl, .no, .pa, .pt, .qa, .re, .ro, .bl, .lc, .mf, .vc, .sm, .sc, .sg, .sk, .si, .es, .se, .ch, .gb, .us, .vi
+.at, .bh, .be, .bn, .dk, .ee, .fo, .fi, .fr, .gf, .de, .va, .is, .ir, .it, .kr, .li, .lu, .mt, .mc, .nl, .no, .qa, .bl, .mf, .sm, .si, .es, .se, .ch
 {
    fill:#a50f15;
 }

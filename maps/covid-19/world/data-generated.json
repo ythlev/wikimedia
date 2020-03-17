@@ -7,8 +7,8 @@
     "active": 20,
     "population": 38.0418,
     "pcapita": 0.5257374782476119,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Åland Islands": {
     "code": ".ax",
@@ -27,8 +27,8 @@
     "active": 51,
     "population": 2.8809,
     "pcapita": 17.702801207955847,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Algeria": {
     "code": ".dz",
@@ -38,8 +38,8 @@
     "active": 42,
     "population": 43.0531,
     "pcapita": 0.975539508188725,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "American Samoa": {
     "code": ".as",
@@ -58,8 +58,8 @@
     "active": 1,
     "population": 0.0771,
     "pcapita": 12.970168612191959,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Angola": {
     "code": ".ao",
@@ -96,8 +96,8 @@
     "active": 1,
     "population": 0.0971,
     "pcapita": 10.298661174047373,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Argentina": {
     "code": ".ar",
@@ -107,8 +107,8 @@
     "active": 55,
     "population": 44.7807,
     "pcapita": 1.2282076876868828,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Armenia": {
     "code": ".am",
@@ -118,8 +118,8 @@
     "active": 52,
     "population": 2.9577,
     "pcapita": 17.58122865740271,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Aruba": {
     "code": ".aw",
@@ -129,8 +129,8 @@
     "active": 2,
     "population": 0.1063,
     "pcapita": 18.81467544684854,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Australia": {
     "code": ".au",
@@ -140,8 +140,8 @@
     "active": 354,
     "population": 25.2032,
     "pcapita": 14.045835449466734,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Austria": {
     "code": ".at",
@@ -151,7 +151,7 @@
     "active": 1012,
     "population": 8.9551,
     "pcapita": 113.00822994718094,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "Azerbaijan": {
@@ -162,8 +162,8 @@
     "active": 9,
     "population": 10.0477,
     "pcapita": 0.8957273803955134,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Bahamas": {
     "code": ".bs",
@@ -182,7 +182,7 @@
     "active": 137,
     "population": 1.6412,
     "pcapita": 83.47550572751645,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "Bangladesh": {
@@ -213,8 +213,8 @@
     "active": 33,
     "population": 9.4524,
     "pcapita": 3.491176843976133,
-    "threshold met": 3.07,
-    "fill": "#fc9272"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "Belgium": {
     "code": ".be",
@@ -224,7 +224,7 @@
     "active": 1057,
     "population": 11.5393,
     "pcapita": 91.60001039924431,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "Belize": {
@@ -244,8 +244,8 @@
     "active": 1,
     "population": 11.8012,
     "pcapita": 0.0847371453750466,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.04,
+    "fill": "#fcbba1"
   },
   "Bermuda": {
     "code": ".bm",
@@ -264,8 +264,8 @@
     "active": 1,
     "population": 0.7631,
     "pcapita": 1.3104442405975625,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Bolivia": {
     "code": ".bo",
@@ -275,8 +275,8 @@
     "active": 11,
     "population": 11.5131,
     "pcapita": 0.9554333758935474,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Bonaire, Sint Eustatius and Saba": {
     "code": ".bq",
@@ -295,8 +295,8 @@
     "active": 25,
     "population": 3.301,
     "pcapita": 7.573462587094819,
-    "threshold met": 6.14,
-    "fill": "#de2d26"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "Botswana": {
     "code": ".bw",
@@ -324,8 +324,8 @@
     "active": 199,
     "population": 211.0495,
     "pcapita": 0.9429067588409354,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "British Indian Ocean Territory": {
     "code": ".io",
@@ -344,7 +344,7 @@
     "active": 54,
     "population": 0.4333,
     "pcapita": 124.62497115162704,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "Bulgaria": {
@@ -355,8 +355,8 @@
     "active": 52,
     "population": 7.0001,
     "pcapita": 7.428465307638462,
-    "threshold met": 6.14,
-    "fill": "#de2d26"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "Burkina Faso": {
     "code": ".bf",
@@ -366,8 +366,8 @@
     "active": 15,
     "population": 20.3214,
     "pcapita": 0.7381381204050902,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Burundi": {
     "code": ".bi",
@@ -386,8 +386,8 @@
     "active": 6,
     "population": 16.4865,
     "pcapita": 0.36393412792284596,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Cameroon": {
     "code": ".cm",
@@ -397,8 +397,8 @@
     "active": 4,
     "population": 25.8764,
     "pcapita": 0.15458100817733533,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.04,
+    "fill": "#fcbba1"
   },
   "Canada": {
     "code": ".ca",
@@ -408,8 +408,8 @@
     "active": 406,
     "population": 37.411,
     "pcapita": 10.852423084119643,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Cape Verde": {
     "code": ".cv",
@@ -428,8 +428,8 @@
     "active": 1,
     "population": 0.0649,
     "pcapita": 15.408320493066256,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Central African Republic": {
     "code": ".cf",
@@ -439,8 +439,8 @@
     "active": 1,
     "population": 4.7452,
     "pcapita": 0.21073927337098544,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.04,
+    "fill": "#fcbba1"
   },
   "Chad": {
     "code": ".td",
@@ -459,8 +459,8 @@
     "active": 155,
     "population": 18.952,
     "pcapita": 8.178556352891516,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "China": {
     "code": ".cn",
@@ -470,8 +470,8 @@
     "active": 13051,
     "population": 1433.7837,
     "pcapita": 9.10248875056956,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Christmas Island": {
     "code": ".cx",
@@ -499,8 +499,8 @@
     "active": 54,
     "population": 50.3394,
     "pcapita": 1.0727183875850725,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Comoros": {
     "code": ".km",
@@ -548,8 +548,8 @@
     "active": 35,
     "population": 5.0476,
     "pcapita": 6.933988430145019,
-    "threshold met": 6.14,
-    "fill": "#de2d26"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "Cote d'Ivoire": {
     "code": ".ci",
@@ -570,8 +570,8 @@
     "active": 55,
     "population": 4.1303,
     "pcapita": 13.316224003099048,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Cuba": {
     "code": ".cu",
@@ -581,8 +581,8 @@
     "active": 4,
     "population": 11.3335,
     "pcapita": 0.3529359862354965,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Curacao": {
     "code": ".cw",
@@ -592,7 +592,7 @@
     "active": 1,
     "population": 0.1634,
     "pcapita": 6.119951040391677,
-    "threshold met": 4.61,
+    "threshold met": 1.4,
     "fill": "#fb6a4a"
   },
   "Cyprus": {
@@ -603,8 +603,8 @@
     "active": 33,
     "population": 1.1986,
     "pcapita": 27.532120807608873,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Czechia": {
     "code": ".cz",
@@ -614,8 +614,8 @@
     "active": 295,
     "population": 10.6892,
     "pcapita": 27.597949332036073,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Denmark": {
     "code": ".dk",
@@ -625,7 +625,7 @@
     "active": 913,
     "population": 5.7719,
     "pcapita": 158.18014865122404,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "Djibouti": {
@@ -654,8 +654,8 @@
     "active": 11,
     "population": 10.739,
     "pcapita": 1.0243039389142377,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Ecuador": {
     "code": ".ec",
@@ -665,8 +665,8 @@
     "active": 37,
     "population": 17.3737,
     "pcapita": 2.1296557440268913,
-    "threshold met": 1.54,
-    "fill": "#fcbba1"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "Egypt": {
     "code": ".eg",
@@ -676,8 +676,8 @@
     "active": 123,
     "population": 100.3881,
     "pcapita": 1.2252448248348162,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "El Salvador": {
     "code": ".sv",
@@ -696,8 +696,8 @@
     "active": 1,
     "population": 1.356,
     "pcapita": 0.7374631268436578,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Eritrea": {
     "code": ".er",
@@ -716,7 +716,7 @@
     "active": 204,
     "population": 1.3256,
     "pcapita": 153.8925769462885,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "Ethiopia": {
@@ -727,8 +727,8 @@
     "active": 5,
     "population": 112.0787,
     "pcapita": 0.04461150959102845,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.04,
+    "fill": "#fcbba1"
   },
   "Falkland Islands (Malvinas)": {
     "code": ".fk",
@@ -747,7 +747,7 @@
     "active": 18,
     "population": 0.0487,
     "pcapita": 369.60985626283366,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "Fiji": {
@@ -767,7 +767,7 @@
     "active": 267,
     "population": 5.5322,
     "pcapita": 48.26289721991252,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "France": {
@@ -778,7 +778,7 @@
     "active": 6621,
     "population": 65.1297,
     "pcapita": 101.6586902749437,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "French Guiana": {
@@ -789,7 +789,7 @@
     "active": 16,
     "population": 0.2908,
     "pcapita": 55.02063273727648,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "French Polynesia": {
@@ -800,8 +800,8 @@
     "active": 3,
     "population": 0.2793,
     "pcapita": 10.741138560687434,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "French Southern Territories": {
     "code": ".tf",
@@ -820,8 +820,8 @@
     "active": 1,
     "population": 2.1726,
     "pcapita": 0.4602780079167817,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Gambia": {
     "code": ".gm",
@@ -840,8 +840,8 @@
     "active": 153,
     "population": 3.9968,
     "pcapita": 38.28062449959968,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Germany": {
     "code": ".de",
@@ -851,7 +851,7 @@
     "active": 7205,
     "population": 83.517,
     "pcapita": 86.26986122585821,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "Ghana": {
@@ -862,8 +862,8 @@
     "active": 6,
     "population": 30.4179,
     "pcapita": 0.19725227579813204,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.04,
+    "fill": "#fcbba1"
   },
   "Gibraltar": {
     "code": ".gi",
@@ -884,8 +884,8 @@
     "active": 323,
     "population": 10.4735,
     "pcapita": 30.839738387358572,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Greenland": {
     "code": ".gl",
@@ -895,8 +895,8 @@
     "active": 1,
     "population": 0.0567,
     "pcapita": 17.636684303350968,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Grenada": {
     "code": ".gd",
@@ -915,8 +915,8 @@
     "active": 9,
     "population": 0.4001,
     "pcapita": 22.494376405898524,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Guam": {
     "code": ".gu",
@@ -926,8 +926,8 @@
     "active": 6,
     "population": 0.1673,
     "pcapita": 35.86371787208607,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Guatemala": {
     "code": ".gt",
@@ -937,8 +937,8 @@
     "active": 2,
     "population": 17.5815,
     "pcapita": 0.1137559366379433,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.04,
+    "fill": "#fcbba1"
   },
   "Guernsey": {
     "code": ".gg",
@@ -948,8 +948,8 @@
     "active": 1,
     "population": 0.063,
     "pcapita": 15.873015873015873,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Channel Islands": {
     "code": ".jg",
@@ -959,8 +959,8 @@
     "active": 6,
     "population": 0.1723,
     "pcapita": 34.82298316889147,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Guinea": {
     "code": ".gn",
@@ -970,8 +970,8 @@
     "active": 1,
     "population": 12.7712,
     "pcapita": 0.07830117764971185,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.04,
+    "fill": "#fcbba1"
   },
   "Guinea-Bissau": {
     "code": ".gw",
@@ -990,7 +990,7 @@
     "active": 4,
     "population": 0.7828,
     "pcapita": 5.109862033725089,
-    "threshold met": 4.61,
+    "threshold met": 1.4,
     "fill": "#fb6a4a"
   },
   "Haiti": {
@@ -1019,7 +1019,7 @@
     "active": 1,
     "population": 0.0008,
     "pcapita": 1250.0,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "Honduras": {
@@ -1030,8 +1030,8 @@
     "active": 6,
     "population": 9.7461,
     "pcapita": 0.615630867731708,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Hong Kong": {
     "code": ".hk",
@@ -1041,8 +1041,8 @@
     "active": 71,
     "population": 7.4362,
     "pcapita": 9.547887361824587,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Hungary": {
     "code": ".hu",
@@ -1052,8 +1052,8 @@
     "active": 38,
     "population": 9.6847,
     "pcapita": 3.9237147252883418,
-    "threshold met": 3.07,
-    "fill": "#fc9272"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "Iceland": {
     "code": ".is",
@@ -1063,7 +1063,7 @@
     "active": 180,
     "population": 0.339,
     "pcapita": 530.9734513274336,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "India": {
@@ -1074,8 +1074,8 @@
     "active": 106,
     "population": 1366.4178,
     "pcapita": 0.0775751018465948,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.04,
+    "fill": "#fcbba1"
   },
   "Indonesia": {
     "code": ".id",
@@ -1085,8 +1085,8 @@
     "active": 126,
     "population": 270.6256,
     "pcapita": 0.4655878822993833,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Iran": {
     "code": ".ir",
@@ -1096,7 +1096,7 @@
     "active": 10401,
     "population": 41.8899,
     "pcapita": 248.2937414508032,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "Iraq": {
@@ -1107,8 +1107,8 @@
     "active": 98,
     "population": 39.3098,
     "pcapita": 2.4930170084813454,
-    "threshold met": 1.54,
-    "fill": "#fcbba1"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "Ireland": {
     "code": ".ie",
@@ -1118,8 +1118,8 @@
     "active": 169,
     "population": 4.8825,
     "pcapita": 34.613415258576545,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Isle of Man": {
     "code": ".im",
@@ -1138,8 +1138,8 @@
     "active": 251,
     "population": 8.5194,
     "pcapita": 29.462168697326106,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Italy": {
     "code": ".it",
@@ -1149,7 +1149,7 @@
     "active": 25231,
     "population": 60.5501,
     "pcapita": 416.69625648842856,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "Jamaica": {
@@ -1160,8 +1160,8 @@
     "active": 8,
     "population": 2.9483,
     "pcapita": 2.7134280771970287,
-    "threshold met": 1.54,
-    "fill": "#fcbba1"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "Japan": {
     "code": ".jp",
@@ -1171,7 +1171,7 @@
     "active": 681,
     "population": 126.8603,
     "pcapita": 5.36810964501897,
-    "threshold met": 4.61,
+    "threshold met": 1.4,
     "fill": "#fb6a4a"
   },
   "Jersey": {
@@ -1182,8 +1182,8 @@
     "active": 2,
     "population": 0.1068,
     "pcapita": 18.726591760299623,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Jordan": {
     "code": ".jo",
@@ -1193,8 +1193,8 @@
     "active": 16,
     "population": 10.1017,
     "pcapita": 1.5838918201886811,
-    "threshold met": 1.54,
-    "fill": "#fcbba1"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "Kazakhstan": {
     "code": ".kz",
@@ -1204,8 +1204,8 @@
     "active": 10,
     "population": 18.5514,
     "pcapita": 0.5390428754703149,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Kenya": {
     "code": ".ke",
@@ -1215,8 +1215,8 @@
     "active": 3,
     "population": 52.574,
     "pcapita": 0.05706242629436604,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.04,
+    "fill": "#fcbba1"
   },
   "Kiribati": {
     "code": ".ki",
@@ -1244,7 +1244,7 @@
     "active": 7099,
     "population": 51.2253,
     "pcapita": 138.5838638329107,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "Kuwait": {
@@ -1255,8 +1255,8 @@
     "active": 114,
     "population": 4.2071,
     "pcapita": 27.097050224620286,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Kyrgyzstan": {
     "code": ".kg",
@@ -1284,8 +1284,8 @@
     "active": 33,
     "population": 1.9067,
     "pcapita": 17.30738973094876,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Lebanon": {
     "code": ".lb",
@@ -1295,8 +1295,8 @@
     "active": 98,
     "population": 6.8557,
     "pcapita": 14.294674504426974,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Lesotho": {
     "code": ".ls",
@@ -1315,8 +1315,8 @@
     "active": 1,
     "population": 4.9374,
     "pcapita": 0.20253574755944423,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.04,
+    "fill": "#fcbba1"
   },
   "Libya": {
     "code": ".ly",
@@ -1335,7 +1335,7 @@
     "active": 4,
     "population": 0.038,
     "pcapita": 105.26315789473685,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "Lithuania": {
@@ -1346,7 +1346,7 @@
     "active": 16,
     "population": 2.7596,
     "pcapita": 5.797941730685607,
-    "threshold met": 4.61,
+    "threshold met": 1.4,
     "fill": "#fb6a4a"
   },
   "Luxembourg": {
@@ -1357,7 +1357,7 @@
     "active": 77,
     "population": 0.6157,
     "pcapita": 125.06090628552866,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "Macau": {
@@ -1368,8 +1368,8 @@
     "active": 1,
     "population": 0.6404,
     "pcapita": 1.5615240474703311,
-    "threshold met": 1.54,
-    "fill": "#fcbba1"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "North Macedonia": {
     "code": ".mk",
@@ -1379,8 +1379,8 @@
     "active": 17,
     "population": 2.0835,
     "pcapita": 8.159347252219822,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Madagascar": {
     "code": ".mg",
@@ -1408,8 +1408,8 @@
     "active": 524,
     "population": 31.9498,
     "pcapita": 16.400728643058798,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Maldives": {
     "code": ".mv",
@@ -1419,8 +1419,8 @@
     "active": 13,
     "population": 0.531,
     "pcapita": 24.482109227871938,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Mali": {
     "code": ".ml",
@@ -1439,7 +1439,7 @@
     "active": 28,
     "population": 0.4404,
     "pcapita": 63.57856494096276,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "Marshall Islands": {
@@ -1459,8 +1459,8 @@
     "active": 15,
     "population": 0.3756,
     "pcapita": 39.936102236421725,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Mauritania": {
     "code": ".mr",
@@ -1470,8 +1470,8 @@
     "active": 1,
     "population": 4.5257,
     "pcapita": 0.2209602934352697,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.04,
+    "fill": "#fcbba1"
   },
   "Mauritius": {
     "code": ".mu",
@@ -1490,8 +1490,8 @@
     "active": 2,
     "population": 0.2662,
     "pcapita": 7.513148009015778,
-    "threshold met": 6.14,
-    "fill": "#de2d26"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "Mexico": {
     "code": ".mx",
@@ -1501,8 +1501,8 @@
     "active": 49,
     "population": 127.5755,
     "pcapita": 0.38408628615996016,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Micronesia, Federated States of": {
     "code": ".fm",
@@ -1521,7 +1521,7 @@
     "active": 23,
     "population": 4.0433,
     "pcapita": 5.688422822941656,
-    "threshold met": 4.61,
+    "threshold met": 1.4,
     "fill": "#fb6a4a"
   },
   "Monaco": {
@@ -1532,7 +1532,7 @@
     "active": 7,
     "population": 0.039,
     "pcapita": 179.48717948717947,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "Mongolia": {
@@ -1543,8 +1543,8 @@
     "active": 1,
     "population": 3.2252,
     "pcapita": 0.31005829095870024,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Montenegro": {
     "code": ".me",
@@ -1572,8 +1572,8 @@
     "active": 28,
     "population": 36.4718,
     "pcapita": 0.7677164274864415,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Mozambique": {
     "code": ".mz",
@@ -1601,8 +1601,8 @@
     "active": 2,
     "population": 2.4945,
     "pcapita": 0.8017638805371818,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Nauru": {
     "code": ".nr",
@@ -1632,7 +1632,7 @@
     "active": 1411,
     "population": 17.0971,
     "pcapita": 82.52861596411087,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "New Caledonia": {
@@ -1652,8 +1652,8 @@
     "active": 8,
     "population": 4.7831,
     "pcapita": 1.672555455666827,
-    "threshold met": 1.54,
-    "fill": "#fcbba1"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "Nicaragua": {
     "code": ".ni",
@@ -1719,7 +1719,7 @@
     "active": 1332,
     "population": 5.3789,
     "pcapita": 247.63427466582388,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "Oman": {
@@ -1730,8 +1730,8 @@
     "active": 13,
     "population": 4.975,
     "pcapita": 2.613065326633166,
-    "threshold met": 1.54,
-    "fill": "#fcbba1"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "Pakistan": {
     "code": ".pk",
@@ -1741,8 +1741,8 @@
     "active": 134,
     "population": 216.5653,
     "pcapita": 0.618751018745847,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Palau": {
     "code": ".pw",
@@ -1770,8 +1770,8 @@
     "active": 55,
     "population": 4.2464,
     "pcapita": 12.952147701582517,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Papua New Guinea": {
     "code": ".pg",
@@ -1790,8 +1790,8 @@
     "active": 8,
     "population": 7.0446,
     "pcapita": 1.135621610879255,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Peru": {
     "code": ".pe",
@@ -1801,8 +1801,8 @@
     "active": 86,
     "population": 32.5105,
     "pcapita": 2.6452992110241307,
-    "threshold met": 1.54,
-    "fill": "#fcbba1"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "Philippines": {
     "code": ".ph",
@@ -1812,8 +1812,8 @@
     "active": 140,
     "population": 108.1166,
     "pcapita": 1.2948982857396552,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Pitcairn": {
     "code": ".pn",
@@ -1832,8 +1832,8 @@
     "active": 164,
     "population": 37.8878,
     "pcapita": 4.328570146590724,
-    "threshold met": 3.07,
-    "fill": "#fc9272"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "Portugal": {
     "code": ".pt",
@@ -1843,8 +1843,8 @@
     "active": 328,
     "population": 10.2262,
     "pcapita": 32.07447536719407,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Puerto Rico": {
     "code": ".pr",
@@ -1854,8 +1854,8 @@
     "active": 8,
     "population": 2.9334,
     "pcapita": 2.7272107452103365,
-    "threshold met": 1.54,
-    "fill": "#fcbba1"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "Qatar": {
     "code": ".qa",
@@ -1865,7 +1865,7 @@
     "active": 435,
     "population": 2.8321,
     "pcapita": 153.59627131810316,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "Reunion": {
@@ -1876,8 +1876,8 @@
     "active": 9,
     "population": 0.8889,
     "pcapita": 10.12487343908201,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Romania": {
     "code": ".ro",
@@ -1887,8 +1887,8 @@
     "active": 149,
     "population": 19.3646,
     "pcapita": 7.694452764322527,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "Russia": {
     "code": ".ru",
@@ -1898,8 +1898,8 @@
     "active": 82,
     "population": 145.8723,
     "pcapita": 0.5621355116769942,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Rwanda": {
     "code": ".rw",
@@ -1909,8 +1909,8 @@
     "active": 5,
     "population": 12.627,
     "pcapita": 0.3959768749505029,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Saint Barthelemy": {
     "code": ".bl",
@@ -1920,7 +1920,7 @@
     "active": 3,
     "population": 0.0098,
     "pcapita": 306.12244897959187,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "Saint Helena, Ascension and Tristan da Cunha": {
@@ -1949,8 +1949,8 @@
     "active": 2,
     "population": 0.1828,
     "pcapita": 10.940919037199125,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "St Martin": {
     "code": ".mf",
@@ -1960,7 +1960,7 @@
     "active": 2,
     "population": 0.038,
     "pcapita": 52.631578947368425,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "Saint Pierre and Miquelon": {
@@ -1980,8 +1980,8 @@
     "active": 1,
     "population": 0.1106,
     "pcapita": 9.041591320072332,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Samoa": {
     "code": ".ws",
@@ -2000,7 +2000,7 @@
     "active": 105,
     "population": 0.0339,
     "pcapita": 3097.3451327433627,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "Sao Tome and Principe": {
@@ -2020,8 +2020,8 @@
     "active": 116,
     "population": 34.2685,
     "pcapita": 3.3850329019361802,
-    "threshold met": 3.07,
-    "fill": "#fc9272"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "Senegal": {
     "code": ".sn",
@@ -2031,8 +2031,8 @@
     "active": 22,
     "population": 16.2964,
     "pcapita": 1.3499914091455782,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Serbia": {
     "code": ".rs",
@@ -2042,8 +2042,8 @@
     "active": 54,
     "population": 8.7722,
     "pcapita": 6.155810401039648,
-    "threshold met": 6.14,
-    "fill": "#de2d26"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "Seychelles": {
     "code": ".sc",
@@ -2053,8 +2053,8 @@
     "active": 3,
     "population": 0.0977,
     "pcapita": 30.706243602865918,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Sierra Leone": {
     "code": ".sl",
@@ -2073,8 +2073,8 @@
     "active": 134,
     "population": 5.8043,
     "pcapita": 23.08633254656031,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Sint Maarten (Dutch part)": {
     "code": ".sx",
@@ -2093,8 +2093,8 @@
     "active": 63,
     "population": 5.457,
     "pcapita": 11.54480483782298,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Slovenia": {
     "code": ".si",
@@ -2104,7 +2104,7 @@
     "active": 253,
     "population": 2.0787,
     "pcapita": 121.71068456246692,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "Solomon Islands": {
@@ -2124,8 +2124,8 @@
     "active": 1,
     "population": 15.4429,
     "pcapita": 0.06475467690653958,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.04,
+    "fill": "#fcbba1"
   },
   "South Africa": {
     "code": ".za",
@@ -2135,8 +2135,8 @@
     "active": 62,
     "population": 58.5583,
     "pcapita": 1.058773905663245,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "South Georgia and the South Sandwich Islands": {
     "code": ".gs",
@@ -2164,7 +2164,7 @@
     "active": 9412,
     "population": 46.7368,
     "pcapita": 201.38306430906692,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "Sri Lanka": {
@@ -2175,8 +2175,8 @@
     "active": 27,
     "population": 21.3237,
     "pcapita": 1.2661967669775884,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Sudan": {
     "code": ".sd",
@@ -2197,8 +2197,8 @@
     "active": 1,
     "population": 0.5814,
     "pcapita": 1.719986240110079,
-    "threshold met": 1.54,
-    "fill": "#fcbba1"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "Svalbard and Jan Mayen": {
     "code": ".sj",
@@ -2226,7 +2226,7 @@
     "active": 1102,
     "population": 10.0364,
     "pcapita": 109.8003268104101,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "Switzerland": {
@@ -2237,7 +2237,7 @@
     "active": 2196,
     "population": 8.5914,
     "pcapita": 255.60444165095328,
-    "threshold met": 7.68,
+    "threshold met": 44.15,
     "fill": "#a50f15"
   },
   "Syrian Arab Republic": {
@@ -2257,8 +2257,8 @@
     "active": 47,
     "population": 23.5907,
     "pcapita": 1.9923105291491987,
-    "threshold met": 1.54,
-    "fill": "#fcbba1"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "Tajikistan": {
     "code": ".tj",
@@ -2288,8 +2288,8 @@
     "active": 112,
     "population": 69.6256,
     "pcapita": 1.608603731960658,
-    "threshold met": 1.54,
-    "fill": "#fcbba1"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "Timor-Leste": {
     "code": ".tl",
@@ -2308,8 +2308,8 @@
     "active": 1,
     "population": 8.0824,
     "pcapita": 0.12372562605166783,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.04,
+    "fill": "#fcbba1"
   },
   "Tokelau": {
     "code": ".tk",
@@ -2337,8 +2337,8 @@
     "active": 4,
     "population": 1.395,
     "pcapita": 2.867383512544803,
-    "threshold met": 1.54,
-    "fill": "#fcbba1"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "Tunisia": {
     "code": ".tn",
@@ -2348,8 +2348,8 @@
     "active": 20,
     "population": 11.6947,
     "pcapita": 1.7101764046961445,
-    "threshold met": 1.54,
-    "fill": "#fcbba1"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "Turkey": {
     "code": ".tr",
@@ -2359,8 +2359,8 @@
     "active": 18,
     "population": 83.4296,
     "pcapita": 0.2157507647165994,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.04,
+    "fill": "#fcbba1"
   },
   "Turkmenistan": {
     "code": ".tm",
@@ -2406,8 +2406,8 @@
     "active": 7,
     "population": 43.9936,
     "pcapita": 0.1591140529531568,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.04,
+    "fill": "#fcbba1"
   },
   "United Arab Emirates": {
     "code": ".ae",
@@ -2417,8 +2417,8 @@
     "active": 75,
     "population": 9.7705,
     "pcapita": 7.6761680569059925,
-    "threshold met": 6.14,
-    "fill": "#de2d26"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "United Kingdom": {
     "code": ".gb",
@@ -2428,8 +2428,8 @@
     "active": 1523,
     "population": 67.5302,
     "pcapita": 22.552872640685205,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "US": {
     "code": ".us",
@@ -2439,8 +2439,8 @@
     "active": 4485,
     "population": 329.0649,
     "pcapita": 13.62953022336931,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "United States Minor Outlying Islands": {
     "code": ".um",
@@ -2459,8 +2459,8 @@
     "active": 8,
     "population": 3.4617,
     "pcapita": 2.311003264292111,
-    "threshold met": 1.54,
-    "fill": "#fcbba1"
+    "threshold met": 1.4,
+    "fill": "#fb6a4a"
   },
   "Uzbekistan": {
     "code": ".uz",
@@ -2470,8 +2470,8 @@
     "active": 6,
     "population": 32.9817,
     "pcapita": 0.18191906420833373,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.04,
+    "fill": "#fcbba1"
   },
   "Vanuatu": {
     "code": ".vu",
@@ -2490,8 +2490,8 @@
     "active": 17,
     "population": 28.5158,
     "pcapita": 0.5961607249314416,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Vietnam": {
     "code": ".vn",
@@ -2501,8 +2501,8 @@
     "active": 45,
     "population": 96.4621,
     "pcapita": 0.4665044613376652,
-    "threshold met": 0,
-    "fill": "#fee5d9"
+    "threshold met": 0.25,
+    "fill": "#fc9272"
   },
   "Virgin Islands, British": {
     "code": ".vg",
@@ -2521,8 +2521,8 @@
     "active": 1,
     "population": 0.1046,
     "pcapita": 9.560229445506693,
-    "threshold met": 7.68,
-    "fill": "#a50f15"
+    "threshold met": 7.87,
+    "fill": "#de2d26"
   },
   "Wallis and Futuna": {
     "code": ".wf",

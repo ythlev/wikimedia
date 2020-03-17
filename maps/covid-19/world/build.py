@@ -1,5 +1,5 @@
 # Created by Chang Chia-huan
-import json, csv, urllib.request, io, datetime, math
+import json, csv, urllib.request, io, math
 
 with open("data.json", newline = "", encoding = "utf-8") as file:
     main = json.loads(file.read())
@@ -48,12 +48,18 @@ for place in main:
             main[place]["pcapita"] = main[place]["active"] / main[place]["population"]
             list.append(main[place]["pcapita"])
 
-high = list[-8]
-step = high / 5
+list.sort()
+high = list[-9]
+if list[8] > 0:
+    low = list[8]
+else:
+    low = 1
+
+step = math.log(high / low) / 5
 
 thresholds = [0, 0, 0, 0, 0, 0]
 for i in range(5):
-    thresholds[i + 1] = round(step * (i + 1), 2)
+    thresholds[i + 1] = round(low * math.exp(step * i), 2)
 
 colours = ["#fee5d9","#fcbba1","#fc9272","#fb6a4a","#de2d26","#a50f15"]
 
@@ -85,6 +91,7 @@ with open("template.svg", "r", newline = "", encoding = "utf-8") as file_in:
             else:
                 file_out.write(row)
 
+print("Number of data figures:", len(list))
 print("Colours:", colours)
 print("Thresholds:", thresholds, "Max:", max(list))
 
