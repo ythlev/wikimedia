@@ -50,10 +50,7 @@ for place in main:
 
 list.sort()
 high = list[-9]
-if list[8] > 0:
-    low = list[8]
-else:
-    low = 1
+low = list[8]
 
 step = math.log(high / low) / 5
 
