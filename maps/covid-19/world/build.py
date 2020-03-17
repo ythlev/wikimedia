@@ -1,126 +1,92 @@
 # Created by Chang Chia-huan
-import argparse, json, re, csv, urllib.request, io, datetime, math
-
-parser = argparse.ArgumentParser(description = "This script generates an svg map for the COVID-19 outbreak globally")
-parser.add_argument("type", help = "Generate case count map", default = "count", dest = "type")
-parser.add_argument("-c", "--count", help = "Generate case count map", action = "store_const", const = "count", default = "count", dest = "type")
-parser.add_argument("-p", "--pcapita", help = "(Not yet available) Generate per capita cases map", action = "store_const", const = "pcapita", dest = "type")
-# Only count works for now
-args = vars(parser.parse_args())
-
-def get_value(count, pcapita):
-    if args["type"] == "count":
-        return count
-    elif args["type"] == "pcapita":
-        return pcapita
+import json, csv, urllib.request, io, datetime, math
 
 with open("data.json", newline = "", encoding = "utf-8") as file:
     main = json.loads(file.read())
 
-# fetch figures from Wikipedia; credits: Dan Polansky
-def grabFromTemplate():
-    url="https://en.wikipedia.org/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data"
-    allLines = []
-    for line in urllib.request.urlopen(url):
-      allLines.append((line.decode()).rstrip())
-    allLines = " ".join(allLines)
-    allLines = re.sub("^.*jquery-tablesorter", "", allLines)
-    allLines = re.sub("</table.*", "", allLines)
-    allLines = re.sub("<(th|td)[^>]*>", r"<td>", allLines)
-    allLines = re.sub("</?(span|img|a|sup)[^>]*>", "", allLines)
-    allLines = re.sub("</(th|td|tr)[^>]*>", "", allLines)
-    allLines = re.sub("&#91.*?&#93", "", allLines)
-    allLines = re.sub(",", "", allLines)
-    allLines = re.sub("<small>.*?</small>;?", "", allLines)
-    allLines = re.sub("</?i>", "", allLines)
+source = {}
+territories = []
+for dataset in ["Confirmed", "Recovered"]:
+    with urllib.request.urlopen("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-{}.csv".format(dataset)) as response:
+        reader = csv.DictReader(io.TextIOWrapper(response, encoding = "utf-8"), delimiter = ",")
+        for row in reader:
+            row["Country/Region"] = row["Country/Region"].replace("*", "")
+            if row["Province/State"] in main:
+                row["Country/Region"] = row["Province/State"]
+            elif row["Province/State"] != "":
+                territories.append(row["Province/State"] + ", " + row["Country/Region"])
+            if row["Country/Region"] not in source:
+                source[row["Country/Region"]] = {}
+            for col in row:
+                if col not in ["Province/State", "Country/Region", "Lat", "Long"]:
+                    if col not in source[row["Country/Region"]]:
+                        source[row["Country/Region"]][col] = {}
+                    if dataset not in source[row["Country/Region"]][col]:
+                        source[row["Country/Region"]][col][dataset] = 0
+                    source[row["Country/Region"]][col][dataset] += int(row[col])
 
-    outData = {}
-    rows = allLines.split("<tr> ")
-    for row in rows:
-        try:
-            cols = row.split("<td>")
-            cols.pop(0)
-            cols.pop(0)
-            place = cols.pop(0)
-            cols = cols[0:3]
-            cols = [int(col) for col in cols]
-        except:
-            continue
-        outData[(place.rstrip()).replace(";", "")] = cols
-    #for key, value in outData.items():
-    #  print key, value
-    return outData
-template = grabFromTemplate()
+with open("territories.json", "w", newline = "", encoding = "utf-8") as file:
+    file.write(json.dumps(territories, indent = 2, ensure_ascii = False))
 
+for place in source:
+    for date in source[place]:
+        source[place][date]["Active"] = source[place][date]["Confirmed"] - source[place][date]["Recovered"]
+
+list = []
 for place in main:
-    for place2 in template:
-        place2 = place2.replace(";", "")
-        if place2.find(main[place]["names"]["JHU"]) > -1:
-            main[place]["names"]["wikipedia"] = place2
-            main[place]["cases"] = template[place2][0]
-            main[place]["recovered"] = template[place2][2]
-            main[place]["updated"] = "from Wikipedia"
-            break
+    if place in source:
+        peak, peak_date = 0, ""
+        for date in source[place]:
+            if source[place][date]["Active"] > peak:
+                peak = source[place][date]["Active"]
+                peak_date = date
+        main[place]["date"] = peak_date
+        main[place]["cases"] = source[place][date]["Confirmed"]
+        main[place]["recovered"] = source[place][date]["Recovered"]
+        main[place]["active"] = source[place][date]["Active"]
+        if main[place]["active"] != None and main[place]["population"] != None:
+            main[place]["pcapita"] = main[place]["active"] / main[place]["population"]
+            list.append(main[place]["pcapita"])
 
-with urllib.request.urlopen("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv") as response:
-    reader = csv.reader(io.TextIOWrapper(response, encoding = "utf-8"), delimiter = ",")
-    for row in reader:
-        if row[1] in ["Country/Region", "Cruise Ship"]:
-            if row[1] == "Country/Region":
-                global date
-                date = row[-1]
-            continue
-        row[1] = row[1].replace("*", "")
-        for place in main:
-            if main[place]["updated"] != None:
-                continue
-            else:
-                if main[place]["names"]["JHU"] == row[0]:
-                    main[place]["cases"] = int(row[-1])
-                    main[place]["updated"] = "from JHU"
-                    break
-                elif main[place]["names"]["JHU"] == row[1]:
-                    main[place]["cases"] += int(row[-1])
-                    main[place]["updated"] = "from JHU"
-                    break
+high = list[-8]
+step = high / 5
 
-thresholds = [0, 1, 10, 100, 1000, 10000]
-colours = ["#e0e0e0", "#ffC0C0","#ee7070","#c80200","#900000","#510000"]
+thresholds = [0, 0, 0, 0, 0, 0]
+for i in range(5):
+    thresholds[i + 1] = round(step * (i + 1), 2)
+
+colours = ["#fee5d9","#fcbba1","#fc9272","#fb6a4a","#de2d26","#a50f15"]
 
 with open("template.svg", "r", newline = "", encoding = "utf-8") as file_in:
-    with open(get_value("counts.svg", "per-capita.svg"), "w", newline = "", encoding = "utf-8") as file_out:
+    with open("peak.svg", "w", newline = "", encoding = "utf-8") as file_out:
         r = 0
         for row in file_in:
             r += 1
             if r == 158:
-                list = [[], [], [], [], [], []]
-                for place, attrs in main.items():
-                    i = 0
-                    while i < 5:
-                        if get_value(attrs["cases"], attrs["pcapita"]) >= thresholds[i + 1]:
-                            i += 1
-                        else:
-                            break
-                    main[place]["threshold met"] = thresholds[i]
-                    main[place]["fill"] = colours[i]
-                    list[i].append(place)
+                levels = [[], [], [], [], [], []]
+                for place in main:
+                    if "pcapita" in main[place]:
+                        i = 0
+                        while i < 5:
+                            if main[place]["pcapita"] >= thresholds[i + 1]:
+                                i += 1
+                            else:
+                                break
+                        main[place]["threshold met"] = thresholds[i]
+                        main[place]["fill"] = colours[i]
+                        levels[i].append(main[place]["code"])
+                    else:
+                        main[place]["fill"] = "#e0e0e0"
                 for i in range(6):
-                    file_out.write(", ".join(list[i]) + "\n")
+                    file_out.write(", ".join(levels[i]) + "\n")
                     file_out.write("{" + "\n")
                     file_out.write("   fill:" + colours[i] + ";\n")
                     file_out.write("}" + "\n")
             else:
                 file_out.write(row)
 
+print("Colours:", colours)
+print("Thresholds:", thresholds, "Max:", max(list))
+
 with open("data-generated.json", "w", newline = "", encoding = "utf-8") as file:
     file.write(json.dumps(main, indent = 2, ensure_ascii = False))
-
-for place, attrs in main.items():
-    print(place, attrs)
-
-cases = []
-for attrs in main.values():
-    cases.append(attrs["cases"])
-print("Total cases:", "{:,}".format(sum(cases)), "in", len(cases), "areas as of", date, "(JHU)")
-print("Colours:", colours)
-print("Thresholds:", thresholds, "Max:", max(cases))

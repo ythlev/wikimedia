@@ -30,7 +30,7 @@
  */
 .subxx
 {
-   opacity:0;
+   opacity:1;
    fill:#e0e0e0;
    stroke:#000000;
    stroke-width:0.3;
@@ -2606,22 +2606,22 @@
     <g id="cx">
       <title>Christmas Island</title>
       <circle id="cx-" class="landxx coastxx au cx" r="0.75" cy="789" cx="2102"/>
-      <circle id="cx_" class="subxx au cx" r="4" cy="789" cx="2102"/>
+      <circle id="cx_" class="subxx cx" r="4" cy="789" cx="2102"/>
     </g>
     <g id="cc">
       <title>Cocos (Keeling) Islands</title>
       <circle id="cc-" class="landxx coastxx au cc" r="0.25" cy="801" cx="2039"/>
-      <circle id="cc_" class="subxx au cc" r="4" cy="801" cx="2039"/>
+      <circle id="cc_" class="subxx cc" r="4" cy="801" cx="2039"/>
     </g>
     <g id="hm">
       <title>Heard Island and McDonald Islands</title>
       <circle id="hm-" class="landxx coastxx au hm" r="0.75" cy="1149" cx="1792"/>
-      <circle id="hm_" class="subxx au hm" r="4" cy="1149" cx="1792"/>
+      <circle id="hm_" class="subxx hm" r="4" cy="1149" cx="1792"/>
     </g>
     <g id="nf">
       <title>Norfolk Island</title>
       <path id="nf-" class="landxx coastxx au nf" d="m 2551.27,937.143 c -0.79,-0.466 -1.58,-0.931 -2.38,-1.398 -0.77,0.549 -1.15,0.965 1.07,1.272"/>
-      <circle id="nf_" class="subxx au nf" r="4" cy="933" cx="2549"/>
+      <circle id="nf_" class="subxx nf" r="4" cy="933" cx="2549"/>
     </g>
   </g>
   <g id="cn" class="landxx coastxx cn">
@@ -2693,22 +2693,22 @@
         <path id="path2584" d="m 836.526,557.694 c 0.63,-0.573 -0.01,-1.692 1.01,-1.872 0.136,0.916 0.898,1.574 1.649,2.017 -0.707,0.244 -2.277,0.965 -2.659,-0.145"/>
         <path id="path2586" d="m 838.395,561.222 c -0.608,-0.627 -0.488,-0.938 0.36,-0.936 0.121,0.41 0,0.722 -0.36,0.936"/>
       </g>
-      <circle id="gp_" class="subxx eu fr gp" r="4" cy="554.231" cx="839.389"/>
+      <circle id="gp_" class="subxx eu gp" r="4" cy="554.231" cx="839.389"/>
     </g>
     <g id="mq">
       <title>Martinique</title>
       <path id="mq-" class="landxx coastxx eu fr mq" d="m 840.336,573.966 c -0.583,-0.893 -1.3,-0.133 -1.584,-0.979 -0.275,-0.819 -0.646,-1.706 -0.657,-2.583 -0.01,-1.149 1.181,-0.144 1.494,0.25 0.61,0.767 1.462,2.361 0.747,3.312"/>
-      <circle id="mq_" class="subxx eu fr mq" r="4" cy="574.369" cx="843.595"/>
+      <circle id="mq_" class="subxx eu mq" r="4" cy="574.369" cx="843.595"/>
     </g>
     <g id="re">
       <title>Reunion</title>
       <path id="re-" class="landxx coastxx eu fr re" d="m 1719.46,880.259 c -0.11,-1.988 -3.99,-0.81 -3.55,1.09 0.67,2.866 6.03,3.098 3.55,-1.09"/>
-      <circle id="re_" class="subxx eu fr re" r="4" cy="880.773" cx="1718.2"/>
+      <circle id="re_" class="subxx eu re" r="4" cy="880.773" cx="1718.2"/>
     </g>
     <g id="yt">
       <title>Mayotte</title>
       <path id="yt-" class="landxx coastxx eu fr yt" d="m 1643.43,810.989 c 0.47,-0.643 1.08,-2.018 0,-2.45 -0.28,0.563 -0.41,1.917 0,2.45"/>
-      <circle id="yt_" class="subxx eu fr yt" r="4" cy="811.183" cx="1644.61"/>
+      <circle id="yt_" class="subxx eu yt" r="4" cy="811.183" cx="1644.61"/>
     </g>
   </g>
   <g id="nl">
@@ -2726,7 +2726,7 @@
     <g id="bq">
       <title>Bonaire, Sint Eustatius and Saba</title>
       <path id="bq-" class="landxx coastxx nl bq" d="m 782.74,594.56 c -0.163,-0.412 0.08,-1.47 -0.445,-1.681 -0.443,-0.179 -0.638,-0.129 -0.485,-0.768 0.937,0.708 2.108,1.24 0.93,2.449"/>
-      <circle id="bq_" class="subxx nl bq" r="4" cy="596.4265" cx="784.9283"/>
+      <circle id="bq_" class="subxx bq" r="4" cy="596.4265" cx="784.9283"/>
     </g>
   </g>
 
@@ -3181,8 +3181,8 @@
   </g>
   <g id="je">
     <title>Jersey</title>
-    <path id="je-" class="landxx coastxx je" d="m 1296.39,274.59 c 0.1,-0.216 0.14,-0.433 0.22,-0.648 -0.58,-0.204 -0.92,0.05 -0.94,0.648 0.24,0 0.48,0 0.72,0"/>
-    <circle id="je_" class="circlexx je" r="6" cy="277.912" cx="1298.22"/>
+    <path id="je-" class="landxx coastxx jg" d="m 1296.39,274.59 c 0.1,-0.216 0.14,-0.433 0.22,-0.648 -0.58,-0.204 -0.92,0.05 -0.94,0.648 0.24,0 0.48,0 0.72,0"/>
+    <circle id="je_" class="circlexx jg" r="6" cy="277.912" cx="1298.22"/>
   </g>
   <g id="ai">
     <title>Anguilla</title>
@@ -3196,8 +3196,8 @@
   </g>
   <g id="gg">
     <title>Guernsey</title>
-    <path id="gg-" class="landxx coastxx gg" d="m 1293.19,272.112 c 0.46,-0.199 0.63,-0.196 0.5,-0.8 -0.17,0.266 -0.33,0.533 -0.5,0.8"/>
-    <circle id="gg_" class="circlexx gg" r="6" cy="271.143" cx="1288.46"/>
+    <path id="gg-" class="landxx coastxx jg" d="m 1293.19,272.112 c 0.46,-0.199 0.63,-0.196 0.5,-0.8 -0.17,0.266 -0.33,0.533 -0.5,0.8"/>
+    <circle id="gg_" class="circlexx jg" r="6" cy="271.143" cx="1288.46"/>
   </g>
   <g id="sm">
     <title>San Marino</title>
