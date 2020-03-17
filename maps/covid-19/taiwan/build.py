@@ -57,7 +57,7 @@ with open("template.svg", "r", newline = "", encoding = "utf-8") as file_in:
                 if row.find(place) > -1:
                     i = 0
                     while i < 5:
-                        if get_value(attrs["cases"], attrs["pcapita"]) >= thresholds[i + 1]:
+                        if attrs[get_value("cases", "pcapita")] >= thresholds[i + 1]:
                             i += 1
                         else:
                             break
