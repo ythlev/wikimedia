@@ -951,17 +951,6 @@
     "threshold met": 7.87,
     "fill": "#de2d26"
   },
-  "Channel Islands": {
-    "code": ".jg",
-    "date": "3/16/20",
-    "cases": 6,
-    "recovered": 0,
-    "active": 6,
-    "population": 0.1723,
-    "pcapita": 34.82298316889147,
-    "threshold met": 7.87,
-    "fill": "#de2d26"
-  },
   "Guinea": {
     "code": ".gn",
     "date": "3/13/20",
@@ -2423,11 +2412,11 @@
   "United Kingdom": {
     "code": ".gb",
     "date": "3/16/20",
-    "cases": 1543,
+    "cases": 1549,
     "recovered": 20,
-    "active": 1523,
+    "active": 1529,
     "population": 67.5302,
-    "pcapita": 22.552872640685205,
+    "pcapita": 22.641721777812002,
     "threshold met": 7.87,
     "fill": "#de2d26"
   },
