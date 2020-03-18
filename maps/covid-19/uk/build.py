@@ -4,10 +4,6 @@ import argparse, csv, urllib.request, io, math
 parser = argparse.ArgumentParser(description = "This script generates an svg map for the COVID-19 outbreak in the UK")
 parser.add_argument("-c", "--count", help = "Generate case count map", action = "store_const", const = "count", dest = "type")
 parser.add_argument("-p", "--pcapita", help = "Generate per capita cases map", action = "store_const", const = "pcapita", dest = "type")
-# Only pcapita works now
-parser.add_argument("s", help = "Cases in Scotland")
-parser.add_argument("w", help = "Cases in Wales")
-parser.add_argument("n", help = "Cases in Northern Ireland")
 args = vars(parser.parse_args())
 
 def get_value(count, pcapita):
@@ -18,19 +14,13 @@ def get_value(count, pcapita):
 
 main = {}
 
-with open("populations.csv", newline = "", encoding = "utf-8") as file:
+with open("places.csv", newline = "", encoding = "utf-8") as file:
     reader = csv.DictReader(file)
     for row in reader:
-        if row["Code"] in ["s", "w", "n"]:
-            main[row["Code"]] = {
-                "cases": int(args[row["Code"]]),
-                "population": int(row["All ages"])
-            }
-        else:
-            main[row["Code"]] = {
-                "cases": 0,
-                "population": int(row["All ages"])
-            }
+        main[row["Code"]] = {
+            "cases": int(row["cases"]),
+            "population": int(row["population"])
+        }
 
 with urllib.request.urlopen("https://www.arcgis.com/sharing/rest/content/items/b684319181f94875a6879bbc833ca3a6/data") as response:
     reader = csv.DictReader(io.TextIOWrapper(response, encoding = 'utf-8'), delimiter=',')
@@ -39,9 +29,9 @@ with urllib.request.urlopen("https://www.arcgis.com/sharing/rest/content/items/b
             main[row["GSS_CD"]]["cases"] = int(row["TotalCases"])
 
 list = []
-for attrs in main.values():
-    attrs["pcapita"] = round(attrs["cases"] / attrs["population"] * 100000, 2)
-    list.append(attrs[get_value("cases", "pcapita")])
+for place in main:
+    main[place]["pcapita"] = round(main[place]["cases"] / main[place]["population"] * 100000, 2)
+    list.append(main[place][get_value("cases", "pcapita")])
 list.sort()
 
 high = list[-19]
@@ -53,7 +43,7 @@ for i in range(6):
 
 colours = ["#fee5d9","#fcbba1","#fc9272","#fb6a4a","#de2d26","#a50f15"]
 
-with open("template-2.svg", "r", newline = "", encoding = "utf-8") as file_in:
+with open("template.svg", "r", newline = "", encoding = "utf-8") as file_in:
     with open(get_value("counts.svg", "per-capita.svg"), "w", newline = "", encoding = "utf-8") as file_out:
         for row in file_in:
             written = False
