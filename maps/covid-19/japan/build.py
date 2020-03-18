@@ -15,11 +15,11 @@ def get_value(count, pcapita):
 main = {}
 
 with open("populations.csv", newline = "", encoding = "utf-8-sig") as file:
-    reader = csv.DictReader(file)
+    reader = csv.reader(file)
     for row in reader:
-        main[row["nam"]] = {
+        main[row[0]] = {
             "cases": 0,
-            "population": None
+            "population": int(row[1])
         }
 
 with urllib.request.urlopen("https://dl.dropboxusercontent.com/s/6mztoeb6xf78g5w/COVID-19.csv") as response:
@@ -31,22 +31,18 @@ with urllib.request.urlopen("https://dl.dropboxusercontent.com/s/6mztoeb6xf78g5w
             main[row["Hospital Pref"]]["cases"] += 1
 
 list = []
-for attrs in main.values():
-    # attrs["pcapita"] = round(attrs["cases"] / attrs["population"] * 1000000, 2)
-    list.append(attrs[get_value("cases", "pcapita")])
+for place in main:
+    main[place]["pcapita"] = round(main[place]["cases"] / main[place]["population"] * 1000, 2)
+    list.append(main[place][get_value("cases", "pcapita")])
 list.sort()
 
-high = list[-2]
-if list[1] > 0:
-    low = list[1]
-else:
-    low = 1
-
-step = get_value(math.log(high / low) / 5, high / 5)
+high = list[-3]
+low = list[2]
+step = (math.sqrt(high) - math.sqrt(low)) / 5
 
 thresholds = [0, 0, 0, 0, 0, 0]
 for i in range(5):
-    thresholds[i + 1] = get_value(round(low * math.exp(step * i)), round(step * (i + 1), 2))
+    thresholds[i + 1] = round(math.pow((step * (i + 1)), 2), get_value(0, 2))
 
 colours = ["#fee5d9","#fcbba1","#fc9272","#fb6a4a","#de2d26","#a50f15"]
 
@@ -70,12 +66,12 @@ with open("template.svg", "r", newline = "", encoding = "utf-8") as file_in:
             if written == False:
                 file_out.write(row)
 
-for place, attrs in main.items():
-    print(place, attrs)
+for place in main:
+    print(place, main[place])
 
 cases = []
 for attrs in main.values():
     cases.append(attrs["cases"])
-print("Total cases:", sum(cases))
+print("Total cases:", sum(cases), "in", len(cases), "areas")
 print("Colours:", colours)
-print("Thresholds:", thresholds, "Max:", max(list))
+print("Thresholds:", thresholds, "95th percentile:", high, "Max:", max(list))

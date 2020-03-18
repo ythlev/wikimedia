@@ -45,16 +45,12 @@ for attrs in main.values():
 list.sort()
 
 high = list[-19]
-if list[18] > 0:
-    low = list[18]
-else:
-    low = 1
-
-step = get_value(math.log(high / low) / 5, high / 5)
+low = list[18]
+step = (math.sqrt(high) - math.sqrt(low)) / 5
 
 thresholds = [0, 0, 0, 0, 0, 0]
 for i in range(5):
-    thresholds[i + 1] = get_value(round(low * math.exp(step * i)), round(step * (i + 1), 2))
+    thresholds[i + 1] = round(math.pow((step * (i + 1)), 2), get_value(0, 2))
 
 colours = ["#fee5d9","#fcbba1","#fc9272","#fb6a4a","#de2d26","#a50f15"]
 
@@ -89,4 +85,4 @@ for attrs in main.values():
     cases.append(attrs["cases"])
 print("Total cases:", sum(cases), "in", len(cases), "areas")
 print("Colours:", colours)
-print("Thresholds:", thresholds, "Max:", max(list))
+print("Thresholds:", thresholds, "95th percentile:", high, "Max:", max(list))
