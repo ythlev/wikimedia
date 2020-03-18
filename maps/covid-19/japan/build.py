@@ -14,12 +14,12 @@ def get_value(count, pcapita):
 
 main = {}
 
-with open("populations.csv", newline = "", encoding = "utf-8-sig") as file:
-    reader = csv.reader(file)
+with open("places.csv", newline = "", encoding = "utf-8-sig") as file:
+    reader = csv.DictReader(file)
     for row in reader:
-        main[row[0]] = {
+        main[row["name"]] = {
             "cases": 0,
-            "population": int(row[1])
+            "population": int(row["population"])
         }
 
 with urllib.request.urlopen("https://dl.dropboxusercontent.com/s/6mztoeb6xf78g5w/COVID-19.csv") as response:

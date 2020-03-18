@@ -17,7 +17,7 @@ main = {}
 with open("places.csv", newline = "", encoding = "utf-8") as file:
     reader = csv.DictReader(file)
     for row in reader:
-        main[row["Code"]] = {
+        main[row["code"]] = {
             "cases": int(row["cases"]),
             "population": int(row["population"])
         }

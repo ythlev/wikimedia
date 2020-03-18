@@ -14,7 +14,7 @@ def get_value(count, pcapita):
 
 main = {}
 
-with open("populations.csv", newline = "", encoding = "utf-8-sig") as file:
+with open("places.csv", newline = "", encoding = "utf-8-sig") as file:
     reader = csv.DictReader(file)
     for row in reader:
         if row["區域別"] != "總計":
