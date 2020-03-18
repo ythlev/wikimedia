@@ -37,12 +37,11 @@ for place in main:
 list.sort()
 
 high = list[-3]
-low = list[2]
-step = (math.sqrt(high) - math.sqrt(low)) / 5
+step = math.sqrt(high) / 5
 
 thresholds = [0, 0, 0, 0, 0, 0]
-for i in range(5):
-    thresholds[i + 1] = round(math.pow((step * (i + 1)), 2), get_value(0, 2))
+for i in range(6):
+    thresholds[i] = round(math.pow(step * i, 2), get_value(0, 2))
 
 colours = ["#fee5d9","#fcbba1","#fc9272","#fb6a4a","#de2d26","#a50f15"]
 
