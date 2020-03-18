@@ -3,8 +3,9 @@ import pathlib, json, csv, io, urllib.request, math
 
 main = {
     "taiwan": {},
-    "uk": {},
-    "japan": {}
+    # "uk": {},
+    "japan": {},
+    "us": {}
 }
 unit, outliers = {}, {}
 colours = ["#fee5d9","#fcbba1","#fc9272","#fb6a4a","#de2d26","#a50f15"]
@@ -18,20 +19,20 @@ for country in main:
                 "population": int(row["population"].replace(",", ""))
             }
 
-unit["taiwan"], outliers["taiwan"] = 1000000, 1
+unit["taiwan"] = 1000000
 with urllib.request.urlopen("https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_19CoV.json") as response:
     data = json.loads(response.read())
     for row in data:
         main["taiwan"][row["縣市"]]["cases"] += int(row["確定病例數"])
-
-unit["uk"], outliers["uk"] = 100000, 21
+'''
+unit["uk"] = 100000
 with urllib.request.urlopen("https://www.arcgis.com/sharing/rest/content/items/b684319181f94875a6879bbc833ca3a6/data") as response:
     reader = csv.DictReader(io.TextIOWrapper(response, encoding = 'utf-8'), delimiter=',')
     for row in reader:
         if row["GSS_CD"] in main["uk"]:
             main["uk"][row["GSS_CD"]]["cases"] = int(row["TotalCases"])
-
-unit["japan"], outliers["japan"] = 1000000, 2
+'''
+unit["japan"] = 1000000
 with urllib.request.urlopen("https://dl.dropboxusercontent.com/s/6mztoeb6xf78g5w/COVID-19.csv") as response:
     reader = csv.DictReader(io.TextIOWrapper(response, encoding = 'utf-8'), delimiter=',')
     for row in reader:
@@ -40,15 +41,22 @@ with urllib.request.urlopen("https://dl.dropboxusercontent.com/s/6mztoeb6xf78g5w
                 row["Hospital Pref"] = "Niigata"
             main["japan"][row["Hospital Pref"]]["cases"] += 1
 
+unit["us"] = 1000000
+with urllib.request.urlopen("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv") as response:
+    reader = csv.reader(io.TextIOWrapper(response, encoding = 'utf-8'), delimiter=',')
+    for row in reader:
+        if row[0] == "Province/State" or row[1] != "US":
+            continue
+        elif row[0] in main["us"]:
+            main["us"][row[0]]["cases"] = int(row[-1])
+
 for country in main:
     values = []
     for place in main[country]:
         main[country][place]["pcapita"] = round(main[country][place]["cases"] / main[country][place]["population"] * unit[country], 2)
         values.append(main[country][place]["pcapita"])
-    values.sort()
 
-    high = values[- 1 - outliers[country]]
-    step = math.sqrt(high) / 5
+    step = math.sqrt(max(values)) / 6
 
     thresholds = [0, 0, 0, 0, 0, 0]
     for i in range(6):
@@ -59,7 +67,7 @@ for country in main:
             for row in file_in:
                 written = False
                 for place in main[country]:
-                    if row.find(place) > -1:
+                    if row.find('id="{}"'.format(place)) > -1:
                         i = 0
                         while i < 5:
                             if main[country][place]["pcapita"] >= thresholds[i + 1]:
@@ -77,5 +85,5 @@ for country in main:
     cases = []
     for place in main[country]:
         cases.append(main[country][place]["cases"])
-    print("{}: {} total cases in {} areas".format(country.capitalize(), sum(cases), len(cases)))
-    print("Thresholds: {} 95th percentile: {} Max: {}".format(thresholds, high, max(values)))
+    print("{}: {} cases total in {} areas".format(country.upper(), sum(cases), len(cases)))
+    print("Thresholds: {} Max: {}".format(thresholds, max(values)))
