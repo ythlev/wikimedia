@@ -155,31 +155,31 @@
  *
  */
 
-.af, .bd, .bj, .cm, .cf, .td, .cg, .cd, .ci, .sv, .et, .ga, .gm, .gh, .gt, .gn, .in, .ke, .kg, .lr, .mr, .na, .np, .ni, .ng, .rw, .so, .sd, .sz, .tz, .tg, .ua, .uz, .vn, .zm
+.af, .bd, .bj, .cm, .cf, .td, .cg, .cd, .ci, .sv, .et, .ga, .gm, .gh, .gt, .gn, .in, .ke, .kg, .lr, .mr, .mx, .na, .np, .ni, .ng, .rw, .so, .sd, .sz, .tz, .tg, .ua, .uz, .vn, .zm
 {
    fill:#fee5d9;
 }
-.dz, .ar, .bt, .bo, .br, .bf, .kh, .co, .cu, .dj, .do, .eg, .gq, .fj, .hn, .id, .kz, .xk, .mu, .mx, .mn, .ma, .pk, .py, .ph, .pr, .ru, .sn, .za, .lk, .sr, .tn, .tr, .ve
+.dz, .ar, .bt, .bo, .br, .bf, .kh, .co, .cu, .dj, .do, .eg, .gq, .fj, .hn, .id, .kz, .xk, .mu, .mn, .ma, .pk, .py, .ph, .pr, .ru, .sn, .za, .lk, .sr, .tn, .tr, .ve
 {
    fill:#fcbba1;
 }
-.az, .bs, .bb, .by, .hu, .iq, .jm, .jp, .jo, .me, .nc, .nz, .om, .pe, .sa, .tw, .th, .tt
+.az, .bs, .bb, .by, .hu, .iq, .jm, .jp, .jo, .me, .nc, .nz, .om, .pe, .pl, .sa, .tw, .th, .tt
 {
    fill:#fc9272;
 }
-.ag, .ba, .bg, .cl, .cr, .ec, .gy, .lt, .yt, .md, .pl, .ro, .lc, .vc, .rs
+.ag, .ba, .bg, .cl, .cr, .ec, .gy, .lt, .yt, .md, .ro, .lc, .vc, .rs, .ae
 {
    fill:#fb6a4a;
 }
-.al, .aw, .ca, .ky, .cw, .pf, .lb, .re, .ae, .us
+.al, .aw, .ca, .ky, .cw, .pf, .lb, .mk, .re, .sk, .us, .uy
 {
    fill:#ef3b2c;
 }
-.au, .bm, .hr, .hk, .mo, .mk, .my, .mv, .pa, .sk, .uy, .vi
+.au, .bm, .hr, .hk, .mo, .my, .mv, .pa, .vi
 {
    fill:#cb181d;
 }
-.ad, .am, .at, .bh, .be, .bn, .cn, .cy, .cz, .dk, .ee, .fo, .fi, .fr, .gf, .ge, .de, .gi, .gr, .gl, .gp, .gu, .va, .is, .ir, .ie, .il, .it, .kr, .kw, .lv, .li, .lu, .mt, .mq, .mc, .ms, .nl, .no, .pt, .qa, .bl, .mf, .sm, .sc, .sg, .si, .es, .se, .ch, .gb
+.ad, .am, .at, .bh, .be, .bn, .cn, .cy, .cz, .dk, .ee, .fo, .fi, .fr, .gf, .ge, .de, .gi, .gr, .gl, .gp, .gu, .jg, .va, .is, .ir, .ie, .il, .it, .kr, .kw, .lv, .li, .lu, .mt, .mq, .mc, .ms, .nl, .no, .pt, .qa, .bl, .mf, .sm, .sc, .sg, .si, .es, .se, .ch, .gb
 {
    fill:#99000d;
 }
@@ -3208,8 +3208,8 @@
   </g>
   <g id="je">
     <title>Jersey</title>
-    <path id="je-" class="landxx coastxx je" d="m 1296.39,274.59 c 0.1,-0.216 0.14,-0.433 0.22,-0.648 -0.58,-0.204 -0.92,0.05 -0.94,0.648 0.24,0 0.48,0 0.72,0"/>
-    <circle id="je_" class="circlexx je" r="6" cy="277.912" cx="1298.22"/>
+    <path id="je-" class="landxx coastxx jg" d="m 1296.39,274.59 c 0.1,-0.216 0.14,-0.433 0.22,-0.648 -0.58,-0.204 -0.92,0.05 -0.94,0.648 0.24,0 0.48,0 0.72,0"/>
+    <circle id="je_" class="circlexx jg" r="6" cy="277.912" cx="1298.22"/>
   </g>
   <g id="ai">
     <title>Anguilla</title>
@@ -3223,8 +3223,8 @@
   </g>
   <g id="gg">
     <title>Guernsey</title>
-    <path id="gg-" class="landxx coastxx gg" d="m 1293.19,272.112 c 0.46,-0.199 0.63,-0.196 0.5,-0.8 -0.17,0.266 -0.33,0.533 -0.5,0.8"/>
-    <circle id="gg_" class="circlexx gg" r="6" cy="271.143" cx="1288.46"/>
+    <path id="gg-" class="landxx coastxx jg" d="m 1293.19,272.112 c 0.46,-0.199 0.63,-0.196 0.5,-0.8 -0.17,0.266 -0.33,0.533 -0.5,0.8"/>
+    <circle id="gg_" class="circlexx jg" r="6" cy="271.143" cx="1288.46"/>
   </g>
   <g id="sm">
     <title>San Marino</title>

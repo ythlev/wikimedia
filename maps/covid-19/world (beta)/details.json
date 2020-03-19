@@ -18,7 +18,7 @@
     "population": 2.8809,
     "cases": 64,
     "pcapita": 22.22,
-    "threshold met": 14.31,
+    "threshold met": 15.1,
     "fill": "#ef3b2c"
   },
   "Algeria": {
@@ -26,7 +26,7 @@
     "population": 43.0531,
     "cases": 87,
     "pcapita": 2.02,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "American Samoa": {
@@ -40,7 +40,7 @@
     "population": 0.0771,
     "cases": 53,
     "pcapita": 687.42,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Angola": {
@@ -66,7 +66,7 @@
     "population": 0.0971,
     "cases": 1,
     "pcapita": 10.3,
-    "threshold met": 8.05,
+    "threshold met": 8.5,
     "fill": "#fb6a4a"
   },
   "Argentina": {
@@ -74,7 +74,7 @@
     "population": 44.7807,
     "cases": 97,
     "pcapita": 2.17,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Armenia": {
@@ -82,7 +82,7 @@
     "population": 2.9577,
     "cases": 115,
     "pcapita": 38.88,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Aruba": {
@@ -90,7 +90,7 @@
     "population": 0.1063,
     "cases": 2,
     "pcapita": 18.81,
-    "threshold met": 14.31,
+    "threshold met": 15.1,
     "fill": "#ef3b2c"
   },
   "Australia": {
@@ -98,7 +98,7 @@
     "population": 25.2032,
     "cases": 681,
     "pcapita": 27.02,
-    "threshold met": 22.36,
+    "threshold met": 23.6,
     "fill": "#cb181d"
   },
   "Austria": {
@@ -106,7 +106,7 @@
     "population": 8.9551,
     "cases": 2013,
     "pcapita": 224.79,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Azerbaijan": {
@@ -114,7 +114,7 @@
     "population": 10.0477,
     "cases": 44,
     "pcapita": 4.38,
-    "threshold met": 3.58,
+    "threshold met": 3.78,
     "fill": "#fc9272"
   },
   "Bahamas, The": {
@@ -122,7 +122,7 @@
     "population": 0.3895,
     "cases": 3,
     "pcapita": 7.7,
-    "threshold met": 3.58,
+    "threshold met": 3.78,
     "fill": "#fc9272"
   },
   "Bahrain": {
@@ -130,7 +130,7 @@
     "population": 1.6412,
     "cases": 269,
     "pcapita": 163.9,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Bangladesh": {
@@ -146,7 +146,7 @@
     "population": 0.287,
     "cases": 2,
     "pcapita": 6.97,
-    "threshold met": 3.58,
+    "threshold met": 3.78,
     "fill": "#fc9272"
   },
   "Belarus": {
@@ -154,7 +154,7 @@
     "population": 9.4524,
     "cases": 51,
     "pcapita": 5.4,
-    "threshold met": 3.58,
+    "threshold met": 3.78,
     "fill": "#fc9272"
   },
   "Belgium": {
@@ -162,7 +162,7 @@
     "population": 11.5393,
     "cases": 1795,
     "pcapita": 155.56,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Belize": {
@@ -184,7 +184,7 @@
     "population": 0.0625,
     "cases": 2,
     "pcapita": 32.0,
-    "threshold met": 22.36,
+    "threshold met": 23.6,
     "fill": "#cb181d"
   },
   "Bhutan": {
@@ -192,7 +192,7 @@
     "population": 0.7631,
     "cases": 1,
     "pcapita": 1.31,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Bolivia": {
@@ -200,7 +200,7 @@
     "population": 11.5131,
     "cases": 12,
     "pcapita": 1.04,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Bonaire, Sint Eustatius and Saba": {
@@ -214,7 +214,7 @@
     "population": 3.301,
     "cases": 45,
     "pcapita": 13.63,
-    "threshold met": 8.05,
+    "threshold met": 8.5,
     "fill": "#fb6a4a"
   },
   "Botswana": {
@@ -234,7 +234,7 @@
     "population": 211.0495,
     "cases": 533,
     "pcapita": 2.53,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "British Indian Ocean Territory": {
@@ -248,7 +248,7 @@
     "population": 0.4333,
     "cases": 75,
     "pcapita": 173.09,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Bulgaria": {
@@ -256,7 +256,7 @@
     "population": 7.0001,
     "cases": 94,
     "pcapita": 13.43,
-    "threshold met": 8.05,
+    "threshold met": 8.5,
     "fill": "#fb6a4a"
   },
   "Burkina Faso": {
@@ -264,7 +264,7 @@
     "population": 20.3214,
     "cases": 33,
     "pcapita": 1.62,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Burundi": {
@@ -278,7 +278,7 @@
     "population": 16.4865,
     "cases": 37,
     "pcapita": 2.24,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Cameroon": {
@@ -294,7 +294,7 @@
     "population": 37.411,
     "cases": 770,
     "pcapita": 20.58,
-    "threshold met": 14.31,
+    "threshold met": 15.1,
     "fill": "#ef3b2c"
   },
   "Cape Verde": {
@@ -308,7 +308,7 @@
     "population": 0.0649,
     "cases": 1,
     "pcapita": 15.41,
-    "threshold met": 14.31,
+    "threshold met": 15.1,
     "fill": "#ef3b2c"
   },
   "Central African Republic": {
@@ -332,7 +332,7 @@
     "population": 18.952,
     "cases": 238,
     "pcapita": 12.56,
-    "threshold met": 8.05,
+    "threshold met": 8.5,
     "fill": "#fb6a4a"
   },
   "China": {
@@ -340,7 +340,7 @@
     "population": 1433.7837,
     "cases": 80930,
     "pcapita": 56.45,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Christmas Island": {
@@ -360,7 +360,7 @@
     "population": 50.3394,
     "cases": 102,
     "pcapita": 2.03,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Comoros": {
@@ -396,7 +396,7 @@
     "population": 5.0476,
     "cases": 69,
     "pcapita": 13.67,
-    "threshold met": 8.05,
+    "threshold met": 8.5,
     "fill": "#fb6a4a"
   },
   "Cote d'Ivoire": {
@@ -412,7 +412,7 @@
     "population": 4.1303,
     "cases": 105,
     "pcapita": 25.42,
-    "threshold met": 22.36,
+    "threshold met": 23.6,
     "fill": "#cb181d"
   },
   "Cuba": {
@@ -420,7 +420,7 @@
     "population": 11.3335,
     "cases": 11,
     "pcapita": 0.97,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Curacao": {
@@ -428,7 +428,7 @@
     "population": 0.1634,
     "cases": 3,
     "pcapita": 18.36,
-    "threshold met": 14.31,
+    "threshold met": 15.1,
     "fill": "#ef3b2c"
   },
   "Cyprus": {
@@ -436,7 +436,7 @@
     "population": 1.1986,
     "cases": 58,
     "pcapita": 48.39,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Czechia": {
@@ -444,7 +444,7 @@
     "population": 10.6892,
     "cases": 631,
     "pcapita": 59.03,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Denmark": {
@@ -452,7 +452,7 @@
     "population": 5.7719,
     "cases": 1132,
     "pcapita": 196.12,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Djibouti": {
@@ -460,7 +460,7 @@
     "population": 0.9736,
     "cases": 1,
     "pcapita": 1.03,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Dominica": {
@@ -474,7 +474,7 @@
     "population": 10.739,
     "cases": 34,
     "pcapita": 3.17,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Ecuador": {
@@ -482,7 +482,7 @@
     "population": 17.3737,
     "cases": 168,
     "pcapita": 9.67,
-    "threshold met": 8.05,
+    "threshold met": 8.5,
     "fill": "#fb6a4a"
   },
   "Egypt": {
@@ -490,7 +490,7 @@
     "population": 100.3881,
     "cases": 210,
     "pcapita": 2.09,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "El Salvador": {
@@ -506,7 +506,7 @@
     "population": 1.356,
     "cases": 4,
     "pcapita": 2.95,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Eritrea": {
@@ -520,7 +520,7 @@
     "population": 1.3256,
     "cases": 267,
     "pcapita": 201.42,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Ethiopia": {
@@ -542,7 +542,7 @@
     "population": 0.0487,
     "cases": 72,
     "pcapita": 1478.44,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Fiji": {
@@ -550,7 +550,7 @@
     "population": 0.89,
     "cases": 1,
     "pcapita": 1.12,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Finland": {
@@ -558,7 +558,7 @@
     "population": 5.5322,
     "cases": 400,
     "pcapita": 72.3,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "France": {
@@ -566,7 +566,7 @@
     "population": 65.1297,
     "cases": 9043,
     "pcapita": 138.85,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "French Guiana": {
@@ -574,7 +574,7 @@
     "population": 0.2908,
     "cases": 11,
     "pcapita": 37.83,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "French Polynesia": {
@@ -582,7 +582,7 @@
     "population": 0.2793,
     "cases": 6,
     "pcapita": 21.48,
-    "threshold met": 14.31,
+    "threshold met": 15.1,
     "fill": "#ef3b2c"
   },
   "French Southern Territories": {
@@ -612,7 +612,7 @@
     "population": 3.9968,
     "cases": 197,
     "pcapita": 49.29,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Germany": {
@@ -620,7 +620,7 @@
     "population": 83.517,
     "cases": 13979,
     "pcapita": 167.38,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Ghana": {
@@ -636,7 +636,7 @@
     "population": 0.0337,
     "cases": 8,
     "pcapita": 237.39,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Greece": {
@@ -644,7 +644,7 @@
     "population": 10.4735,
     "cases": 418,
     "pcapita": 39.91,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Greenland": {
@@ -652,7 +652,7 @@
     "population": 0.0567,
     "cases": 2,
     "pcapita": 35.27,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Grenada": {
@@ -666,7 +666,7 @@
     "population": 0.4001,
     "cases": 33,
     "pcapita": 82.48,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Guam": {
@@ -674,7 +674,7 @@
     "population": 0.1673,
     "cases": 12,
     "pcapita": 71.73,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Guatemala": {
@@ -690,6 +690,14 @@
     "population": 0.063,
     "cases": 0,
     "fill": "#e0e0e0"
+  },
+  "Channel Islands": {
+    "code": ".jg",
+    "population": 0.1705,
+    "cases": 6,
+    "pcapita": 35.19,
+    "threshold met": 33.98,
+    "fill": "#99000d"
   },
   "Guinea": {
     "code": ".gn",
@@ -710,7 +718,7 @@
     "population": 0.7828,
     "cases": 7,
     "pcapita": 8.94,
-    "threshold met": 8.05,
+    "threshold met": 8.5,
     "fill": "#fb6a4a"
   },
   "Haiti": {
@@ -730,7 +738,7 @@
     "population": 0.0008,
     "cases": 1,
     "pcapita": 1250.0,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Honduras": {
@@ -738,7 +746,7 @@
     "population": 9.7461,
     "cases": 12,
     "pcapita": 1.23,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Hong Kong": {
@@ -746,7 +754,7 @@
     "population": 7.4362,
     "cases": 208,
     "pcapita": 27.97,
-    "threshold met": 22.36,
+    "threshold met": 23.6,
     "fill": "#cb181d"
   },
   "Hungary": {
@@ -754,7 +762,7 @@
     "population": 9.6847,
     "cases": 73,
     "pcapita": 7.54,
-    "threshold met": 3.58,
+    "threshold met": 3.78,
     "fill": "#fc9272"
   },
   "Iceland": {
@@ -762,7 +770,7 @@
     "population": 0.339,
     "cases": 330,
     "pcapita": 973.45,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "India": {
@@ -778,7 +786,7 @@
     "population": 270.6256,
     "cases": 311,
     "pcapita": 1.15,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Iran": {
@@ -786,7 +794,7 @@
     "population": 41.8899,
     "cases": 18407,
     "pcapita": 439.41,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Iraq": {
@@ -794,7 +802,7 @@
     "population": 39.3098,
     "cases": 164,
     "pcapita": 4.17,
-    "threshold met": 3.58,
+    "threshold met": 3.78,
     "fill": "#fc9272"
   },
   "Ireland": {
@@ -802,7 +810,7 @@
     "population": 4.8825,
     "cases": 366,
     "pcapita": 74.96,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Isle of Man": {
@@ -816,7 +824,7 @@
     "population": 8.5194,
     "cases": 529,
     "pcapita": 62.09,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Italy": {
@@ -824,7 +832,7 @@
     "population": 60.5501,
     "cases": 35713,
     "pcapita": 589.81,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Jamaica": {
@@ -832,7 +840,7 @@
     "population": 2.9483,
     "cases": 15,
     "pcapita": 5.09,
-    "threshold met": 3.58,
+    "threshold met": 3.78,
     "fill": "#fc9272"
   },
   "Japan": {
@@ -840,7 +848,7 @@
     "population": 126.8603,
     "cases": 924,
     "pcapita": 7.28,
-    "threshold met": 3.58,
+    "threshold met": 3.78,
     "fill": "#fc9272"
   },
   "Jersey": {
@@ -854,7 +862,7 @@
     "population": 10.1017,
     "cases": 56,
     "pcapita": 5.54,
-    "threshold met": 3.58,
+    "threshold met": 3.78,
     "fill": "#fc9272"
   },
   "Kazakhstan": {
@@ -862,7 +870,7 @@
     "population": 18.5514,
     "cases": 44,
     "pcapita": 2.37,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Kenya": {
@@ -890,7 +898,7 @@
     "population": 51.2253,
     "cases": 8565,
     "pcapita": 167.2,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Kosovo": {
@@ -898,7 +906,7 @@
     "population": 1.8105,
     "cases": 2,
     "pcapita": 1.1,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Kuwait": {
@@ -906,7 +914,7 @@
     "population": 4.2071,
     "cases": 148,
     "pcapita": 35.18,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Kyrgyzstan": {
@@ -928,7 +936,7 @@
     "population": 1.9067,
     "cases": 86,
     "pcapita": 45.1,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Lebanon": {
@@ -936,7 +944,7 @@
     "population": 6.8557,
     "cases": 149,
     "pcapita": 21.73,
-    "threshold met": 14.31,
+    "threshold met": 15.1,
     "fill": "#ef3b2c"
   },
   "Lesotho": {
@@ -964,7 +972,7 @@
     "population": 0.038,
     "cases": 28,
     "pcapita": 736.84,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Lithuania": {
@@ -972,7 +980,7 @@
     "population": 2.7596,
     "cases": 34,
     "pcapita": 12.32,
-    "threshold met": 8.05,
+    "threshold met": 8.5,
     "fill": "#fb6a4a"
   },
   "Luxembourg": {
@@ -980,7 +988,7 @@
     "population": 0.6157,
     "cases": 335,
     "pcapita": 544.1,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Macau": {
@@ -988,7 +996,7 @@
     "population": 0.6404,
     "cases": 17,
     "pcapita": 26.55,
-    "threshold met": 22.36,
+    "threshold met": 23.6,
     "fill": "#cb181d"
   },
   "North Macedonia": {
@@ -996,8 +1004,8 @@
     "population": 2.0835,
     "cases": 48,
     "pcapita": 23.04,
-    "threshold met": 22.36,
-    "fill": "#cb181d"
+    "threshold met": 15.1,
+    "fill": "#ef3b2c"
   },
   "Madagascar": {
     "code": ".mg",
@@ -1016,7 +1024,7 @@
     "population": 31.9498,
     "cases": 900,
     "pcapita": 28.17,
-    "threshold met": 22.36,
+    "threshold met": 23.6,
     "fill": "#cb181d"
   },
   "Maldives": {
@@ -1024,7 +1032,7 @@
     "population": 0.531,
     "cases": 13,
     "pcapita": 24.48,
-    "threshold met": 22.36,
+    "threshold met": 23.6,
     "fill": "#cb181d"
   },
   "Mali": {
@@ -1038,7 +1046,7 @@
     "population": 0.4404,
     "cases": 53,
     "pcapita": 120.35,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Marshall Islands": {
@@ -1052,7 +1060,7 @@
     "population": 0.3756,
     "cases": 23,
     "pcapita": 61.24,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Mauritania": {
@@ -1068,7 +1076,7 @@
     "population": 1.2697,
     "cases": 3,
     "pcapita": 2.36,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Mayotte": {
@@ -1076,7 +1084,7 @@
     "population": 0.2662,
     "cases": 3,
     "pcapita": 11.27,
-    "threshold met": 8.05,
+    "threshold met": 8.5,
     "fill": "#fb6a4a"
   },
   "Mexico": {
@@ -1084,8 +1092,8 @@
     "population": 127.5755,
     "cases": 118,
     "pcapita": 0.92,
-    "threshold met": 0.89,
-    "fill": "#fcbba1"
+    "threshold met": 0.0,
+    "fill": "#fee5d9"
   },
   "Micronesia, Federated States of": {
     "code": ".fm",
@@ -1098,7 +1106,7 @@
     "population": 4.0433,
     "cases": 49,
     "pcapita": 12.12,
-    "threshold met": 8.05,
+    "threshold met": 8.5,
     "fill": "#fb6a4a"
   },
   "Monaco": {
@@ -1106,7 +1114,7 @@
     "population": 0.039,
     "cases": 7,
     "pcapita": 179.49,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Mongolia": {
@@ -1114,7 +1122,7 @@
     "population": 3.2252,
     "cases": 6,
     "pcapita": 1.86,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Montenegro": {
@@ -1122,7 +1130,7 @@
     "population": 0.628,
     "cases": 3,
     "pcapita": 4.78,
-    "threshold met": 3.58,
+    "threshold met": 3.78,
     "fill": "#fc9272"
   },
   "Montserrat": {
@@ -1130,7 +1138,7 @@
     "population": 0.005,
     "cases": 1,
     "pcapita": 200.0,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Morocco": {
@@ -1138,7 +1146,7 @@
     "population": 36.4718,
     "cases": 58,
     "pcapita": 1.59,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Mozambique": {
@@ -1180,7 +1188,7 @@
     "population": 17.0971,
     "cases": 2460,
     "pcapita": 143.88,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "New Caledonia": {
@@ -1188,7 +1196,7 @@
     "population": 0.2828,
     "cases": 2,
     "pcapita": 7.07,
-    "threshold met": 3.58,
+    "threshold met": 3.78,
     "fill": "#fc9272"
   },
   "New Zealand": {
@@ -1196,7 +1204,7 @@
     "population": 4.7831,
     "cases": 28,
     "pcapita": 5.85,
-    "threshold met": 3.58,
+    "threshold met": 3.78,
     "fill": "#fc9272"
   },
   "Nicaragua": {
@@ -1244,7 +1252,7 @@
     "population": 5.3789,
     "cases": 1720,
     "pcapita": 319.77,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Oman": {
@@ -1252,7 +1260,7 @@
     "population": 4.975,
     "cases": 39,
     "pcapita": 7.84,
-    "threshold met": 3.58,
+    "threshold met": 3.78,
     "fill": "#fc9272"
   },
   "Pakistan": {
@@ -1260,7 +1268,7 @@
     "population": 216.5653,
     "cases": 335,
     "pcapita": 1.55,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Palau": {
@@ -1280,7 +1288,7 @@
     "population": 4.2464,
     "cases": 109,
     "pcapita": 25.67,
-    "threshold met": 22.36,
+    "threshold met": 23.6,
     "fill": "#cb181d"
   },
   "Papua New Guinea": {
@@ -1294,7 +1302,7 @@
     "population": 7.0446,
     "cases": 11,
     "pcapita": 1.56,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Peru": {
@@ -1302,7 +1310,7 @@
     "population": 32.5105,
     "cases": 155,
     "pcapita": 4.77,
-    "threshold met": 3.58,
+    "threshold met": 3.78,
     "fill": "#fc9272"
   },
   "Philippines": {
@@ -1310,7 +1318,7 @@
     "population": 108.1166,
     "cases": 217,
     "pcapita": 2.01,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Pitcairn": {
@@ -1324,15 +1332,15 @@
     "population": 37.8878,
     "cases": 305,
     "pcapita": 8.05,
-    "threshold met": 8.05,
-    "fill": "#fb6a4a"
+    "threshold met": 3.78,
+    "fill": "#fc9272"
   },
   "Portugal": {
     "code": ".pt",
     "population": 10.2262,
     "cases": 785,
     "pcapita": 76.76,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Puerto Rico": {
@@ -1340,7 +1348,7 @@
     "population": 2.9334,
     "cases": 5,
     "pcapita": 1.7,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Qatar": {
@@ -1348,7 +1356,7 @@
     "population": 2.8321,
     "cases": 452,
     "pcapita": 159.6,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Reunion": {
@@ -1356,7 +1364,7 @@
     "population": 0.8889,
     "cases": 14,
     "pcapita": 15.75,
-    "threshold met": 14.31,
+    "threshold met": 15.1,
     "fill": "#ef3b2c"
   },
   "Romania": {
@@ -1364,7 +1372,7 @@
     "population": 19.3646,
     "cases": 277,
     "pcapita": 14.3,
-    "threshold met": 8.05,
+    "threshold met": 8.5,
     "fill": "#fb6a4a"
   },
   "Russia": {
@@ -1372,7 +1380,7 @@
     "population": 145.8723,
     "cases": 199,
     "pcapita": 1.36,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Rwanda": {
@@ -1388,7 +1396,7 @@
     "population": 0.0098,
     "cases": 3,
     "pcapita": 306.12,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Saint Helena, Ascension and Tristan da Cunha": {
@@ -1408,7 +1416,7 @@
     "population": 0.1828,
     "cases": 2,
     "pcapita": 10.94,
-    "threshold met": 8.05,
+    "threshold met": 8.5,
     "fill": "#fb6a4a"
   },
   "St Martin": {
@@ -1416,7 +1424,7 @@
     "population": 0.038,
     "cases": 4,
     "pcapita": 105.26,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Saint Pierre and Miquelon": {
@@ -1430,7 +1438,7 @@
     "population": 0.1106,
     "cases": 1,
     "pcapita": 9.04,
-    "threshold met": 8.05,
+    "threshold met": 8.5,
     "fill": "#fb6a4a"
   },
   "Samoa": {
@@ -1444,7 +1452,7 @@
     "population": 0.0339,
     "cases": 119,
     "pcapita": 3510.32,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Sao Tome and Principe": {
@@ -1458,7 +1466,7 @@
     "population": 34.2685,
     "cases": 238,
     "pcapita": 6.95,
-    "threshold met": 3.58,
+    "threshold met": 3.78,
     "fill": "#fc9272"
   },
   "Senegal": {
@@ -1466,7 +1474,7 @@
     "population": 16.2964,
     "cases": 31,
     "pcapita": 1.9,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Serbia": {
@@ -1474,7 +1482,7 @@
     "population": 8.7722,
     "cases": 97,
     "pcapita": 11.06,
-    "threshold met": 8.05,
+    "threshold met": 8.5,
     "fill": "#fb6a4a"
   },
   "Seychelles": {
@@ -1482,7 +1490,7 @@
     "population": 0.0977,
     "cases": 6,
     "pcapita": 61.41,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Sierra Leone": {
@@ -1496,7 +1504,7 @@
     "population": 5.8043,
     "cases": 345,
     "pcapita": 59.44,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Sint Maarten (Dutch part)": {
@@ -1510,15 +1518,15 @@
     "population": 5.457,
     "cases": 123,
     "pcapita": 22.54,
-    "threshold met": 22.36,
-    "fill": "#cb181d"
+    "threshold met": 15.1,
+    "fill": "#ef3b2c"
   },
   "Slovenia": {
     "code": ".si",
     "population": 2.0787,
     "cases": 286,
     "pcapita": 137.59,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Solomon Islands": {
@@ -1540,7 +1548,7 @@
     "population": 58.5583,
     "cases": 150,
     "pcapita": 2.56,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "South Georgia and the South Sandwich Islands": {
@@ -1560,7 +1568,7 @@
     "population": 46.7368,
     "cases": 17395,
     "pcapita": 372.19,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Sri Lanka": {
@@ -1568,7 +1576,7 @@
     "population": 21.3237,
     "cases": 60,
     "pcapita": 2.81,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Sudan": {
@@ -1584,7 +1592,7 @@
     "population": 0.5814,
     "cases": 1,
     "pcapita": 1.72,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Svalbard and Jan Mayen": {
@@ -1606,7 +1614,7 @@
     "population": 10.0364,
     "cases": 1439,
     "pcapita": 143.38,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Switzerland": {
@@ -1614,7 +1622,7 @@
     "population": 8.5914,
     "cases": 3888,
     "pcapita": 452.55,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "Syrian Arab Republic": {
@@ -1628,7 +1636,7 @@
     "population": 23.5907,
     "cases": 108,
     "pcapita": 4.58,
-    "threshold met": 3.58,
+    "threshold met": 3.78,
     "fill": "#fc9272"
   },
   "Tajikistan": {
@@ -1650,7 +1658,7 @@
     "population": 69.6256,
     "cases": 272,
     "pcapita": 3.91,
-    "threshold met": 3.58,
+    "threshold met": 3.78,
     "fill": "#fc9272"
   },
   "Timor-Leste": {
@@ -1684,7 +1692,7 @@
     "population": 1.395,
     "cases": 9,
     "pcapita": 6.45,
-    "threshold met": 3.58,
+    "threshold met": 3.78,
     "fill": "#fc9272"
   },
   "Tunisia": {
@@ -1692,7 +1700,7 @@
     "population": 11.6947,
     "cases": 39,
     "pcapita": 3.33,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Turkey": {
@@ -1700,7 +1708,7 @@
     "population": 83.4296,
     "cases": 192,
     "pcapita": 2.3,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Turkmenistan": {
@@ -1740,15 +1748,15 @@
     "population": 9.7705,
     "cases": 140,
     "pcapita": 14.33,
-    "threshold met": 14.31,
-    "fill": "#ef3b2c"
+    "threshold met": 8.5,
+    "fill": "#fb6a4a"
   },
   "United Kingdom": {
     "code": ".gb",
     "population": 67.5302,
     "cases": 2626,
     "pcapita": 38.89,
-    "threshold met": 32.2,
+    "threshold met": 33.98,
     "fill": "#99000d"
   },
   "US": {
@@ -1756,7 +1764,7 @@
     "population": 329.0649,
     "cases": 6956,
     "pcapita": 21.14,
-    "threshold met": 14.31,
+    "threshold met": 15.1,
     "fill": "#ef3b2c"
   },
   "United States Minor Outlying Islands": {
@@ -1770,8 +1778,8 @@
     "population": 3.4617,
     "cases": 79,
     "pcapita": 22.82,
-    "threshold met": 22.36,
-    "fill": "#cb181d"
+    "threshold met": 15.1,
+    "fill": "#ef3b2c"
   },
   "Uzbekistan": {
     "code": ".uz",
@@ -1792,7 +1800,7 @@
     "population": 28.5158,
     "cases": 36,
     "pcapita": 1.26,
-    "threshold met": 0.89,
+    "threshold met": 0.94,
     "fill": "#fcbba1"
   },
   "Vietnam": {
@@ -1814,7 +1822,7 @@
     "population": 0.1046,
     "cases": 3,
     "pcapita": 28.68,
-    "threshold met": 22.36,
+    "threshold met": 23.6,
     "fill": "#cb181d"
   },
   "Wallis and Futuna": {
