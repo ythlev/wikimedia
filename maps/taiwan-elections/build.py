@@ -75,14 +75,14 @@ with open(get_file("elctks"), newline='', encoding="utf-8") as file:
 
 # get winner and runner_up
 if args["type"] == "presidential":
-    votes_list = []
+    town_values = []
     for cand, votes in main["00000000"].items():
-        votes_list.append(votes)
-    votes_list.sort(reverse = True)
+        town_values.append(votes)
+    town_values.sort(reverse = True)
     for cand, votes in main["00000000"].items():
-        if votes == votes_list[0]:
+        if votes == town_values[0]:
             winner = cand
-        elif votes == votes_list[1]:
+        elif votes == town_values[1]:
             runner_up = cand
     del main["00000000"]
     for cands in main.values():
@@ -101,6 +101,7 @@ elif args["type"] == "legislative":
             main[town][cand] = votes / total * 100
 
 # function to determine colour
+values = []
 def val(n):
     if args["type"] == "presidential":
         if n > 0:
@@ -114,20 +115,20 @@ def val(n):
             return 0
 
 # calculate colour values
-for cands in main.values():
-    votes_list = []
-    for cand, votes in cands.items():
-        votes_list.append(votes)
-    votes_list.sort(reverse = True)
-    for cand, votes in cands.items():
-        if votes == votes_list[0]:
+for town in main:
+    town_values = []
+    for cand in main[town]:
+        town_values.append(main[town][cand])
+    town_values.sort(reverse = True)
+    for cand in main[town]:
+        if main[town][cand] == town_values[0]:
             first = cand
-        elif votes == votes_list[1]:
+        elif main[town][cand] == town_values[1]:
             second = cand
     if args["type"] == "presidential":
-        cands["fill"] = colour[first][val(cands[first] - cands[second])]
+        main[town]["fill"] = colour[first][val(main[town][first] - main[town][second])]
     elif args["type"] == "legislative":
-        cands["fill"] = colour[first][val(cands[first])]
+        main[town]["fill"] = colour[first][val(main[town][first])]
 
 # template map
 def map():

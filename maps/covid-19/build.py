@@ -7,7 +7,8 @@ main = {
     "japan": {},
     "us": {}
 }
-unit, outliers = {}, {}
+
+unit = {}
 colours = ["#fee5d9","#fcbba1","#fc9272","#fb6a4a","#de2d26","#a50f15"]
 
 for country in main:
@@ -33,13 +34,10 @@ with urllib.request.urlopen("https://www.arcgis.com/sharing/rest/content/items/b
             main["uk"][row["GSS_CD"]]["cases"] = int(row["TotalCases"])
 '''
 unit["japan"] = 1000000
-with urllib.request.urlopen("https://dl.dropboxusercontent.com/s/6mztoeb6xf78g5w/COVID-19.csv") as response:
-    reader = csv.DictReader(io.TextIOWrapper(response, encoding = 'utf-8'), delimiter=',')
-    for row in reader:
-        if row["Hospital Pref"] != "Unknown":
-            if row["Hospital Pref"] in ["Nigata", "Niigata "]:
-                row["Hospital Pref"] = "Niigata"
-            main["japan"][row["Hospital Pref"]]["cases"] += 1
+with urllib.request.urlopen("https://services8.arcgis.com/JdxivnCyd1rvJTrY/ArcGIS/rest/services/covid19_list_csv/FeatureServer/0/query?where=No+%3E+-1&outFields=*&f=pjson") as response:
+    data = json.loads(response.read())
+    for row in data["features"]:
+        main["japan"][row["attributes"]["Prefectures"]]["cases"] += 1
 
 unit["us"] = 1000000
 with urllib.request.urlopen("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv") as response:
