@@ -1,5 +1,5 @@
 # Created by Chang Chia-huan
-import pathlib, json, csv, io, urllib.request, math
+import pathlib, json, csv, io, urllib.request, math, statistics
 
 main = {
     "taiwan": {},
@@ -56,7 +56,7 @@ for country in main:
         main[country][place]["pcapita"] = round(main[country][place]["cases"] / main[country][place]["population"] * unit[country], 2)
         values.append(main[country][place]["pcapita"])
 
-    step = math.sqrt(max(values)) / 6
+    step = math.sqrt(statistics.median(values)) / 2.5
 
     thresholds = [0, 0, 0, 0, 0, 0]
     for i in range(6):

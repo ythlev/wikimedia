@@ -144,7 +144,7 @@ if args["print"] == None:
             for row in file_in:
                 written = False
                 for town in main:
-                    if town != None and row.find(town) > -1:
+                    if town != None and row.find('id="{}"'.format(town)) > -1:
                         file_out.write(row.replace('id="{}"'.format(town), 'style="fill:{}"'.format(main[town]["fill"])))
                         a += 1
                         written = True

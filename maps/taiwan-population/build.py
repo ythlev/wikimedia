@@ -1,4 +1,4 @@
-import csv, math
+import csv, math, statistics
 
 colours = ['#fef0d9','#fdd49e','#fdbb84','#fc8d59','#ef6548','#d7301f','#990000']
 
@@ -11,9 +11,7 @@ with open("data.csv", newline = "", encoding = "utf-8-sig") as file:
         main[row["村里代碼"]] = {"dens": float(row["人口密度"])}
         values.append(float(row["人口密度"]))
 
-values.sort()
-
-step = math.sqrt(values[-777]) / 7
+step = math.sqrt(statistics.median(values)) / 3
 
 thresholds = [0, 0, 0, 0, 0, 0, 0]
 for i in range(7):
