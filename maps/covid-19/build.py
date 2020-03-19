@@ -40,13 +40,11 @@ with urllib.request.urlopen("https://services6.arcgis.com/5jNaHNYe2AnnqRnS/arcgi
             main["japan"][row["attributes"]["Hospital_Pref"]]["cases"] += 1
 
 unit["us"] = 1000000
-with urllib.request.urlopen("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv") as response:
-    reader = csv.reader(io.TextIOWrapper(response, encoding = 'utf-8'), delimiter=',')
-    for row in reader:
-        if row[0] == "Province/State" or row[1] != "US":
-            continue
-        elif row[0] in main["us"]:
-            main["us"][row[0]]["cases"] = int(row[-1])
+with urllib.request.urlopen("https://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/Coronavirus_2019_nCoV_Cases/FeatureServer/1/query?where=OBJECTID%3E0&outFields=*&f=pjson") as response:
+    data = json.loads(response.read())
+    for row in data["features"]:
+        if row["attributes"]["Country_Region"] == "US" and row["attributes"]["Province_State"] in main["us"]:
+            main["us"][row["attributes"]["Province_State"]]["cases"] = int(row["attributes"]["Confirmed"])
 
 for country in main:
     values = []

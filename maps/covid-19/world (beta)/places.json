@@ -1,1257 +1,2002 @@
 {
   "Afghanistan": {
     "code": ".af",
-    "population": 38.0418,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 38.0418
   },
   "Åland Islands": {
     "code": ".ax",
-    "population": null,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": null
   },
   "Albania": {
     "code": ".al",
-    "population": 2.8809,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 2.8809
   },
   "Algeria": {
     "code": ".dz",
-    "population": 43.0531,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 43.0531
   },
   "American Samoa": {
     "code": ".as",
-    "population": 0.0553,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0553
   },
   "Andorra": {
     "code": ".ad",
-    "population": 0.0771,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0771
   },
   "Angola": {
     "code": ".ao",
-    "population": 31.8253,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 31.8253
   },
   "Anguilla": {
     "code": ".ai",
-    "population": 0.0149,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0149
   },
   "Antarctica": {
     "code": ".aq",
-    "population": null,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": null
   },
   "Antigua and Barbuda": {
     "code": ".ag",
-    "population": 0.0971,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0971
   },
   "Argentina": {
     "code": ".ar",
-    "population": 44.7807,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 44.7807
   },
   "Armenia": {
     "code": ".am",
-    "population": 2.9577,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 2.9577
   },
   "Aruba": {
     "code": ".aw",
-    "population": 0.1063,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.1063
   },
   "Australia": {
     "code": ".au",
-    "population": 25.2032,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 25.2032
   },
   "Austria": {
     "code": ".at",
-    "population": 8.9551,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 8.9551
   },
   "Azerbaijan": {
     "code": ".az",
-    "population": 10.0477,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 10.0477
   },
   "Bahamas, The": {
     "code": ".bs",
-    "population": 0.3895,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.3895
   },
   "Bahrain": {
     "code": ".bh",
-    "population": 1.6412,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 1.6412
   },
   "Bangladesh": {
     "code": ".bd",
-    "population": 163.0462,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 163.0462
   },
   "Barbados": {
     "code": ".bb",
-    "population": 0.287,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.287
   },
   "Belarus": {
     "code": ".by",
-    "population": 9.4524,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 9.4524
   },
   "Belgium": {
     "code": ".be",
-    "population": 11.5393,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 11.5393
   },
   "Belize": {
     "code": ".bz",
-    "population": 0.3904,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.3904
   },
   "Benin": {
     "code": ".bj",
-    "population": 11.8012,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 11.8012
   },
   "Bermuda": {
     "code": ".bm",
-    "population": 0.0625,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0625
   },
   "Bhutan": {
     "code": ".bt",
-    "population": 0.7631,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.7631
   },
   "Bolivia": {
     "code": ".bo",
-    "population": 11.5131,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 11.5131
   },
   "Bonaire, Sint Eustatius and Saba": {
     "code": ".bq",
-    "population": 0.026,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0260
   },
   "Bosnia and Herzegovina": {
     "code": ".ba",
-    "population": 3.301,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 3.301
   },
   "Botswana": {
     "code": ".bw",
-    "population": 2.3037,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 2.3037
   },
   "Bouvet Island": {
     "code": ".bv",
-    "population": null,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": null
   },
   "Brazil": {
     "code": ".br",
-    "population": 211.0495,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 211.0495
   },
   "British Indian Ocean Territory": {
     "code": ".io",
-    "population": null,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": null
   },
   "Brunei": {
     "code": ".bn",
-    "population": 0.4333,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.4333
   },
   "Bulgaria": {
     "code": ".bg",
-    "population": 7.0001,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 7.0001
   },
   "Burkina Faso": {
     "code": ".bf",
-    "population": 20.3214,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 20.3214
   },
   "Burundi": {
     "code": ".bi",
-    "population": 11.5306,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 11.5306
   },
   "Cambodia": {
     "code": ".kh",
-    "population": 16.4865,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 16.4865
   },
   "Cameroon": {
     "code": ".cm",
-    "population": 25.8764,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 25.8764
   },
   "Canada": {
     "code": ".ca",
-    "population": 37.411,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 37.411
   },
   "Cape Verde": {
     "code": ".cv",
-    "population": 0.5499,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.5499
   },
   "Cayman Islands": {
     "code": ".ky",
-    "population": 0.0649,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0649
   },
   "Central African Republic": {
     "code": ".cf",
-    "population": 4.7452,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 4.7452
   },
   "Chad": {
     "code": ".td",
-    "population": 15.9469,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 15.9469
   },
   "Chile": {
     "code": ".cl",
-    "population": 18.952,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 18.952
   },
   "China": {
     "code": ".cn",
-    "population": 1433.7837,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 1433.7837
   },
   "Christmas Island": {
     "code": ".cx",
-    "population": null,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": null
   },
   "Cocos (Keeling) Islands": {
     "code": ".cc",
-    "population": null,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": null
   },
   "Colombia": {
     "code": ".co",
-    "population": 50.3394,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 50.3394
   },
   "Comoros": {
     "code": ".km",
-    "population": 0.8509,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.8509
   },
   "Congo (Brazzaville)": {
     "code": ".cg",
-    "population": 5.3805,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 5.3805
   },
   "Congo (Kinshasa)": {
     "code": ".cd",
-    "population": 86.7906,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 86.7906
   },
   "Cook Islands": {
     "code": ".ck",
-    "population": 0.0175,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0175
   },
   "Costa Rica": {
     "code": ".cr",
-    "population": 5.0476,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 5.0476
   },
   "Cote d'Ivoire": {
     "code": ".ci",
-    "population": 25.7165,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 25.7165
   },
   "Croatia": {
     "code": ".hr",
-    "population": 4.1303,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 4.1303
   },
   "Cuba": {
     "code": ".cu",
-    "population": 11.3335,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 11.3335
   },
   "Curacao": {
     "code": ".cw",
-    "population": 0.1634,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.1634
   },
   "Cyprus": {
     "code": ".cy",
-    "population": 1.1986,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 1.1986
   },
   "Czechia": {
     "code": ".cz",
-    "population": 10.6892,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 10.6892
   },
   "Denmark": {
     "code": ".dk",
-    "population": 5.7719,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 5.7719
   },
   "Djibouti": {
     "code": ".dj",
-    "population": 0.9736,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.9736
   },
   "Dominica": {
     "code": ".dm",
-    "population": 0.0718,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0718
   },
   "Dominican Republic": {
     "code": ".do",
-    "population": 10.739,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 10.739
   },
   "Ecuador": {
     "code": ".ec",
-    "population": 17.3737,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 17.3737
   },
   "Egypt": {
     "code": ".eg",
-    "population": 100.3881,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 100.3881
   },
   "El Salvador": {
     "code": ".sv",
-    "population": 6.4536,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 6.4536
   },
   "Equatorial Guinea": {
     "code": ".gq",
-    "population": 1.356,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 1.356
   },
   "Eritrea": {
     "code": ".er",
-    "population": 3.4971,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 3.4971
   },
   "Estonia": {
     "code": ".ee",
-    "population": 1.3256,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 1.3256
   },
   "Ethiopia": {
     "code": ".et",
-    "population": 112.0787,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 112.0787
   },
   "Falkland Islands (Malvinas)": {
     "code": ".fk",
-    "population": 0.0034,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0034
   },
   "Faroe Islands": {
     "code": ".fo",
-    "population": 0.0487,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0487
   },
   "Fiji": {
     "code": ".fj",
-    "population": 0.89,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.89
   },
   "Finland": {
     "code": ".fi",
-    "population": 5.5322,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 5.5322
   },
   "France": {
     "code": ".fr",
-    "population": 65.1297,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 65.1297
   },
   "French Guiana": {
     "code": ".gf",
-    "population": 0.2908,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.2908
   },
   "French Polynesia": {
     "code": ".pf",
-    "population": 0.2793,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.2793
   },
   "French Southern Territories": {
     "code": ".tf",
-    "population": null,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": null
   },
   "Gabon": {
     "code": ".ga",
-    "population": 2.1726,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 2.1726
   },
   "Gambia, The": {
     "code": ".gm",
-    "population": 2.3477,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 2.3477
   },
   "Georgia": {
     "code": ".ge",
-    "population": 3.9968,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 3.9968
   },
   "Germany": {
     "code": ".de",
-    "population": 83.517,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 83.517
   },
   "Ghana": {
     "code": ".gh",
-    "population": 30.4179,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 30.4179
   },
   "Gibraltar": {
     "code": ".gi",
-    "population": 0.0337,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0337
   },
   "Greece": {
     "code": ".gr",
-    "population": 10.4735,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 10.4735
   },
   "Greenland": {
     "code": ".gl",
-    "population": 0.0567,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0567
   },
   "Grenada": {
     "code": ".gd",
-    "population": 0.112,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.112
   },
   "Guadeloupe": {
     "code": ".gp",
-    "population": 0.4001,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.4001
   },
   "Guam": {
     "code": ".gu",
-    "population": 0.1673,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.1673
   },
   "Guatemala": {
     "code": ".gt",
-    "population": 17.5815,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 17.5815
   },
   "Guernsey": {
     "code": ".gg",
-    "population": 0.063,
-    "cases": 0
-  },
-  "Channel Islands": {
-    "code": ".jg",
-    "population": 0.1705,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0630
   },
   "Guinea": {
     "code": ".gn",
-    "population": 12.7712,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 12.7712
   },
   "Guinea-Bissau": {
     "code": ".gw",
-    "population": 1.9209,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 1.9209
   },
   "Guyana": {
     "code": ".gy",
-    "population": 0.7828,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.7828
   },
   "Haiti": {
     "code": ".ht",
-    "population": 11.2631,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 11.2631
   },
   "Heard Island and McDonald Islands": {
     "code": ".hm",
-    "population": null,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": null
   },
   "Holy See": {
     "code": ".va",
-    "population": 0.0008,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0008
   },
   "Honduras": {
     "code": ".hn",
-    "population": 9.7461,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 9.7461
   },
   "Hong Kong": {
     "code": ".hk",
-    "population": 7.4362,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 7.4362
   },
   "Hungary": {
     "code": ".hu",
-    "population": 9.6847,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 9.6847
   },
   "Iceland": {
     "code": ".is",
-    "population": 0.339,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.339
   },
   "India": {
     "code": ".in",
-    "population": 1366.4178,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 1366.4178
   },
   "Indonesia": {
     "code": ".id",
-    "population": 270.6256,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 270.6256
   },
   "Iran": {
     "code": ".ir",
-    "population": 41.8899,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 41.8899
   },
   "Iraq": {
     "code": ".iq",
-    "population": 39.3098,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 39.3098
   },
   "Ireland": {
     "code": ".ie",
-    "population": 4.8825,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 4.8825
   },
   "Isle of Man": {
     "code": ".im",
-    "population": 0.0846,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0846
   },
   "Israel": {
     "code": ".il",
-    "population": 8.5194,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 8.5194
   },
   "Italy": {
     "code": ".it",
-    "population": 60.5501,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 60.5501
   },
   "Jamaica": {
     "code": ".jm",
-    "population": 2.9483,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 2.9483
   },
   "Japan": {
     "code": ".jp",
-    "population": 126.8603,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 126.8603
   },
   "Jersey": {
     "code": ".je",
-    "population": 0.1068,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.1068
   },
   "Jordan": {
     "code": ".jo",
-    "population": 10.1017,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 10.1017
   },
   "Kazakhstan": {
     "code": ".kz",
-    "population": 18.5514,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 18.5514
   },
   "Kenya": {
     "code": ".ke",
-    "population": 52.574,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 52.574
   },
   "Kiribati": {
     "code": ".ki",
-    "population": 0.1176,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.1176
   },
   "Korea, North": {
     "code": ".kp",
-    "population": 25.6662,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 25.6662
   },
   "Korea, South": {
     "code": ".kr",
-    "population": 51.2253,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 51.2253
   },
   "Kosovo": {
     "code": ".xk",
-    "population": 1.8105,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 1.8105
   },
   "Kuwait": {
     "code": ".kw",
-    "population": 4.2071,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 4.2071
   },
   "Kyrgyzstan": {
     "code": ".kg",
-    "population": 6.4159,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 6.4159
   },
   "Laos": {
     "code": ".la",
-    "population": 7.1695,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 7.1695
   },
   "Latvia": {
     "code": ".lv",
-    "population": 1.9067,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 1.9067
   },
   "Lebanon": {
     "code": ".lb",
-    "population": 6.8557,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 6.8557
   },
   "Lesotho": {
     "code": ".ls",
-    "population": 2.1253,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 2.1253
   },
   "Liberia": {
     "code": ".lr",
-    "population": 4.9374,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 4.9374
   },
   "Libya": {
     "code": ".ly",
-    "population": 6.7775,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 6.7775
   },
   "Liechtenstein": {
     "code": ".li",
-    "population": 0.038,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.038
   },
   "Lithuania": {
     "code": ".lt",
-    "population": 2.7596,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 2.7596
   },
   "Luxembourg": {
     "code": ".lu",
-    "population": 0.6157,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.6157
   },
   "Macau": {
     "code": ".mo",
-    "population": 0.6404,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.6404
   },
   "North Macedonia": {
     "code": ".mk",
-    "population": 2.0835,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 2.0835
   },
   "Madagascar": {
     "code": ".mg",
-    "population": 26.9693,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 26.9693
   },
   "Malawi": {
     "code": ".mw",
-    "population": 18.6287,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 18.6287
   },
   "Malaysia": {
     "code": ".my",
-    "population": 31.9498,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 31.9498
   },
   "Maldives": {
     "code": ".mv",
-    "population": 0.531,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.531
   },
   "Mali": {
     "code": ".ml",
-    "population": 19.658,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 19.658
   },
   "Malta": {
     "code": ".mt",
-    "population": 0.4404,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.4404
   },
   "Marshall Islands": {
     "code": ".mh",
-    "population": 0.0588,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0588
   },
   "Martinique": {
     "code": ".mq",
-    "population": 0.3756,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.3756
   },
   "Mauritania": {
     "code": ".mr",
-    "population": 4.5257,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 4.5257
   },
   "Mauritius": {
     "code": ".mu",
-    "population": 1.2697,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 1.2697
   },
   "Mayotte": {
     "code": ".yt",
-    "population": 0.2662,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.2662
   },
   "Mexico": {
     "code": ".mx",
-    "population": 127.5755,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 127.5755
   },
   "Micronesia, Federated States of": {
     "code": ".fm",
-    "population": 0.1138,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.1138
   },
   "Moldova": {
     "code": ".md",
-    "population": 4.0433,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 4.0433
   },
   "Monaco": {
     "code": ".mc",
-    "population": 0.039,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.039
   },
   "Mongolia": {
     "code": ".mn",
-    "population": 3.2252,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 3.2252
   },
   "Montenegro": {
     "code": ".me",
-    "population": 0.628,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.628
   },
   "Montserrat": {
     "code": ".ms",
-    "population": 0.005,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.005
   },
   "Morocco": {
     "code": ".ma",
-    "population": 36.4718,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 36.4718
   },
   "Mozambique": {
     "code": ".mz",
-    "population": 30.366,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 30.366
   },
   "Myanmar": {
     "code": ".mm",
-    "population": 54.0454,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 54.0454
   },
   "Namibia": {
     "code": ".na",
-    "population": 2.4945,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 2.4945
   },
   "Nauru": {
     "code": ".nr",
-    "population": 0.0108,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0108
   },
   "Nepal": {
     "code": ".np",
-    "population": 28.6087,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 28.6087
   },
   "Netherlands": {
     "code": ".nl",
-    "population": 17.0971,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 17.0971
   },
   "New Caledonia": {
     "code": ".nc",
-    "population": 0.2828,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.2828
   },
   "New Zealand": {
     "code": ".nz",
-    "population": 4.7831,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 4.7831
   },
   "Nicaragua": {
     "code": ".ni",
-    "population": 6.5455,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 6.5455
   },
   "Niger": {
     "code": ".ne",
-    "population": 23.3107,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 23.3107
   },
   "Nigeria": {
     "code": ".ng",
-    "population": 200.9636,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 200.9636
   },
   "Niue": {
     "code": ".nu",
-    "population": 0.0016,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0016
   },
   "Norfolk Island": {
     "code": ".nf",
-    "population": null,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": null
   },
   "Northern Mariana Islands": {
     "code": ".mp",
-    "population": 0.0572,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0572
   },
   "Norway": {
     "code": ".no",
-    "population": 5.3789,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 5.3789
   },
   "Oman": {
     "code": ".om",
-    "population": 4.975,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 4.975
   },
   "Pakistan": {
     "code": ".pk",
-    "population": 216.5653,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 216.5653
   },
   "Palau": {
     "code": ".pw",
-    "population": 0.018,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.018
   },
   "Palestine": {
     "code": ".ps",
-    "population": 4.9814,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 4.9814
   },
   "Panama": {
     "code": ".pa",
-    "population": 4.2464,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 4.2464
   },
   "Papua New Guinea": {
     "code": ".pg",
-    "population": 8.7761,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 8.7761
   },
   "Paraguay": {
     "code": ".py",
-    "population": 7.0446,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 7.0446
   },
   "Peru": {
     "code": ".pe",
-    "population": 32.5105,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 32.5105
   },
   "Philippines": {
     "code": ".ph",
-    "population": 108.1166,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 108.1166
   },
   "Pitcairn": {
     "code": ".pn",
-    "population": null,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": null
   },
   "Poland": {
     "code": ".pl",
-    "population": 37.8878,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 37.8878
   },
   "Portugal": {
     "code": ".pt",
-    "population": 10.2262,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 10.2262
   },
   "Puerto Rico": {
     "code": ".pr",
-    "population": 2.9334,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 2.9334
   },
   "Qatar": {
     "code": ".qa",
-    "population": 2.8321,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 2.8321
   },
   "Reunion": {
     "code": ".re",
-    "population": 0.8889,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.8889
   },
   "Romania": {
     "code": ".ro",
-    "population": 19.3646,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 19.3646
   },
   "Russia": {
     "code": ".ru",
-    "population": 145.8723,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 145.8723
   },
   "Rwanda": {
     "code": ".rw",
-    "population": 12.627,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 12.627
   },
   "Saint Barthelemy": {
     "code": ".bl",
-    "population": 0.0098,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0098
   },
   "Saint Helena, Ascension and Tristan da Cunha": {
     "code": ".sh",
-    "population": 0.0061,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0061
   },
   "Saint Kitts and Nevis": {
     "code": ".kn",
-    "population": 0.0528,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0528
   },
   "Saint Lucia": {
     "code": ".lc",
-    "population": 0.1828,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.1828
   },
   "St Martin": {
     "code": ".mf",
-    "population": 0.038,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.038
   },
   "Saint Pierre and Miquelon": {
     "code": ".pm",
-    "population": 0.0058,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0058
   },
   "Saint Vincent and the Grenadines": {
     "code": ".vc",
-    "population": 0.1106,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.1106
   },
   "Samoa": {
     "code": ".ws",
-    "population": 0.1971,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.1971
   },
   "San Marino": {
     "code": ".sm",
-    "population": 0.0339,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0339
   },
   "Sao Tome and Principe": {
     "code": ".st",
-    "population": 0.2151,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.2151
   },
   "Saudi Arabia": {
     "code": ".sa",
-    "population": 34.2685,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 34.2685
   },
   "Senegal": {
     "code": ".sn",
-    "population": 16.2964,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 16.2964
   },
   "Serbia": {
     "code": ".rs",
-    "population": 8.7722,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 8.7722
   },
   "Seychelles": {
     "code": ".sc",
-    "population": 0.0977,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0977
   },
   "Sierra Leone": {
     "code": ".sl",
-    "population": 7.8132,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 7.8132
   },
   "Singapore": {
     "code": ".sg",
-    "population": 5.8043,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 5.8043
   },
   "Sint Maarten (Dutch part)": {
     "code": ".sx",
-    "population": 0.0424,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0424
   },
   "Slovakia": {
     "code": ".sk",
-    "population": 5.457,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 5.457
   },
   "Slovenia": {
     "code": ".si",
-    "population": 2.0787,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 2.0787
   },
   "Solomon Islands": {
     "code": ".sb",
-    "population": 0.6698,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.6698
   },
   "Somalia": {
     "code": ".so",
-    "population": 15.4429,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 15.4429
   },
   "South Africa": {
     "code": ".za",
-    "population": 58.5583,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 58.5583
   },
   "South Georgia and the South Sandwich Islands": {
     "code": ".gs",
-    "population": null,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": null
   },
   "South Sudan": {
     "code": ".ss",
-    "population": 11.0621,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 11.0621
   },
   "Spain": {
     "code": ".es",
-    "population": 46.7368,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 46.7368
   },
   "Sri Lanka": {
     "code": ".lk",
-    "population": 21.3237,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 21.3237
   },
   "Sudan": {
     "code": ".sd",
-    "population": 42.8132,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 42.8132
   },
   "Suriname": {
     "code": ".sr",
-    "population": 0.5814,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.5814
   },
   "Svalbard and Jan Mayen": {
     "code": ".sj",
-    "population": null,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": null
   },
   "Eswatini": {
     "code": ".sz",
-    "population": 1.1481,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 1.1481
   },
   "Sweden": {
     "code": ".se",
-    "population": 10.0364,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 10.0364
   },
   "Switzerland": {
     "code": ".ch",
-    "population": 8.5914,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 8.5914
   },
   "Syrian Arab Republic": {
     "code": ".sy",
-    "population": 17.0701,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 17.0701
   },
   "Taiwan": {
     "code": ".tw",
-    "population": 23.5907,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 23.5907
   },
   "Tajikistan": {
     "code": ".tj",
-    "population": 9.321,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 9.321
   },
   "Tanzania": {
     "code": ".tz",
-    "population": 58.0055,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 58.0055
   },
   "Thailand": {
     "code": ".th",
-    "population": 69.6256,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 69.6256
   },
   "Timor-Leste": {
     "code": ".tl",
-    "population": 1.2931,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 1.2931
   },
   "Togo": {
     "code": ".tg",
-    "population": 8.0824,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 8.0824
   },
   "Tokelau": {
     "code": ".tk",
-    "population": 0.0013,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0013
   },
   "Tonga": {
     "code": ".to",
-    "population": 0.1045,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.1045
   },
   "Trinidad and Tobago": {
     "code": ".tt",
-    "population": 1.395,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 1.395
   },
   "Tunisia": {
     "code": ".tn",
-    "population": 11.6947,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 11.6947
   },
   "Turkey": {
     "code": ".tr",
-    "population": 83.4296,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 83.4296
   },
   "Turkmenistan": {
     "code": ".tm",
-    "population": 5.9421,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 5.9421
   },
   "Turks and Caicos Islands": {
     "code": ".tc",
-    "population": 0.0382,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0382
   },
   "Tuvalu": {
     "code": ".tv",
-    "population": 0.0116,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0116
   },
   "Uganda": {
     "code": ".ug",
-    "population": 44.2696,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 44.2696
   },
   "Ukraine": {
     "code": ".ua",
-    "population": 43.9936,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 43.9936
   },
   "United Arab Emirates": {
     "code": ".ae",
-    "population": 9.7705,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 9.7705
   },
   "United Kingdom": {
     "code": ".gb",
-    "population": 67.5302,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 67.5302
   },
   "US": {
     "code": ".us",
-    "population": 329.0649,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 329.0649
   },
   "United States Minor Outlying Islands": {
     "code": ".um",
-    "population": 0.1046,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.1046
   },
   "Uruguay": {
     "code": ".uy",
-    "population": 3.4617,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 3.4617
   },
   "Uzbekistan": {
     "code": ".uz",
-    "population": 32.9817,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 32.9817
   },
   "Vanuatu": {
     "code": ".vu",
-    "population": 0.2999,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.2999
   },
   "Venezuela": {
     "code": ".ve",
-    "population": 28.5158,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 28.5158
   },
   "Vietnam": {
     "code": ".vn",
-    "population": 96.4621,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 96.4621
   },
   "Virgin Islands, British": {
     "code": ".vg",
-    "population": 0.03,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0300
   },
   "Virgin Islands": {
     "code": ".vi",
-    "population": 0.1046,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.1046
   },
   "Wallis and Futuna": {
     "code": ".wf",
-    "population": 0.0114,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.0114
   },
   "Western Sahara": {
     "code": ".eh",
-    "population": 0.5825,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 0.5825
   },
   "Yemen": {
     "code": ".ye",
-    "population": 29.1619,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 29.1619
   },
   "Zambia": {
     "code": ".zm",
-    "population": 17.861,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 17.861
   },
   "Zimbabwe": {
     "code": ".zw",
-    "population": 14.6455,
-    "cases": 0
+    "date": null,
+    "cases": null,
+    "recovered": null,
+    "active": null,
+    "population": 14.6455
   }
 }
