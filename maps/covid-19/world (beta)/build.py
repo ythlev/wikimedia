@@ -1,32 +1,23 @@
 # Created by Chang Chia-huan
 import pathlib, json, csv, io, urllib.request, math, statistics
 
-with open("data.json", newline = "", encoding = "utf-8") as file:
+with open("places.json", newline = "", encoding = "utf-8") as file:
     main = json.loads(file.read())
 
-territories = []
-with urllib.request.urlopen("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv") as response:
-    reader = csv.reader(io.TextIOWrapper(response, encoding = "utf-8"), delimiter = ",")
-    for row in reader:
-        if row[0] == "Province/State":
-            continue
-        row[1] = row[1].replace("*", "")
-        if row[0] in main:
-            row[1] = row[0]
-        elif row[0] != "":
-            territories.append(row[0] + ", " + row[1])
-        if row[1] in main:
-            if main[row[1]]["cases"] == None:
-                main[row[1]]["cases"] = int(row[-1])
-            else:
-                main[row[1]]["cases"] += int(row[-1])
-
-with open("territories.json", "w", newline = "", encoding = "utf-8") as file:
-    file.write(json.dumps(territories, indent = 2, ensure_ascii = False))
+with urllib.request.urlopen("https://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/Coronavirus_2019_nCoV_Cases/FeatureServer/1/query?where=OBJECTID%3E0&outFields=*&f=pjson") as response:
+    data = json.loads(response.read())
+    for row in data["features"]:
+        row["attributes"]["Country_Region"] = row["attributes"]["Country_Region"].replace("*", "")
+        if row["attributes"]["Province_State"] in main:
+            main[row["attributes"]["Province_State"]]["cases"] = int(row["attributes"]["Confirmed"])
+        elif row["attributes"]["Country_Region"] in main:
+            main[row["attributes"]["Country_Region"]]["cases"] += int(row["attributes"]["Confirmed"])
+            if row["attributes"]["Province_State"] != None:
+                print(row["attributes"]["Province_State"], "in", row["attributes"]["Country_Region"])
 
 values = []
 for place in main:
-    if main[place]["cases"] != None and main[place]["population"] != None:
+    if main[place]["cases"] > 0 and main[place]["population"] != None:
         main[place]["pcapita"] = round(main[place]["cases"] / main[place]["population"], 2)
         values.append(main[place]["pcapita"])
 
@@ -70,5 +61,5 @@ print("Number of data figures:", len(values))
 print("Colours:", colours)
 print("Thresholds:", thresholds, "Max:", max(values))
 
-with open("data-generated.json", "w", newline = "", encoding = "utf-8") as file:
+with open("details.json", "w", newline = "", encoding = "utf-8") as file:
     file.write(json.dumps(main, indent = 2, ensure_ascii = False))

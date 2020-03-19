@@ -33,13 +33,11 @@ with urllib.request.urlopen("https://www.arcgis.com/sharing/rest/content/items/b
             main["uk"][row["GSS_CD"]]["cases"] = int(row["TotalCases"])
 '''
 unit["japan"] = 1000000
-with urllib.request.urlopen("https://dl.dropboxusercontent.com/s/6mztoeb6xf78g5w/COVID-19.csv") as response:
-    reader = csv.DictReader(io.TextIOWrapper(response, encoding = 'utf-8'), delimiter=',')
-    for row in reader:
-        if row["Hospital Pref"] != "Unknown":
-            if row["Hospital Pref"] in ["Nigata", "Niigata "]:
-                row["Hospital Pref"] = "Niigata"
-            main["japan"][row["Hospital Pref"]]["cases"] += 1
+with urllib.request.urlopen("https://services6.arcgis.com/5jNaHNYe2AnnqRnS/arcgis/rest/services/COVID19_Japan/FeatureServer/0/query?where=ObjectId%3E0&outFields=*&f=pjson") as response:
+    data = json.loads(response.read())
+    for row in data["features"]:
+        if row["attributes"]["Hospital_Pref"] != "Unknown":
+            main["japan"][row["attributes"]["Hospital_Pref"]]["cases"] += 1
 
 unit["us"] = 1000000
 with urllib.request.urlopen("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv") as response:
