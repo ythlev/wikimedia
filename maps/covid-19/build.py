@@ -9,11 +9,11 @@ if args["country"] != None:
     main = {args["country"]:{}}
 else:
     main = {
-        # "uk": {},
         "Japan": {},
         "US": {},
         # "France": {},
         "Germany": {},
+        "UK": {},
         "Taiwan": {}
     }
 
@@ -30,33 +30,41 @@ attrs = []
 def arc_gis(query):
     global attrs
     attrs = []
-    url = query + "?where=ObjectID%3E0" + "&outFields=*" + "&returnGeometry=false" + "&f=pjson"
+    url = query + "&outFields=*" + "&returnGeometry=false" + "&f=pjson"
     with urllib.request.urlopen(url) as response:
         for entry in json.loads(response.read())["features"]:
             attrs.append(entry["attributes"])
 
 if "Japan" in main:
-    arc_gis("https://services6.arcgis.com/5jNaHNYe2AnnqRnS/arcgis/rest/services/COVID19_Japan/FeatureServer/0/query")
+    arc_gis("https://services6.arcgis.com/5jNaHNYe2AnnqRnS/arcgis/rest/services/COVID19_Japan/FeatureServer/0/query?where=ObjectID%3E0")
     for place in attrs:
         if place["Hospital_Pref"] != "Unknown":
             main["Japan"][place["Hospital_Pref"]]["cases"] += 1
 
 if "US" in main:
-    arc_gis("https://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/Coronavirus_2019_nCoV_Cases/FeatureServer/1/query")
+    arc_gis("https://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/Coronavirus_2019_nCoV_Cases/FeatureServer/1/query?where=ObjectID%3E0")
     for place in attrs:
         if place["Country_Region"] == "US" and place["Province_State"] in main["US"]:
             main["US"][place["Province_State"]]["cases"] = int(place["Confirmed"])
 
 if "France" in main:
-    arc_gis("https://services1.arcgis.com/5PzxEwuu4GtMhqQ6/arcgis/rest/services/Regions_DT_Project_Vue/FeatureServer/0/query")
+    arc_gis("https://services1.arcgis.com/5PzxEwuu4GtMhqQ6/arcgis/rest/services/Regions_DT_Project_Vue/FeatureServer/0/query?where=ObjectID%3E0")
     for place in attrs:
         main["France"][place["nom"]]["cases"] = int(place["nb_cas"])
 
-germany = []
 if "Germany" in main:
-    arc_gis("https://services7.arcgis.com/mOBPykOjAyBO2ZKk/arcgis/rest/services/Kreisgrenzen_2018_mit_Einwohnerzahl/FeatureServer/0/query")
+    arc_gis("https://services7.arcgis.com/mOBPykOjAyBO2ZKk/arcgis/rest/services/Kreisgrenzen_2018_mit_Einwohnerzahl/FeatureServer/0/query?where=ObjectID%3E0")
     for place in attrs:
         main["Germany"][place["RS"]]["cases"] = int(place["Fallzahlen"])
+
+if "UK" in main:
+    arc_gis("https://services1.arcgis.com/0IrmI40n5ZYxTUrV/arcgis/rest/services/NHSR_Cases/FeatureServer/0/query?where=FID%3E0")
+    for place in attrs:
+        main["UK"][place["GSS_CD"]]["cases"] = int(place["TotalCases"])
+    arc_gis("https://services1.arcgis.com/0IrmI40n5ZYxTUrV/arcgis/rest/services/UK_Countries_cases/FeatureServer/0/query?where=FID%3E0")
+    for place in attrs:
+        if place["GSS_CD"] in main["UK"]:
+            main["UK"][place["GSS_CD"]]["cases"] = int(place["TotalCases"])
 
 if "Taiwan" in main:
     with urllib.request.urlopen("https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_19CoV.json") as response:
@@ -100,16 +108,20 @@ for country in main:
 
     with open((pathlib.Path() / "results" / "legend" / country).with_suffix(".txt"), "w", newline = "", encoding = "utf-8") as file:
         file.write("Commons:\n")
-        legend = ["|" + colour[0] + "|< " + "{:.2f}".format(threshold[1])]
+        if country == "UK":
+            format = "{:.0f}"
+        else:
+            format = "{:.2f}"
+        legend = ["|" + colour[0] + "|< " + format.format(threshold[1])]
         for i in range(1, 6):
-            legend.append("|" + colour[i] + "|" + "{:.2f}".format(threshold[i]))
+            legend.append("|" + colour[i] + "|" + format.format(threshold[i]))
             if i == 5:
                 legend[5] = legend[5] + "+"
-                legend.append("Max value: " + str(max(values)))
         file.write("\n".join(legend))
         file.write("\n\nWikipedia:\n")
         for i in range(6):
             legend[i] = "{{legend" + legend[i] + "}}"
+        legend.append("\nMax value: " + str(max(values)))
         file.write("\n".join(legend))
 
     cases = []
