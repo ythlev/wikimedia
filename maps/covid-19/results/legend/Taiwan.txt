@@ -5,6 +5,7 @@ Commons:
 |#fb6a4a|3.53
 |#de2d26|6.27
 |#a50f15|9.80+
+Max value: 10.124083770418776
 
 Wikipedia:
 {{legend|#fee5d9|< 0.39}}
@@ -13,3 +14,4 @@ Wikipedia:
 {{legend|#fb6a4a|3.53}}
 {{legend|#de2d26|6.27}}
 {{legend|#a50f15|9.80+}}
+Max value: 10.124083770418776

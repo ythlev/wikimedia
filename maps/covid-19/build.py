@@ -1,15 +1,21 @@
 # Created by Chang Chia-huan
-import pathlib, json, csv, io, urllib.request, math, statistics
+import argparse, pathlib, json, csv, io, urllib.request, math, statistics
 
-main = {
-    # "uk": {},
-    "Japan": {},
-    "US": {},
-    "France": {},
-    "Taiwan": {}
-}
-unit, outliers = {}, {}
-colour = ["#fee5d9","#fcbba1","#fc9272","#fb6a4a","#de2d26","#a50f15"]
+parser = argparse.ArgumentParser(description = "This script generates an svg maps for the COVID-19 outbreak for select countries")
+parser.add_argument("-c", "--country", help = "Name of country to generate; by default, a map for each country is generated")
+args = vars(parser.parse_args())
+
+if args["country"] != None:
+    main = {args["country"]:{}}
+else:
+    main = {
+        # "uk": {},
+        "Japan": {},
+        "US": {},
+        # "France": {},
+        "Germany": {},
+        "Taiwan": {}
+    }
 
 for country in main:
     with open((pathlib.Path() / "data" / "places" / country).with_suffix(".csv"), newline = "", encoding = "utf-8-sig") as file:
@@ -29,23 +35,36 @@ def arc_gis(query):
         for entry in json.loads(response.read())["features"]:
             attrs.append(entry["attributes"])
 
-arc_gis("https://services6.arcgis.com/5jNaHNYe2AnnqRnS/arcgis/rest/services/COVID19_Japan/FeatureServer/0/query")
-for place in attrs:
-    if place["Hospital_Pref"] != "Unknown":
-        main["Japan"][place["Hospital_Pref"]]["cases"] += 1
+if "Japan" in main:
+    arc_gis("https://services6.arcgis.com/5jNaHNYe2AnnqRnS/arcgis/rest/services/COVID19_Japan/FeatureServer/0/query")
+    for place in attrs:
+        if place["Hospital_Pref"] != "Unknown":
+            main["Japan"][place["Hospital_Pref"]]["cases"] += 1
 
-arc_gis("https://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/Coronavirus_2019_nCoV_Cases/FeatureServer/1/query")
-for place in attrs:
-    if place["Country_Region"] == "US" and place["Province_State"] in main["US"]:
-        main["US"][place["Province_State"]]["cases"] = int(place["Confirmed"])
-arc_gis("https://services1.arcgis.com/5PzxEwuu4GtMhqQ6/arcgis/rest/services/Regions_DT_Project_Vue/FeatureServer/0/query")
-for place in attrs:
-    main["France"][place["nom"]]["cases"] = int(place["nb_cas"])
+if "US" in main:
+    arc_gis("https://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/Coronavirus_2019_nCoV_Cases/FeatureServer/1/query")
+    for place in attrs:
+        if place["Country_Region"] == "US" and place["Province_State"] in main["US"]:
+            main["US"][place["Province_State"]]["cases"] = int(place["Confirmed"])
 
-with urllib.request.urlopen("https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_19CoV.json") as response:
-    data = json.loads(response.read())
-    for row in data:
-        main["Taiwan"][row["縣市"]]["cases"] += int(row["確定病例數"])
+if "France" in main:
+    arc_gis("https://services1.arcgis.com/5PzxEwuu4GtMhqQ6/arcgis/rest/services/Regions_DT_Project_Vue/FeatureServer/0/query")
+    for place in attrs:
+        main["France"][place["nom"]]["cases"] = int(place["nb_cas"])
+
+germany = []
+if "Germany" in main:
+    arc_gis("https://services7.arcgis.com/mOBPykOjAyBO2ZKk/arcgis/rest/services/Kreisgrenzen_2018_mit_Einwohnerzahl/FeatureServer/0/query")
+    for place in attrs:
+        main["Germany"][place["RS"]]["cases"] = int(place["Fallzahlen"])
+
+if "Taiwan" in main:
+    with urllib.request.urlopen("https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_19CoV.json") as response:
+        data = json.loads(response.read())
+        for row in data:
+            main["Taiwan"][row["縣市"]]["cases"] += int(row["確定病例數"])
+
+colour = ["#fee5d9","#fcbba1","#fc9272","#fb6a4a","#de2d26","#a50f15"]
 
 for country in main:
     values = []
@@ -86,6 +105,7 @@ for country in main:
             legend.append("|" + colour[i] + "|" + "{:.2f}".format(threshold[i]))
             if i == 5:
                 legend[5] = legend[5] + "+"
+                legend.append("Max value: " + str(max(values)))
         file.write("\n".join(legend))
         file.write("\n\nWikipedia:\n")
         for i in range(6):
@@ -96,4 +116,3 @@ for country in main:
     for place in main[country]:
         cases.append(main[country][place]["cases"])
     print("{}: {} cases total in {} areas".format(country, sum(cases), len(cases)))
-    print("Max: {}".format(max(values)))
