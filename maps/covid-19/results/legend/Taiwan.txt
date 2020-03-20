@@ -4,7 +4,7 @@ Commons:
 |#fc9272|1.57
 |#fb6a4a|3.53
 |#de2d26|6.27
-|#a50f15|9.8+
+|#a50f15|9.80+
 
 Wikipedia:
 {{legend|#fee5d9|< 0.39}}
@@ -12,4 +12,4 @@ Wikipedia:
 {{legend|#fc9272|1.57}}
 {{legend|#fb6a4a|3.53}}
 {{legend|#de2d26|6.27}}
-{{legend|#a50f15|9.8+}}
+{{legend|#a50f15|9.80+}}

@@ -3,13 +3,13 @@ Commons:
 |#fcbba1|0.33
 |#fc9272|1.34
 |#fb6a4a|3.01
-|#de2d26|5.35
-|#a50f15|8.36+
+|#de2d26|5.36
+|#a50f15|8.37+
 
 Wikipedia:
 {{legend|#fee5d9|< 0.33}}
 {{legend|#fcbba1|0.33}}
 {{legend|#fc9272|1.34}}
 {{legend|#fb6a4a|3.01}}
-{{legend|#de2d26|5.35}}
-{{legend|#a50f15|8.36+}}
+{{legend|#de2d26|5.36}}
+{{legend|#a50f15|8.37+}}

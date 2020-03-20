@@ -2,10 +2,11 @@
 import pathlib, json, csv, io, urllib.request, math, statistics
 
 main = {
-    "Taiwan": {},
     # "uk": {},
     "Japan": {},
-    "US": {}
+    "US": {},
+    "France": {},
+    "Taiwan": {}
 }
 unit, outliers = {}, {}
 colour = ["#fee5d9","#fcbba1","#fc9272","#fb6a4a","#de2d26","#a50f15"]
@@ -19,44 +20,44 @@ for country in main:
                 "population": int(row["population"].replace(",", ""))
             }
 
-unit["Taiwan"] = 1000000
+attrs = []
+def arc_gis(query):
+    global attrs
+    attrs = []
+    url = query + "?where=ObjectID%3E0" + "&outFields=*" + "&returnGeometry=false" + "&f=pjson"
+    with urllib.request.urlopen(url) as response:
+        for entry in json.loads(response.read())["features"]:
+            attrs.append(entry["attributes"])
+
+arc_gis("https://services6.arcgis.com/5jNaHNYe2AnnqRnS/arcgis/rest/services/COVID19_Japan/FeatureServer/0/query")
+for place in attrs:
+    if place["Hospital_Pref"] != "Unknown":
+        main["Japan"][place["Hospital_Pref"]]["cases"] += 1
+
+arc_gis("https://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/Coronavirus_2019_nCoV_Cases/FeatureServer/1/query")
+for place in attrs:
+    if place["Country_Region"] == "US" and place["Province_State"] in main["US"]:
+        main["US"][place["Province_State"]]["cases"] = int(place["Confirmed"])
+arc_gis("https://services1.arcgis.com/5PzxEwuu4GtMhqQ6/arcgis/rest/services/Regions_DT_Project_Vue/FeatureServer/0/query")
+for place in attrs:
+    main["France"][place["nom"]]["cases"] = int(place["nb_cas"])
+
 with urllib.request.urlopen("https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_19CoV.json") as response:
     data = json.loads(response.read())
     for row in data:
         main["Taiwan"][row["縣市"]]["cases"] += int(row["確定病例數"])
-'''
-unit["uk"] = 100000
-with urllib.request.urlopen("https://www.arcgis.com/sharing/rest/content/items/b684319181f94875a6879bbc833ca3a6/data") as response:
-    reader = csv.DictReader(io.TextIOWrapper(response, encoding = 'utf-8'), delimiter=',')
-    for row in reader:
-        if row["GSS_CD"] in main["uk"]:
-            main["uk"][row["GSS_CD"]]["cases"] = int(row["TotalCases"])
-'''
-unit["Japan"] = 1000000
-with urllib.request.urlopen("https://services6.arcgis.com/5jNaHNYe2AnnqRnS/arcgis/rest/services/COVID19_Japan/FeatureServer/0/query?where=ObjectId%3E0&outFields=*&f=pjson") as response:
-    data = json.loads(response.read())
-    for row in data["features"]:
-        if row["attributes"]["Hospital_Pref"] != "Unknown":
-            main["Japan"][row["attributes"]["Hospital_Pref"]]["cases"] += 1
-
-unit["US"] = 1000000
-with urllib.request.urlopen("https://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/Coronavirus_2019_nCoV_Cases/FeatureServer/1/query?where=OBJECTID%3E0&outFields=*&f=pjson") as response:
-    data = json.loads(response.read())
-    for row in data["features"]:
-        if row["attributes"]["Country_Region"] == "US" and row["attributes"]["Province_State"] in main["US"]:
-            main["US"][row["attributes"]["Province_State"]]["cases"] = int(row["attributes"]["Confirmed"])
 
 for country in main:
     values = []
     for place in main[country]:
-        main[country][place]["pcapita"] = round(main[country][place]["cases"] / main[country][place]["population"] * unit[country], 2)
+        main[country][place]["pcapita"] = main[country][place]["cases"] / main[country][place]["population"] * 1000000
         values.append(main[country][place]["pcapita"])
 
     step = math.sqrt(statistics.median(values)) / 2.5
 
     threshold = [0, 0, 0, 0, 0, 0]
     for i in range(6):
-        threshold[i] = round(math.pow(step * i, 2), 2)
+        threshold[i] = math.pow(step * i, 2)
 
     with open((pathlib.Path() / "data" / "template" / country).with_suffix(".svg"), "r", newline = "", encoding = "utf-8") as file_in:
         with open((pathlib.Path() / "results" / "map" / country).with_suffix(".svg"), "w", newline = "", encoding = "utf-8") as file_out:
@@ -80,9 +81,9 @@ for country in main:
 
     with open((pathlib.Path() / "results" / "legend" / country).with_suffix(".txt"), "w", newline = "", encoding = "utf-8") as file:
         file.write("Commons:\n")
-        legend = ["|" + colour[0] + "|< " + str(threshold[1])]
+        legend = ["|" + colour[0] + "|< " + "{:.2f}".format(threshold[1])]
         for i in range(1, 6):
-            legend.append("|" + colour[i] + "|" + str(threshold[i]))
+            legend.append("|" + colour[i] + "|" + "{:.2f}".format(threshold[i]))
             if i == 5:
                 legend[5] = legend[5] + "+"
         file.write("\n".join(legend))
