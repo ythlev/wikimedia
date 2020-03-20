@@ -1,0 +1,15 @@
+Commons:
+|#fee5d9|< 3.08
+|#fcbba1|3.08
+|#fc9272|12.31
+|#fb6a4a|27.7
+|#de2d26|49.24
+|#a50f15|76.94+
+
+Wikipedia:
+{{legend|#fee5d9|< 3.08}}
+{{legend|#fcbba1|3.08}}
+{{legend|#fc9272|12.31}}
+{{legend|#fb6a4a|27.7}}
+{{legend|#de2d26|49.24}}
+{{legend|#a50f15|76.94+}}
