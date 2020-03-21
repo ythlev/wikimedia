@@ -9,8 +9,9 @@ if args["country"] != None:
     main = {args["country"]:{}}
 else:
     main = {
-        "Japan": {},
+        "Canada": {},
         "US": {},
+        "Japan": {},
         # "France": {},
         "Germany": {},
         "UK": {},
@@ -35,17 +36,22 @@ def arc_gis(query):
         for entry in json.loads(response.read())["features"]:
             attrs.append(entry["attributes"])
 
-if "Japan" in main:
-    arc_gis("https://services6.arcgis.com/5jNaHNYe2AnnqRnS/arcgis/rest/services/COVID19_Japan/FeatureServer/0/query?where=ObjectID%3E0")
-    for place in attrs:
-        if place["Hospital_Pref"] != "Unknown":
-            main["Japan"][place["Hospital_Pref"]]["cases"] += 1
-
 if "US" in main:
     arc_gis("https://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/Coronavirus_2019_nCoV_Cases/FeatureServer/1/query?where=ObjectID%3E0")
     for place in attrs:
         if place["Country_Region"] == "US" and place["Province_State"] in main["US"]:
             main["US"][place["Province_State"]]["cases"] = int(place["Confirmed"])
+
+if "Canada" in main:
+    arc_gis("https://services9.arcgis.com/pJENMVYPQqZZe20v/arcgis/rest/services/HealthRegionTotals/FeatureServer/0/query?where=ObjectID%3E0")
+    for place in attrs:
+        main["Canada"][place["HR_UID"]]["cases"] = int(place["CaseCount"])
+
+if "Japan" in main:
+    arc_gis("https://services6.arcgis.com/5jNaHNYe2AnnqRnS/arcgis/rest/services/COVID19_Japan/FeatureServer/0/query?where=ObjectID%3E0")
+    for place in attrs:
+        if place["Hospital_Pref"] != "Unknown":
+            main["Japan"][place["Hospital_Pref"]]["cases"] += 1
 
 if "France" in main:
     arc_gis("https://services1.arcgis.com/5PzxEwuu4GtMhqQ6/arcgis/rest/services/Regions_DT_Project_Vue/FeatureServer/0/query?where=ObjectID%3E0")
@@ -79,12 +85,12 @@ for country in main:
     for place in main[country]:
         main[country][place]["pcapita"] = main[country][place]["cases"] / main[country][place]["population"] * 1000000
         values.append(main[country][place]["pcapita"])
-
-    step = math.sqrt(statistics.median(values)) / 2.5
+        
+    step = math.sqrt(statistics.mean(values)) / 2.5
 
     threshold = [0, 0, 0, 0, 0, 0]
     for i in range(6):
-        threshold[i] = math.pow(step * i, 2)
+        threshold[i] = math.pow(i * step, 2)
 
     with open((pathlib.Path() / "data" / "template" / country).with_suffix(".svg"), "r", newline = "", encoding = "utf-8") as file_in:
         with open((pathlib.Path() / "results" / "map" / country).with_suffix(".svg"), "w", newline = "", encoding = "utf-8") as file_out:
