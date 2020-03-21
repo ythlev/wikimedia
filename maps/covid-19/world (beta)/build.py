@@ -21,7 +21,7 @@ for place in main:
         main[place]["pcapita"] = round(main[place]["cases"] / main[place]["population"], 2)
         values.append(main[place]["pcapita"])
 
-step = math.sqrt(statistics.median(values)) / 3
+step = math.sqrt(statistics.mean(values)) / 3
 
 thresholds = [0, 0, 0, 0, 0, 0, 0]
 for i in range(7):

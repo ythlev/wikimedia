@@ -1,0 +1,17 @@
+Commons:
+|#fee5d9|< 22.96
+|#fcbba1|22.96
+|#fc9272|91.85
+|#fb6a4a|206.67
+|#de2d26|367.41
+|#a50f15|574.07+
+
+Wikipedia:
+{{legend|#fee5d9|< 22.96}}
+{{legend|#fcbba1|22.96}}
+{{legend|#fc9272|91.85}}
+{{legend|#fb6a4a|206.67}}
+{{legend|#de2d26|367.41}}
+{{legend|#a50f15|574.07+}}
+
+Max value: 545.3806206997527

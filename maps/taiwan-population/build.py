@@ -11,7 +11,7 @@ with open("data.csv", newline = "", encoding = "utf-8-sig") as file:
         main[row["村里代碼"]] = {"dens": float(row["人口密度"])}
         values.append(float(row["人口密度"]))
 
-step = math.sqrt(statistics.median(values)) / 3
+step = math.sqrt(statistics.mean(values)) / 3
 
 thresholds = [0, 0, 0, 0, 0, 0, 0]
 for i in range(7):
