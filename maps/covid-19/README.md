@@ -11,21 +11,24 @@ This script generates SVG maps of number of confirmed cases of COVID-19 per unit
 * [Statistics Bureau, Ministry of Internal Affairs and Communications](https://www.stat.go.jp/english/data/nenkan/66nenkan/1431-02.html)
 
 ## USA
-* [Johns Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19)
+* [Johns Hopkins CSSE](https://www.arcgis.com/home/item.html?id=c0b356e20b30490c8b8b4c7bb9554e7c#overview)
 * [United States Census Bureau](https://www.census.gov/data/datasets/time-series/demo/popest/2010s-state-total.html#par_textimage_1873399417)
 
 ## France
 * [leandrodesanjuan_mapthenews](https://www.arcgis.com/home/item.html?id=e34701f45bf6484ca14e0ba2d9e4939f)
 
-# Germany
+## Germany
 * [Bundesamtes für Kartographie und Geodäsie](https://www.arcgis.com/home/item.html?id=1059bef1daf2440b87880c50b99167a5#overview)
 
-# UK
+## UK
 * [Public Health England](https://www.arcgis.com/home/item.html?id=a51606bdfb824d65a63ef0ca65aac90f)
 * [Public Health England](https://www.arcgis.com/home/item.html?id=90f3893ff60e43c9ad785c8a9073c516)
 Contains Ordnance Survey data © Crown copyright and database right 2020. Contains National Statistics data © Crown copyright and database right 2020
 
-# Canada
+## Canada
 * [miho_covid19canada](https://www.arcgis.com/home/item.html?id=7480dead10ba4408a7f813d31ed27051&view=list#overview)
 * [Statistics Canada](https://www150.statcan.gc.ca/n1/pub/82-402-x/2018001/hrbf-flrs-eng.htm)
 Adapted from Statistics Canada, Health region boundary files, 21 March 2020. This does not constitute an endorsement by Statistics Canada of this product.
+
+## Australia
+* [Simon Jackson, Guardian Australia](https://www.arcgis.com/home/item.html?id=35b077523be94f7288b21db815e6e6e6#overview)
