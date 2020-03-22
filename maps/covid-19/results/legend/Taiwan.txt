@@ -1,17 +1,17 @@
 Commons:
-|#fee5d9|< 0.52
-|#fcbba1|0.52
-|#fc9272|2.08
-|#fb6a4a|4.68
-|#de2d26|8.32
-|#a50f15|13.00+
+|#fee5d9|< 0.57
+|#fcbba1|0.57
+|#fc9272|2.29
+|#fb6a4a|5.15
+|#de2d26|9.15
+|#a50f15|14.30+
 
 Wikipedia:
-{{legend|#fee5d9|< 0.52}}
-{{legend|#fcbba1|0.52}}
-{{legend|#fc9272|2.08}}
-{{legend|#fb6a4a|4.68}}
-{{legend|#de2d26|8.32}}
-{{legend|#a50f15|13.00+}}
+{{legend|#fee5d9|< 0.57}}
+{{legend|#fcbba1|0.57}}
+{{legend|#fc9272|2.29}}
+{{legend|#fb6a4a|5.15}}
+{{legend|#de2d26|9.15}}
+{{legend|#a50f15|14.30+}}
 
-Max value: 13.123812294987303
+Max value: 14.998642622842633
