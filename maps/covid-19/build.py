@@ -131,10 +131,8 @@ for country in main:
                             if row.find('level{}'.format(i)) > -1:
                                 if i == 0:
                                     file_out.write(row.replace('level{}'.format(i), "&lt; " + num(country).format(threshold[1])))
-                                elif i < 5:
-                                    file_out.write(row.replace('level{}'.format(i), num(country).format(threshold[i])))
-                                elif i == 5:
-                                    file_out.write(row.replace('level{}'.format(i), num(country).format(threshold[i]) + "+"))
+                                else:
+                                    file_out.write(row.replace('level{}'.format(i), "&ge; " + num(country).format(threshold[i])))
                     else:
                         file_out.write(row)
 
