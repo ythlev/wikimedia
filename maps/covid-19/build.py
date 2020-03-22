@@ -13,8 +13,9 @@ else:
         "Australia": {},
         "France": {},
         "Italy": {},
-        "Germany": {},
         "Canada": {},
+        "Germany": {},
+        "Netherlands": {},
         "UK": {},
         "Japan": {},
         "Taiwan": {}
@@ -32,8 +33,7 @@ for country in main:
 def arc_gis(query):
     global attrs
     attrs = []
-    url = query + "&outFields=*" + "&returnGeometry=false" + "&f=pjson"
-    with urllib.request.urlopen(url) as response:
+    with urllib.request.urlopen(query + "&outFields=*&returnGeometry=false&f=pjson") as response:
         for entry in json.loads(response.read())["features"]:
             attrs.append(entry["attributes"])
 
@@ -62,21 +62,26 @@ if "France" in main:
             main["France"][place["code_insee"]]["cases"] = int(place["nb_cas"])
 
 if "Italy" in main:
-    arc_gis("https://services6.arcgis.com/L1SotImj1AAZY1eK/arcgis/rest/services/Butta/FeatureServer/0/query?where=ObjectID%3E0")
+    arc_gis("https://services6.arcgis.com/L1SotImj1AAZY1eK/arcgis/rest/services/riepilogo_province/FeatureServer/0/query?where=ObjectID%3E0")
     for place in attrs:
         if place["sigla_provincia"] in main["Italy"]:
             main["Italy"][place["sigla_provincia"]]["cases"] = int(place["totale_casi"])
 
 # countries with data for all places available
+if "Canada" in main:
+    arc_gis("https://services9.arcgis.com/pJENMVYPQqZZe20v/arcgis/rest/services/HealthRegionTotals/FeatureServer/0/query?where=ObjectID%3E0")
+    for place in attrs:
+        main["Canada"][place["HR_UID"]]["cases"] = int(place["CaseCount"])
+
 if "Germany" in main:
     arc_gis("https://services7.arcgis.com/mOBPykOjAyBO2ZKk/arcgis/rest/services/Kreisgrenzen_2018_mit_Einwohnerzahl/FeatureServer/0/query?where=ObjectID%3E0")
     for place in attrs:
         main["Germany"][place["RS"]]["cases"] = int(place["Fallzahlen"])
 
-if "Canada" in main:
-    arc_gis("https://services9.arcgis.com/pJENMVYPQqZZe20v/arcgis/rest/services/HealthRegionTotals/FeatureServer/0/query?where=ObjectID%3E0")
+if "Netherlands" in main:
+    arc_gis("https://services.arcgis.com/nSZVuSZjHpEZZbRo/arcgis/rest/services/Aantal_besmettingen_per_1000_inwoners/FeatureServer/0/query?where=ObjectID%3E0")
     for place in attrs:
-        main["Canada"][place["HR_UID"]]["cases"] = int(place["CaseCount"])
+        main["Netherlands"][place["Gemeentecode"]]["cases"] = int(place["Aantal_Besmettingen"])
 
 # countries with case counts only
 if "UK" in main:

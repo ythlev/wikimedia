@@ -35,3 +35,6 @@ Adapted from Statistics Canada, Health region boundary files, 21 March 2020. Thi
 
 ## Italy
 * [Umberto Rosini](https://www.arcgis.com/home/item.html?id=b0c68bce2cce478eaac82fe38d4138b1)
+
+## Netherlands
+* [Esri Nederland](https://www.arcgis.com/home/item.html?id=20d392a8a3b84506b7f9c2bb0f20ae8c)
