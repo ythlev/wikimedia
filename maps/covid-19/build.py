@@ -12,6 +12,7 @@ else:
         "US": {},
         "Australia": {},
         "France": {},
+        "Italy": {},
         "Germany": {},
         "Canada": {},
         "UK": {},
@@ -36,6 +37,7 @@ def arc_gis(query):
         for entry in json.loads(response.read())["features"]:
             attrs.append(entry["attributes"])
 
+# countries using worldwide data
 if "US" in main:
     arc_gis("https://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/Coronavirus_2019_nCoV_Cases/FeatureServer/1/query?where=ObjectID%3E0")
     i = 0
@@ -46,6 +48,7 @@ if "US" in main:
             if i >= 54:
                 break
 
+# general countries
 if "Australia" in main:
     arc_gis("https://services1.arcgis.com/vHnIGBHHqDR6y0CR/arcgis/rest/services/Current_Cases_by_State/FeatureServer/0/query?where=ObjectID%3E0")
     for place in attrs:
@@ -58,6 +61,13 @@ if "France" in main:
         if place["code_insee"] in main["France"]:
             main["France"][place["code_insee"]]["cases"] = int(place["nb_cas"])
 
+if "Italy" in main:
+    arc_gis("https://services6.arcgis.com/L1SotImj1AAZY1eK/arcgis/rest/services/Butta/FeatureServer/0/query?where=ObjectID%3E0")
+    for place in attrs:
+        if place["sigla_provincia"] in main["Italy"]:
+            main["Italy"][place["sigla_provincia"]]["cases"] = int(place["totale_casi"])
+
+# countries with data for all places available
 if "Germany" in main:
     arc_gis("https://services7.arcgis.com/mOBPykOjAyBO2ZKk/arcgis/rest/services/Kreisgrenzen_2018_mit_Einwohnerzahl/FeatureServer/0/query?where=ObjectID%3E0")
     for place in attrs:
@@ -68,6 +78,7 @@ if "Canada" in main:
     for place in attrs:
         main["Canada"][place["HR_UID"]]["cases"] = int(place["CaseCount"])
 
+# countries with case counts only
 if "UK" in main:
     arc_gis("https://services1.arcgis.com/0IrmI40n5ZYxTUrV/arcgis/rest/services/NHSR_Cases/FeatureServer/0/query?where=FID%3E0")
     for place in attrs:
@@ -82,12 +93,14 @@ def num(country):
     else:
         return "{:.2f}"
 
+# countries data for individual cases
 if "Japan" in main:
     arc_gis("https://services6.arcgis.com/5jNaHNYe2AnnqRnS/arcgis/rest/services/COVID19_Japan/FeatureServer/0/query?where=ObjectID%3E0")
     for place in attrs:
         if place["Hospital_Pref"] != "Unknown":
             main["Japan"][place["Hospital_Pref"]]["cases"] += 1
 
+# countries with reliable official data outside Arcgis
 if "Taiwan" in main:
     with urllib.request.urlopen("https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_19CoV.json") as response:
         data = json.loads(response.read())

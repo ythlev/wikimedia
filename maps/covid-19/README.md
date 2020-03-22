@@ -32,3 +32,6 @@ Adapted from Statistics Canada, Health region boundary files, 21 March 2020. Thi
 
 ## Australia
 * [Simon Jackson, Guardian Australia](https://www.arcgis.com/home/item.html?id=35b077523be94f7288b21db815e6e6e6#overview)
+
+## Italy
+* [Umberto Rosini](https://www.arcgis.com/home/item.html?id=b0c68bce2cce478eaac82fe38d4138b1)
