@@ -1,5 +1,5 @@
 # Created by Chang Chia-huan
-import argparse, pathlib, json, csv, io, urllib.request, math, statistics
+import argparse, pathlib, json, csv, io, urllib.request, math, statistics, datetime
 
 parser = argparse.ArgumentParser(description = "This script generates an svg maps for the COVID-19 outbreak for select countries")
 parser.add_argument("-c", "--country", help = "Name of country to generate; by default, a map for each country is generated")
@@ -76,6 +76,11 @@ if "UK" in main:
     for place in attrs:
         if place["GSS_CD"] in main["UK"]:
             main["UK"][place["GSS_CD"]]["cases"] = int(place["TotalCases"])
+def num(country):
+    if country == "UK":
+        return "{:.0f}"
+    else:
+        return "{:.2f}"
 
 if "Japan" in main:
     arc_gis("https://services6.arcgis.com/5jNaHNYe2AnnqRnS/arcgis/rest/services/COVID19_Japan/FeatureServer/0/query?where=ObjectID%3E0")
@@ -115,31 +120,23 @@ for country in main:
                                 i += 1
                             else:
                                 break
-                        main[country][place]["threshold met"] = threshold[i]
-                        main[country][place]["fill"] = colour[i]
-                        file_out.write(row.replace('id="{}"'.format(place), 'style="fill:{}"'.format(main[country][place]["fill"])))
+                        file_out.write(row.replace('id="{}"'.format(place), 'style="fill:{}"'.format(colour[i])))
                         written = True
                         break
                 if written == False:
-                    file_out.write(row)
-
-    with open((pathlib.Path() / "results" / "legend" / country).with_suffix(".txt"), "w", newline = "", encoding = "utf-8") as file:
-        file.write("Commons:\n")
-        if country == "UK":
-            format = "{:.0f}"
-        else:
-            format = "{:.2f}"
-        legend = ["|" + colour[0] + "|< " + format.format(threshold[1])]
-        for i in range(1, 6):
-            legend.append("|" + colour[i] + "|" + format.format(threshold[i]))
-            if i == 5:
-                legend[5] = legend[5] + "+"
-        file.write("\n".join(legend))
-        file.write("\n\nWikipedia:\n")
-        for i in range(6):
-            legend[i] = "{{legend" + legend[i] + "}}"
-        legend.append("\nMax value: " + str(max(values)))
-        file.write("\n".join(legend))
+                    if row.find('>Date<') > -1:
+                        file_out.write(row.replace('Date', datetime.date.today().isoformat()))
+                    elif row.find('>level') > -1:
+                        for i in range(6):
+                            if row.find('level{}'.format(i)) > -1:
+                                if i == 0:
+                                    file_out.write(row.replace('level{}'.format(i), "&lt; " + num(country).format(threshold[1])))
+                                elif i < 5:
+                                    file_out.write(row.replace('level{}'.format(i), num(country).format(threshold[i])))
+                                elif i == 5:
+                                    file_out.write(row.replace('level{}'.format(i), num(country).format(threshold[i]) + "+"))
+                    else:
+                        file_out.write(row)
 
     cases = []
     for place in main[country]:
