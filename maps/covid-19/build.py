@@ -132,7 +132,7 @@ for country in main:
                                 if i == 0:
                                     file_out.write(row.replace('level{}'.format(i), "&lt; " + num(country).format(threshold[1])))
                                 else:
-                                    file_out.write(row.replace('level{}'.format(i), "&ge; " + num(country).format(threshold[i])))
+                                    file_out.write(row.replace('level{}'.format(i), "≥ " + num(country).format(threshold[i])))
                     else:
                         file_out.write(row)
 
