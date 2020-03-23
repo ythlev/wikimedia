@@ -19,11 +19,11 @@ for place in main:
 
 colour = ['#f2f0f7','#dadaeb','#bcbddc','#9e9ac8','#756bb1','#54278f']
 
-step = math.sqrt(statistics.median(values) - 500) / 3
+step = math.sqrt(0.2 * statistics.median(values)) / 3
 
 threshold = [0, 0, 0, 0, 0, 0]
 for i in range(1,6):
-    threshold[i] = math.pow(i * step, 2) + 500
+    threshold[i] = math.pow(i * step, 2) + 0.8 * statistics.median(values)
 
 with open("template.svg", "r", newline = "", encoding = "utf-8") as file_in:
     with open("result.svg", "w", newline = "", encoding = "utf-8") as file_out:
@@ -43,4 +43,5 @@ with open("template.svg", "r", newline = "", encoding = "utf-8") as file_in:
             if written == False:
                 file_out.write(row)
 
-print(threshold)
+for n in threshold:
+    print(round(n, 3))
