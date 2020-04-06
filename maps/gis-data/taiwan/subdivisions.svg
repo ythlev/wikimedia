@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="2055">
+  <g id="legend">
+    <g id="Text" font-size="30" font-family="Verdana" fill="#000">
+      <text x="-200" y="1626">
+        <tspan x="-200" y="1626">Date</tspan>
+      </text>
+      <text x="-150" y="1676">
+        <tspan x="-150" y="1676">Level 0</tspan>
+      </text>
+      <text x="-150" y="1726">
+        <tspan x="-150" y="1726">Level 1</tspan>
+      </text>
+      <text x="-150" y="1776">
+        <tspan x="-150" y="1776">Level 2</tspan>
+      </text>
+      <text x="-150" y="1826">
+        <tspan x="-150" y="1826">Level 3</tspan>
+      </text>
+      <text x="-150" y="1876">
+        <tspan x="-150" y="1876">Level 4</tspan>
+      </text>
+      <text x="-150" y="1926">
+        <tspan x="-150" y="1926">Level 5</tspan>
+      </text>
+    </g>
+    <g id="legend-boxes">
+      <path d="m -200 1646 h 40 v 40 h -40 z" fill="#fee5d9"/>
+      <path d="m -200 1696 h 40 v 40 h -40 z" fill="#fcbba1"/>
+      <path d="m -200 1746 h 40 v 40 h -40 z" fill="#fc9272"/>
+      <path d="m -200 1796 h 40 v 40 h -40 z" fill="#fb6a4a"/>
+      <path d="m -200 1846 h 40 v 40 h -40 z" fill="#de2d26"/>
+      <path d="m -200 1896 h 40 v 40 h -40 z" fill="#a50f15"/>
+    </g>
+  </g>
   <g id="box" fill="none" stroke="#000" stroke-width="10">
     <path d="M 100.5 760.9435 100.5 491.7643 349.2545 491.7643 349.2545 760.9435 100.5 760.9435 Z"/>
     <path d="M 300.6267 424.653 300.6267 114.206 673.2419 114.206 673.2419 424.653 300.6267 424.653 Z"/>
