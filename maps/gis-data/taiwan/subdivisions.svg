@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="2055">
-  <g id="legend">
-    <g id="Text" font-size="30" font-family="Verdana" fill="#000">
-      <text x="-200" y="1626">
-        <tspan x="-200" y="1626">Date</tspan>
-      </text>
-      <text x="-150" y="1676">
-        <tspan x="-150" y="1676">Level 0</tspan>
-      </text>
-      <text x="-150" y="1726">
-        <tspan x="-150" y="1726">Level 1</tspan>
-      </text>
-      <text x="-150" y="1776">
-        <tspan x="-150" y="1776">Level 2</tspan>
-      </text>
-      <text x="-150" y="1826">
-        <tspan x="-150" y="1826">Level 3</tspan>
-      </text>
-      <text x="-150" y="1876">
-        <tspan x="-150" y="1876">Level 4</tspan>
-      </text>
-      <text x="-150" y="1926">
-        <tspan x="-150" y="1926">Level 5</tspan>
-      </text>
+  <g id="legend" opacity="0">
+    <g id="legend-box">
+      <path fill="#fee5d9" d="M20 1455H100V1535H20z"/>
+      <path fill="#fcbba1" d="M20 1555H100V1635H20z"/>
+      <path fill="#fc9272" d="M20 1655H100V1735H20z"/>
+      <path fill="#fb6a4a" d="M20 1755H100V1835H20z"/>
+      <path fill="#de2d26" d="M20 1855H100V1935H20z"/>
+      <path fill="#a50f15" d="M20 1955H100V2035H20z"/>
     </g>
-    <g id="legend-boxes">
-      <path d="m -200 1646 h 40 v 40 h -40 z" fill="#fee5d9"/>
-      <path d="m -200 1696 h 40 v 40 h -40 z" fill="#fcbba1"/>
-      <path d="m -200 1746 h 40 v 40 h -40 z" fill="#fc9272"/>
-      <path d="m -200 1796 h 40 v 40 h -40 z" fill="#fb6a4a"/>
-      <path d="m -200 1846 h 40 v 40 h -40 z" fill="#de2d26"/>
-      <path d="m -200 1896 h 40 v 40 h -40 z" fill="#a50f15"/>
+    <g id="text" font-family="Verdana" font-size="56">
+      <text y="1415" x="20">
+        <tspan y="1415" x="20">Date</tspan>
+      </text>
+      <text y="1515" x="120">
+        <tspan y="1515" x="120">Level 0</tspan>
+      </text>
+      <text y="1615" x="120">
+        <tspan y="1615" x="120">Level 1</tspan>
+      </text>
+      <text y="1715" x="120">
+        <tspan y="1715" x="120">Level 2</tspan>
+      </text>
+      <text y="1815" x="120">
+        <tspan y="1815" x="120">Level 3</tspan>
+      </text>
+      <text y="1915" x="120">
+        <tspan y="1915" x="120">Level 4</tspan>
+      </text>
+      <text y="2015" x="120">
+        <tspan y="2015" x="120">Level 5</tspan>
+      </text>
     </g>
   </g>
   <g id="box" fill="none" stroke="#000" stroke-width="10">
