@@ -19,140 +19,28 @@
 | text-width  = 
 | map = 
 ~~km~~Station
-125.4{{stl|Taiwan Railways|Zhunan}}~~0.0! !
-129.9{{stl|Taiwan Railways|Tanwen}}~~4.5! !
-136.6{{stl|Taiwan Railways|Dashan}}~~11.2! !
-140.4{{stl|Taiwan Railways|Houlong}}~~15.0! !
-144.0{{stl|Taiwan Railways|Longgang}}~~18.6! !
-152.1{{stl|Taiwan Railways|Baishatun}}~~26.7! !
-155.2{{stl|Taiwan Railways|Xinpu}}~~29.8! !
-161.0{{stl|Taiwan Railways|Tongxiao}}~~35.6! !
-167.1{{stl|Taiwan Railways|Yuanli}}~~41.7! !
-174.8{{stl|Taiwan Railways|Rinan}}~~49.4! !
-179.4{{stl|Taiwan Railways|Dajia}}~~54.0! !
-184.7{{stl|Taiwan Railways|Taichung Port}}~~59.3! !
-190.7{{stl|Taiwan Railways|Qingshui}}~~65.3! !
-193.9{{stl|Taiwan Railways|Shalu}}~~68.5! !
-198.5{{stl|Taiwan Railways|Longjing}}~~73.1! !
-203.5{{stl|Taiwan Railways|Dadu}}~~78.1! !
-208.5{{stl|Taiwan Railways|Zhuifen}}~~83.1! !
-215.6{{stl|Taiwan Railways|Changhua}}~~90.2! !
-KBHFa~~0.0~~{{stl|Taiwan Railways|Keelung}}
-HST~~1.3~~{{stl|Taiwan Railways|Sankeng}}
-\ABZg+l\CONTfq~~{{routemapRoute|r=r|{{lnl|Taiwan Railways|}}}}
-BHF~~3.7~~{{stl|Taiwan Railways|Badu}}
-BHF~~6.0~~{{stl|Taiwan Railways|Qidu}}
-HST~~8.7~~{{stl|Taiwan Railways|Baifu}}
-HST~~11.7~~{{stl|Taiwan Railways|Wudu}}
-BHF~~13.1~~{{stl|Taiwan Railways|Xizhi}}
-HST~~14.6~~{{stl|Taiwan Railways|Xike}}
-tBHFag~~19.1~~{{stl|Taiwan Railways|Nangang}}
-tBHF~~21.9~~{{stl|Taiwan Railways|Songshan}}
-tBHF~~28.3~~{{stl|Taiwan Railways|Taipei}}
-tBHF~~31.1~~{{stl|Taiwan Railways|Wanhua}}
-tBHFef~~35.5~~{{stl|Taiwan Railways|Banqiao}}
-HST~~38.0~~{{stl|Taiwan Railways|Fuzhou}}
-BHF~~40.9~~{{stl|Taiwan Railways|Shulin}}
-HST~~42.9~~{{stl|Taiwan Railways|South Shulin}}
-HST~~44.8~~{{stl|Taiwan Railways|Shanjia}}
-BHF~~49.2~~{{stl|Taiwan Railways|Yingge}}
-BHF~~57.4~~{{stl|Taiwan Railways|Taoyuan}}
-HST~~63.3~~{{stl|Taiwan Railways|Neili}}
-BHF~~67.3~~{{stl|Taiwan Railways|Zhongli (Taoyuan)}}
-HST~~73.1~~{{stl|Taiwan Railways|Puxin}}
-HST~~77.1~~{{stl|Taiwan Railways|Yangmei}}
-HST~~83.9~~{{stl|Taiwan Railways|Fugang}}
-HST~~85.6~~{{stl|Taiwan Railways|Xinfu}}
-HST~~87.1~~{{stl|Taiwan Railways|Beihu}}
-HST~~89.6~~{{stl|Taiwan Railways|Hukou}}
-HST~~95.8~~{{stl|Taiwan Railways|Xinfeng}}
-HST~~100.6~~{{stl|Taiwan Railways|Zhubei}}
-\ABZg+l\CONTfq~~{{routemapRoute|r=r|{{lnl|Taiwan Railways|}}}}
-HST~~105.0~~{{stl|Taiwan Railways|North Hsinchu}}
-BHF~~106.4~~{{stl|Taiwan Railways|Hsinchu}}
-HST~~111.2~~{{stl|Taiwan Railways|Sanxingqiao}}
-HST~~114.4~~{{stl|Taiwan Railways|Xiangshan}}
-HST~~120.8~~{{stl|Taiwan Railways|Qiding}}
-BHF~~125.4~~{{stl|Taiwan Railways|Zhunan}}
-bSHI2lr
-STR\HST~~130.7~~{{stl|Taiwan Railways|Zaoqiao}}
-STR\HST~~136.6~~{{stl|Taiwan Railways|Fengfu}}
-STR\BHF~~140.6~~{{stl|Taiwan Railways|Miaoli}}
-STR\HST~~147.2~~{{stl|Taiwan Railways|Nanshi}}
-STR\HST~~151.4~~{{stl|Taiwan Railways|Tongluo}}
-STR\HST~~158.8~~{{stl|Taiwan Railways|Sanyi}}
-STR\HST~~169.7~~{{stl|Taiwan Railways|Tai'an}}
-STR\HST~~172.3~~{{stl|Taiwan Railways|Houli}}
-STR\hBHFa~~179.1~~{{stl|Taiwan Railways|Fengyuan}}
-STR\hHST~~181.6~~{{stl|Taiwan Railways|Lilin}}
-STR\hHST~~184.1~~{{stl|Taiwan Railways|Tanzi}}
-STR\hHST~~186.0~~{{stl|Taiwan Railways|Toujiacuo}}
-STR\hHST~~187.7~~{{stl|Taiwan Railways|Songzhu}}
-STR\hHST~~189.2~~{{stl|Taiwan Railways|Taiyuan}}
-STR\hHST~~191.2~~{{stl|Taiwan Railways|Jingwu}}
-STR\hBHF~~193.3~~{{stl|Taiwan Railways|Taichung}}
-STR\hHST~~195.3~~{{stl|Taiwan Railways|Wuquan}}
-STR\hBHFe~~197.5~~{{stl|Taiwan Railways|Daqing}}
-STR\HST~~200.5~~{{stl|Taiwan Railways|Wuri}}
-STR\BHF~~201.3~~{{stl|Taiwan Railways|Xinwuri}}
-STR\HST~~203.8~~{{stl|Taiwan Railways|Chenggong}}
-bvvWSLglr
-BHF~~210.9~~{{stl|Taiwan Railways|Changhua}}
-HST~~217.5~~{{stl|Taiwan Railways|Huatan}}
-HST~~222.1~~{{stl|Taiwan Railways|Dacun}}
-BHF~~225.6~~{{stl|Taiwan Railways|Yuanlin}}
-HST~~229.1~~{{stl|Taiwan Railways|Yongjing}}
-HST~~232.8~~{{stl|Taiwan Railways|Shetou}}
-BHF~~237.1~~{{stl|Taiwan Railways|Tianzhong}}
-BHF~~242.9~~{{stl|Taiwan Railways|Ershui}}
-\ABZgl\CONTfq~~{{routemapRoute|r=r|{{lnl|Taiwan Railways|}}}}
-HST~~251.0~~{{stl|Taiwan Railways|Linnei}}
-HST~~255.8~~{{stl|Taiwan Railways|Shiliu}}
-BHF~~260.6~~{{stl|Taiwan Railways|Douliu}}
-BHF~~268.2~~{{stl|Taiwan Railways|Dounan}}
-HST~~272.1~~{{stl|Taiwan Railways|Shigui}}
-HST~~276.7~~{{stl|Taiwan Railways|Dalin}}
-HST~~282.5~~{{stl|Taiwan Railways|Minxiong}}
-HST~~289.2~~{{stl|Taiwan Railways|Jiabei}}
-\ABZg+l\CONTfq~~{{routemapRoute|r=r|{{lnl|Taiwan Railways|}}}}
-BHF~~291.8~~{{stl|Taiwan Railways|Chiayi}}
-HST~~298.4~~{{stl|Taiwan Railways|Shuishang}}
-HST~~301.0~~{{stl|Taiwan Railways|Nanjing}}
-HST~~307.0~~{{stl|Taiwan Railways|Houbi}}
-BHF~~314.7~~{{stl|Taiwan Railways|Xinying}}
-HST~~318.0~~{{stl|Taiwan Railways|Liuying}}
-HST~~321.9~~{{stl|Taiwan Railways|Linfengying}}
-BHF~~327.4~~{{stl|Taiwan Railways|Longtian}}
-HST~~329.6~~{{stl|Taiwan Railways|Balin}}
-BHF~~334.2~~{{stl|Taiwan Railways|Shanhua}}
-HST~~337.1~~{{stl|Taiwan Railways|Nanke}}
-HST~~341.8~~{{stl|Taiwan Railways|Xinshi}}
-BHF~~346.8~~{{stl|Taiwan Railways|Yongkang}}
-HST~~350.5~~{{stl|Taiwan Railways|Daqiao}}
-BHF~~353.2~~{{stl|Taiwan Railways|Tainan}}
-HST~~360.8~~{{stl|Taiwan Railways|Bao'an}}
-HST~~362.2~~{{stl|Taiwan Railways|Rende}}
-BHF~~364.8~~{{stl|Taiwan Railways|Zhongzhou}}
-\ABZgl\CONTfq~~{{routemapRoute|r=r|{{lnl|Taiwan Railways|}}}}
-HST~~367.7~~{{stl|Taiwan Railways|Dahu}}
-HST~~370.6~~{{stl|Taiwan Railways|Luzhu}}
-BHF~~378.4~~{{stl|Taiwan Railways|Gangshan}}
-HST~~382.0~~{{stl|Taiwan Railways|Qiaotou}}
-BHF~~386.2~~{{stl|Taiwan Railways|Nanzi}}
-BHF~~391.3~~{{stl|Taiwan Railways|Xinzuoying}}
-tHSTag~~393.2~~{{stl|Taiwan Railways|Zuoying}}
-tHST~~394.4~~{{stl|Taiwan Railways|Neiwei}}
-tHST~~396.1~~{{stl|Taiwan Railways|Museum of Fine Arts}}
-tHST~~397.3~~{{stl|Taiwan Railways|Gushan}}
-tHST~~399.0~~{{stl|Taiwan Railways|Sankuaicuo}}
-tBHF~~399.8~~{{stl|Taiwan Railways|Kaohsiung}}
-tHST~~401.2~~{{stl|Taiwan Railways|Minzu}}
-tHST~~402.2~~{{stl|Taiwan Railways|Science And Technology Museum}}
-tHST~~404.0~~{{stl|Taiwan Railways|Zhengyi}}
-tBHFef~~405.6~~{{stl|Taiwan Railways|Fengshan}}
-HST~~409.3~~{{stl|Taiwan Railways|Houzhuang}}
-HST~~413.6~~{{stl|Taiwan Railways|Jiuqutang}}
-HST~~418.6~~{{stl|Taiwan Railways|Liukuaicuo}}
-hBHFa~~420.8~~{{stl|Taiwan Railways|Pingtung}}
+BHF~~0.0~~{{stl|Taiwan Railways|Pingtung}}
+HST~~2.6~~{{stl|Taiwan Railways|Guilai}}
+HST~~4.9~~{{stl|Taiwan Railways|Linluo}}
+HST~~7.3~~{{stl|Taiwan Railways|Xishi}}
+HST~~11.0~~{{stl|Taiwan Railways|Zhutian}}
+BHF~~15.1~~{{stl|Taiwan Railways|Chaozhou}}
+HST~~19.9~~{{stl|Taiwan Railways|Kanding}}
+HST~~22.3~~{{stl|Taiwan Railways|Nanzhou}}
+HST~~25.9~~{{stl|Taiwan Railways|Zhen'an}}
+HST~~29.1~~{{stl|Taiwan Railways|Linbian}}
+HST~~33.1~~{{stl|Taiwan Railways|Jiadong}}
+HST~~36.2~~{{stl|Taiwan Railways|Donghai}}
+HST~~40.3~~{{stl|Taiwan Railways|Fangliao}}
+HST~~45.6~~{{stl|Taiwan Railways|Jialu}}
+HST~~49.0~~{{stl|Taiwan Railways|Neishi}}
+HST~~53.9~~{{stl|Taiwan Railways|Fangshan}}
+HST~~84.1~~{{stl|Taiwan Railways|Dawu}}
+HST~~95.8~~{{stl|Taiwan Railways|Longxi}}
+HST~~104.2~~{{stl|Taiwan Railways|Jinlun}}
+HST~~115.2~~{{stl|Taiwan Railways|Taimali}}
+HST~~126.9~~{{stl|Taiwan Railways|Zhiben}}
+HST~~133.9~~{{stl|Taiwan Railways|Kangle}}
+BHF~~138.5~~{{stl|Taiwan Railways|Taitung}}
 hCONTf
 }}
