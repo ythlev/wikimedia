@@ -2,34 +2,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="2055">
   <g id="legend" opacity="0">
     <g id="legend-box">
-      <path fill="#fee5d9" d="M20 1455H100V1535H20z"/>
-      <path fill="#fcbba1" d="M20 1555H100V1635H20z"/>
-      <path fill="#fc9272" d="M20 1655H100V1735H20z"/>
-      <path fill="#fb6a4a" d="M20 1755H100V1835H20z"/>
-      <path fill="#de2d26" d="M20 1855H100V1935H20z"/>
-      <path fill="#a50f15" d="M20 1955H100V2035H20z"/>
+      <path fill="#fef0d9" d="M20 1555H100V1635H20z"/>
+      <path fill="#fdcc8a" d="M20 1655H100V1735H20z"/>
+      <path fill="#fc8d59" d="M20 1755H100V1835H20z"/>
+      <path fill="#e34a33" d="M20 1855H100V1935H20z"/>
+      <path fill="#b30000" d="M20 1955H100V2035H20z"/>
     </g>
     <g id="text" font-family="Verdana" font-size="56">
-      <text y="1415" x="20">
-        <tspan y="1415" x="20">Date</tspan>
-      </text>
-      <text y="1515" x="120">
-        <tspan y="1515" x="120">Level 0</tspan>
+      <text y="1515" x="20">
+        <tspan y="1515" x="20">Date</tspan>
       </text>
       <text y="1615" x="120">
-        <tspan y="1615" x="120">Level 1</tspan>
+        <tspan y="1615" x="120">Level 0</tspan>
       </text>
       <text y="1715" x="120">
-        <tspan y="1715" x="120">Level 2</tspan>
+        <tspan y="1715" x="120">Level 1</tspan>
       </text>
       <text y="1815" x="120">
-        <tspan y="1815" x="120">Level 3</tspan>
+        <tspan y="1815" x="120">Level 2</tspan>
       </text>
       <text y="1915" x="120">
-        <tspan y="1915" x="120">Level 4</tspan>
+        <tspan y="1915" x="120">Level 3</tspan>
       </text>
       <text y="2015" x="120">
-        <tspan y="2015" x="120">Level 5</tspan>
+        <tspan y="2015" x="120">Level 4</tspan>
       </text>
     </g>
   </g>
