@@ -1,16 +1,25 @@
 {
   "description": "Database for elections in Taiwan",
-  "lastUpdatedAt": "2020-04-19T12:04:51.628054",
+  "lastUpdatedAt": "2020-04-19T12:24:35.937076",
   "src_url": "http://data.cec.gov.tw/選舉資料庫/votedata.zip",
-  "elections": [
-    {
-      "name": "2020 presidential",
-      "date": "2020-01-11"
-    },
-    {
-      "name": "2020 ly district",
-      "date": "2020-01-11"
-    }
-  ],
+  "dates": {
+    "presidential": [
+      "2020-01-11",
+      "2016-01-16",
+      "2012-01-14",
+      "2008-03-22"
+    ],
+    "ly district": [
+      "2020-01-11",
+      "2016-01-16",
+      "2012-01-14"
+    ],
+    "ly party": [
+      "2020-01-11",
+      "2016-01-16",
+      "2012-01-14"
+    ],
+    "local leader": []
+  },
   "areas": []
 }

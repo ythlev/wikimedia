@@ -2,7 +2,7 @@ import argparse, csv, json
 from datetime import datetime, date
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-e", "--election")
+parser.add_argument("-t", "--type")
 parser.add_argument("-d", "--date")
 parser.add_argument("-f", "--file")
 parser.add_argument("-c", "--commit", action = "store_const", const = True)
@@ -19,14 +19,17 @@ with open("el.json", newline = "", encoding = "utf-8") as file:
 
 el["lastUpdatedAt"] = datetime.now().isoformat()
 
-if args["election"] != None:
-    d = {
-        "name": args["election"],
-        "date": str(date.fromisoformat(args["date"]))
-    }
-    if d not in el["elections"]:
-        el["elections"].append(d)
-    el["elections"].sort(key = lambda d : d["date"])
+if args["type"] != None:
+    if args["type"] == "general":
+        for type in ["presidential", "ly district", "ly party"]:
+            if args["date"] not in el["dates"][type]:
+                el["dates"][type].append(args["date"])
+                el["dates"][type].sort(reverse = True)
+    elif args["date"] not in el["dates"][args["type"]]:
+        el["dates"][args["type"]].append(args["date"])
+        el["dates"][args["type"]].sort(reverse = True)
+
+    
 
 if args["file"] != None:
     pass
