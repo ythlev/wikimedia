@@ -19,20 +19,36 @@ with open("el.json", newline = "", encoding = "utf-8") as file:
 
 el["lastUpdatedAt"] = datetime.now().isoformat()
 
-if args["type"] != None:
-    if args["type"] == "general":
-        for type in ["presidential", "ly district", "ly party"]:
-            if args["date"] not in el["dates"][type]:
-                el["dates"][type].append(args["date"])
-                el["dates"][type].sort(reverse = True)
-    elif args["date"] not in el["dates"][args["type"]]:
-        el["dates"][args["type"]].append(args["date"])
-        el["dates"][args["type"]].sort(reverse = True)
+if args["type"] != None and args["date"] != None:
+    for election in el["elections"][args["type"]]:
+        if "date" in election and election["date"] == args["date"]:
+            el["elections"][args["type"]].remove(election)
+            break
 
-    
+    def init(k, d, nm = None):
+        if k not in d:
+            if nm == None:
+                d[k] = {}
+            else:
+                d[k] = {"nm": nm}
 
-if args["file"] != None:
-    pass
+    areas = {}
+    if args["file"] == "base":
+        with open("elbase.csv", newline = "", encoding = "utf-8") as file:
+            for row in csv.reader(file):
+                row = [s.lstrip("'") for s in row]
+                if row[0] != "00" and row[0] + row[1] != "10000":
+                    if row[2] == "00" or row[3] == "000":
+                        init(row[0] + row[1], areas, row[5])
+                    elif row[4] == "0000":
+                        init(row[0] + row[1] + row[3], areas[row[0] + row[1]], row[5])
+
+    d = {
+        "date": args["date"],
+        "areas": areas
+    }
+    el["elections"][args["type"]].append(d)
+    el["elections"][args["type"]].sort(reverse = True, key = lambda d : d["date"])
 
 with open("el-preview.json", "w", newline = "", encoding = "utf-8") as file:
     file.write(json.dumps(el, indent = 2, ensure_ascii = False))
