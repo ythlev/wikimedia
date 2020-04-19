@@ -1,0 +1,36 @@
+import csv, json
+
+village = {}
+with open("codes.csv", newline = "", encoding = "utf-8") as file:
+    reader = csv.reader(file)
+    for row in reader:
+        village[row[2] + row[4]] = row[3]
+
+elbase = []
+counties, towns = {}, {}
+with open("elbase-2016.csv", newline = "", encoding = "utf-8") as file:
+    reader = csv.reader(file)
+    for row in reader:
+        if row[0] != "00" and row[2] != "00":
+            if row[3] == "000":
+                elbase.append({
+                    "id": row[0] + row[1] + row[2],
+                    "name": row[5]
+                })
+            elif row[4] != "0000":
+                if row[4][0] != "A" and row[5] + row[0] + row[1]+ row[4][1:4] in village:
+                    elbase.append({
+                        "nVill103": village[row[5] + row[0] + row[1]+ row[4][1:4]],
+                        "id": row[0] + row[1] + row[2]
+                    })
+                #else:
+                    #print(row[5] + row[4][1:4], "not found")
+        else:
+            if row[2] == "00":
+                if row[3] == "000":
+                    counties[row[0] + row[1]] = row[5]
+                else:
+                    towns[row[0] + row[1] + row[3]] = row[5]
+
+with open("elbase-2016.json", "w", newline = "", encoding = "utf-8") as file:
+    file.write(json.dumps(elbase, indent = 2))
