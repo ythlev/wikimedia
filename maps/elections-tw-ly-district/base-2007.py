@@ -4,7 +4,9 @@ village = {}
 with open("codes.csv", newline = "", encoding = "utf-8") as file:
     reader = csv.reader(file)
     for row in reader:
-        village[row[2] + row[4]] = row[3]
+        village[row[3]] = row[4]
+
+print(village)
 
 elbase = []
 counties, towns = {}, {}
@@ -18,13 +20,13 @@ with open("elbase-2016.csv", newline = "", encoding = "utf-8") as file:
                     "name": row[5]
                 })
             elif row[4] != "0000":
-                if row[4][0] != "A" and row[5] + row[0] + row[1]+ row[4][1:4] in village:
+                if row[4][0] != "A" and row[0] + row[1] + row[3] + row[4][1:4] in village:
                     elbase.append({
-                        "nVill103": village[row[5] + row[0] + row[1]+ row[4][1:4]],
+                        "nVill103": village[row[0] + row[1] + row[3] + row[4][1:4]],
                         "id": row[0] + row[1] + row[2]
                     })
                 #else:
-                    #print(row[5] + row[4][1:4], "not found")
+                    #print(row[0] + row[1] + row[3] + row[4][1:4], "not found")
         else:
             if row[2] == "00":
                 if row[3] == "000":

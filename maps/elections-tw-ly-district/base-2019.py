@@ -1,7 +1,7 @@
 import csv, json
 
 village = {}
-with open("village.csv", newline = "", encoding = "utf-8") as file:
+with open("village 2019.csv", newline = "", encoding = "utf-8") as file:
     reader = csv.DictReader(file)
     for row in reader:
         village[row["TOWNCODE"] + row["VILLCODE"][8:11]] = row["VILLCODE"]
@@ -17,7 +17,7 @@ with open("elbase-2020.csv", newline = "", encoding = "utf-8") as file:
                     "name": row[5]
                 })
             elif row[4] != "0000":
-                if row[0] + row[1] + row[3] + row[4][1:4] in village:
+                if row[4][0] != "A" and row[0] + row[1] + row[3] + row[4][1:4] in village:
                     elbase.append({
                         "VILLCODE": village[row[0] + row[1] + row[3] + row[4][1:4]],
                         "id": row[0] + row[1] + row[2]

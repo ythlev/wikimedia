@@ -25,12 +25,16 @@ if args["type"] != None and args["date"] != None:
             el["elections"][args["type"]].remove(election)
             break
 
-    def init(k, d, nm = None):
-        if k not in d:
-            if nm == None:
-                d[k] = {}
-            else:
-                d[k] = {"nm": nm}
+    def init(l, d, nm = None):
+        for i in range(len(l)):
+            if i > 0:
+                l[i] = l[i - 1] + l[i]
+            if l[i] not in d:
+                if i == len(l) - 1:
+                    d[l[i]] = {"nm": nm}
+                else:
+                    d[l[i]] = {}
+            d = d[l[i]]
 
     areas = {}
     if args["file"] == "base":
@@ -39,9 +43,11 @@ if args["type"] != None and args["date"] != None:
                 row = [s.lstrip("'") for s in row]
                 if row[0] != "00" and row[0] + row[1] != "10000":
                     if row[2] == "00" or row[3] == "000":
-                        init(row[0] + row[1], areas, row[5])
-                    elif row[4] == "0000":
-                        init(row[0] + row[1] + row[3], areas[row[0] + row[1]], row[5])
+                        init([row[0] + row[1]], areas, row[5])
+                        if row[4] == "0000":
+                            init([row[0] + row[1], row[3]], areas, row[5])
+                        else:
+                            init([row[0] + row[1], row[3], row[4]], areas, row[5])
 
     d = {
         "date": args["date"],
